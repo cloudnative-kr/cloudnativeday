@@ -133,6 +133,7 @@ class CustomLink extends Component<any> {
         smooth={true}
         duration={400}
         delay={100}
+        to={this.props.to}
         {...this.props}
       />
     )

@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components'
 import { darken, lighten } from 'polished'
-import { GREY, PRIMARY_PINK, ON_DESKTOP } from 'styles/colors'
+import { GREY, PRIMARY_PINK } from 'styles/colors'
+import { ON_DESKTOP } from 'styles/responsive'
 
 interface ButtonProps {
   width: string | number
