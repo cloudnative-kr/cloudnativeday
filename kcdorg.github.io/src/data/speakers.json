@@ -1,0 +1,235 @@
+{
+  "speakers": [
+    {
+      "community": "커뮤니티 대담",
+      "name": "",
+      "images": [],
+      "profile": "",
+      "title": "슬기로운 커뮤니티 생활 (부제:커뮤니티를 통해 성장하는 방법)",
+      "content": "참여 커뮤니티 리더들이 “슬기로운 커뮤니티 생활”에 대해 본인의 경험담과 노하우를 공유하는 토크쇼 형태의 대담시간입니다.\n 커뮤니티와 개발자로 함께 성장하는 방법, 개발자로 성장하는데 도움이 되는 것들, 커뮤니티 운영, 활성화 방안, 그리고 커뮤니티로 얻게 되는 즐거움 등 커뮤니티 활동을 해왔던 경험자로서의 내용을 들어볼 수 있는 자리가 될 것입니다."
+    },
+
+    {
+      "community": "MS MVP",
+      "name": "김세준",
+      "images": ["speakers/김세준_AzureKorea.jpg"],
+      "profile": "- 클라우드메이트 Azure 사업부장 \n- Microsoft Azure MVP \n- Korea Azure User Group 운영진\n- (전) GS네오텍 AWS Support 팀장 \n- (전) 더존비즈온 클라우드사업부 운영총괄",
+      "title": "Cloud, 도데체 어떻게 공부해야 할까? (공부삽질과 Azure 학습방법)",
+      "content": "여태까지 삽질한 내용을 공유하고 지극히 개인적인 Cloud 학습방법에 대해 이야기 해보자."
+    },
+    {
+      "community": "Nullfull(널채움)",
+      "name": "김정환",
+      "images": ["speakers/kim.jpg"],
+      "profile": "서비스 관리를 시작으로 DevOPS를 거쳐 Creative Developer가 되기 위해 노력중입니다. 개발자 커뮤니티 행사를 좋아하고, 사전등록 확인 자원봉사를 자주합니다.",
+      "title": "변화는 행동을 채움으로 시작된다 \"커뮤니티 지속하기/ 여남뉴스 개발기\"",
+      "content": "\"하는 이 없이 꾸준히 감자 먹으러 모이는 ㅆㅂㅎㅋ 점조직 모임\"인 널채움 모임은 2017년 04월에 처음 시작되었습니다. 지금까지 겪은 작은 여러 이야기들을 이야기 나누어 보고자 합니다. \n\n 그런데 말입니다. \n우리가 접하는 뉴스기사에 성별 표기는 정말 필요한걸까요? 여남뉴스 서비스를 만들면서 겪게된 널채움만의 이야기들도 같이 나눠 봅니다."
+    },
+    {
+      "community": "Elastic",
+      "name": "Thomas Whatson",
+      "images": ["speakers/elastic.jpg"],
+      "profile": "Thomas Watson is a computer programmer, public speaker, and open source hacker. He works on Application Performance Monitoring at Elastic, the company behind Elasticsearch, Kibana, and Logstash. Thomas has published hundreds of Node modules and mad science projects, he is a Node.js Core member, and a part of the Node.js Diagnostics Working Group at the Node.js Foundation.",
+      "title": "Node.js and the Community ※ 통역이 지원되지 않습니다",
+      "content": ""
+    },
+    {
+      "community": "OKKY",
+      "name": "신현묵",
+      "images": ["speakers/신현묵_eBrain.jpg"],
+      "profile": "- (현) 케어랩스( carelabs.co.kr ) CTO, 한국디지털헬스산업협회( kodhia.or.kr ) 상임이사\n- (전) ) 와탭랩스 CBO, 스윗트래커 CTO, 우리들의료재단 CIO, 명지의료재단 정보통신팀장, ROCOZEN 부사장/CTO\n-기술자문\n   - NHN Labs, 말랑스튜디오, RolandBerger, 베스티안의료재단 등",
+      "title": "스타트업이 원하는 개발자, SI / 대기업 출신들도 가능할까?",
+      "content": "한국식 SI 또는 대기업 업무 스타일에 익숙해진 많은 개발자들이 스타트업의 업무 환경, 면접 및 커뮤니케이션 방식에적응하는 것은 매우 어렵다. 스타트업에서 동료로 인정 받고 함께 일할 수 있는 개발자로 탈바꿈하기 위해서는 어떤 것들을 생각해야 할까? \n1. 스타트업의 업무 방식과 문화\n     - 개발자로서 스타트업을 잘 고르는 방법과 스타트업이 무엇을 원하는지 고민하는 방법\n2. 스타트업에서 원하는 커리어 세탁 방법(!)\n    - SI나 대기업에서 스타트업 문화에 적응하기 위한 테크와 문화 적응법\n 3. 스타트업으로 이직한 케이스 사례\n    - 병원 전산실 직원이 스타트업으로 이직한 케이스, SI 경력자가 이직한 케이스 등"
+    },
+    {
+      "community": "Codeigniter 한국사용자포럼",
+      "name": "김성현",
+      "images": ["speakers/김성현_Codeigniter.jpg"],
+      "profile": "- Codeigniter포럼에서 댓글 요정 및 운영진으로 활동중\n- KT 동영상 통계,미래에셋 연금,우리펜션,빗썸 등 다수의 급한 프로젝트 소화 전문가 이며,현재는 포비즈코리아에서 서식중.",
+      "title": "Modern 하게 Codeigniter4 하지 않겠는가?",
+      "content": "Cordeigniter4 의 소개 및 설치와 Modern한 프로그램이란 무엇인지에 대한 소개.\n\n Modern 이란 무엇이고, PSR이란 왜 나왔으며,Codeigniter4를 이용하여Modern하게 프로그램을 하기 위한 발표내용을 주제로 삼았습니다.\n Codeigniter4의 설치 및 실제 MVC패턴대로 프로그램하는 내용까지 동영상으로 제공 합니다."
+    },
+    {
+      "community": "C++ Korea",
+      "name": "옥찬호",
+      "images": ["speakers/옥찬호.jpg"],
+      "profile": "- Nexon Korea Game Programmer\n- Microsoft Developer Technologies MVP",
+      "title": "PyTorch C++ API 입문",
+      "content": "최근 딥러닝 프레임워크로 각광받고 있는 PyTorch를 C++에서 어떻게 사용할 수 있는지 살펴봅니다."
+    },
+    {
+      "community": "라스칼라 코딩단",
+      "name": "박지수",
+      "images": ["speakers/박지수_라스칼라코딩단.jpg"],
+      "profile": "온라인 자산관리를 혁신하는 (주)두물머리(https://doomoolmori.com)에서 CTO 역할을 맡고 있습니다. 과거의 자신과 미래의 자신을 모두 믿지 못하는 괴로운 성격 때문에 2013년부터 스칼라를 업무에 활용하고 있습니다",
+      "title": "순수 함수형 스칼라로 웹 애플리케이션 만들기",
+      "content": "함수형 프로그래밍 좋다는 얘기는 많지만 막상 실무에 적용하기는 망설여집니다. 데이터베이스는? 웹서버는? DI는? 카테고리 이론 같은 어려워 보이는 얘기를 건너뛰고 실제로 동작하는 웹 애플리케이션을 간단히 훑어봅니다."
+    },
+    {
+      "community": "모닝클래스",
+      "name": "방진호, 고병권",
+      "images": [
+        "speakers/방진호_모닝클래스.png",
+        "speakers/고병권_모닝클래스.jpg"
+      ],
+      "profile": "방진호\nSamsung Internet Developer\nChromium Owner\nChromium Committer\nW3C Spec Editor\nWeb Platform Tests Reviewer\n\n고병권\nAndroid Multimedia Developer\nChromium Member\nKossLab Open Frontier",
+      "title": "Modularizing Chromium",
+      "content": "Chromium High-level Architecture를 설명하고, 기존 구조의 문제점을 분석합니다. 또한 현재 활발하게 진행 중인 Chromium Servicification 프로젝트 Onion Soup의 진행 상황 및 결과를 공유합니다.\n- 대상: 크로미움에 관심 많은 웹 개발자, 크로미움 오픈소스에 기여하고 싶은 개발자"
+    },
+    {
+      "community": "MongoDB Korea 커뮤니티",
+      "name": "김동한",
+      "images": ["speakers/김동한_MongoDB.jpg"],
+      "profile": "- MongoDB 한국지사 Senior Consulting Engineer",
+      "title": "Migration to MongoDB",
+      "content": "RDBMS에서 MongoDB 로 전환하는 마이그레이션 가이드"
+    },
+    {
+      "community": "오라클",
+      "name": "박혜선",
+      "images": ["speakers/박혜선_오라클.jpg"],
+      "profile": "- 2016년 오라클 MySQL GBU, 솔루션 엔지니어\n- 2013년 Teradata Global Technical Support Center, Teradata 기술지원 엔지니어 담당\n- 2006년 IBM Global Business Service Center, J2EE 및 Enterprise Application 개발자 담당",
+      "title": "Top 10 Reasons for Using MySQL 8.0",
+      "content": "MySQL은 유일하게 SQL과 NoSQL을 결합한 데이터베이스로서 새로운MySQL Document Store에 대한 간단한 데모를 포함한 MySQL8.0의 가장 인기있는 새로운 기능에 대해 알아 볼 수 있는 시간을 가져보시겠습까?"
+    },
+    {
+      "community": "DevOps Korea",
+      "name": "조철현",
+      "images": ["speakers/조철현.jpg"],
+      "profile": "현재 DevOps Korea 운영진으로 활동하고 있으며, 정기적인 밋업과 교류를 통해 데브옵스 문화와 기술 확산을 위해 노력하고 있습니다.",
+      "title": "DevOps Korea의 활동 방향(커뮤니티 운영을 위한 고민들)",
+      "content": "커뮤니티를 운영하면서 더 안정적이고 지속 가능한 커뮤니티가 되기 위한 계획과 변화의 과정에 있습니다.  데브옵스 코리아가 커뮤니티에 머무르지 않고 IT분야의 기술 관련 문화를 확산하고, 지역을 탈피한 전국 또는 국제적인 교류와 연대를 통해 산업 전반의 지속적 혁신의 중심이 되기 위한 준비 과정을 소개합니다."
+    },
+    {
+      "community": "OpenStack Korea",
+      "name": "김호진",
+      "images": ["speakers/김호진.png"],
+      "profile": "- 오픈소스컨설팅 근무 \n- 공저) IBM PowerVC introduction and configuration",
+      "title": "오픈소스 커뮤니티 생태계 분석",
+      "content": "대부분의 하드웨어/소프트웨어 업체가 자신들이 패키징한 오픈스택을 제공하고 있습니다. 집단지성의 메카인 오픈스택 커뮤니티의 장점과 컨테이너를 구현할 최상의 인프라에 대해서 이야기 하고자 합니다."
+    },
+    {
+      "community": "KRAZURE",
+      "name": "남정현",
+      "images": ["speakers/남정현_KRazure.jpg"],
+      "profile": "데브시스터즈에서 DevOps 엔지니어로 일하고 있으며, 최근 열 번째 Microsoft Azure MVP를 수상하였습니다.",
+      "title": "Kubernetes와 Serverless의 만남 – Knative",
+      "content": "Kubernetes에 Serverless 애플리케이션을 호스팅할 수 있도록 새롭게 개발된 Knative를 Azure로 배포하고 활용하는 방법을 살펴봅니다."
+    },
+    {
+      "community": "React Korea",
+      "name": "김요한",
+      "images": ["speakers/김요한_ReactKorea.jpg"],
+      "profile": "취미로 기획과 개발을 하는 독거노인 오토바이 선수입니다.",
+      "title": "\"좋은 개발자\" 프레임 아작내기",
+      "content": "흔히 말하는 \"좋은 개발자\"가 정말 좋은 개발자인지 한번 생각해보는 시간입니다."
+    },
+    {
+      "community": "데이터뽀개기",
+      "name": "이상열",
+      "images": ["speakers/이상열_데이터뽀개기.jpg"],
+      "profile": "게임 도메인에서 데이터 사이언스 (머신러닝, 통계/비즈니스 분석, 시각화 등)을 적용하면서 발생했던 어려움 등을 참석자들에게 공유합니다. 캐글뽀개구 커뮤니티 그룹을 5년 간 운영하고, 외부 변화에 대해서 인정하고 커뮤니티의 존재에 대한 고민과 새로운 방향에 대한 이야기를 하려고 합니다.\n\n현 넥슨 매칭팀 분석가 \n이전 신한은행, 넷마블게임즈 분석가 재직\n데이터뽀개기(이전 그캐글뽀개기) 운영진 1기",
+      "title": "데이터를 뽀개서 추천시스템 구현하기",
+      "content": "나의 문제를 추천 시스템으로 적용하여 풀기 위해서 데이터 엔지니어링 기술과 머신러닝 활용 및 리서치 하는 방향을 공유드립니다."
+    },
+    {
+      "community": "SLIPP",
+      "name": "장진달",
+      "images": ["speakers/장진달_SLIPP.jpg"],
+      "profile": "- SLIPP 맴버\n- (현) Line Financial 재직중\n- 쿠팡 - 주문시스템 MSA적용",
+      "title": "Scaffold(JHipster) project를 이용한 MSA 환경 구축",
+      "content": "Scaffold project인 JHipster를 이용하여 MSA 구조의 프로젝트 환경을 구축하는 데모를 통하여 MSA에서 필요한 echo system들과 구조를 확인 하고 MSA구조로 프로젝트를 구축하기 위한 방법을 설명한다. \n- 간단한 예상 서비스 도메인을 구상하고 해당 서비스를 JHipster를 이용하여 MSA구조로 만드는 데모\n- jHipster로 생성된 MSA구조의 프로젝트를  실행하고 주요 모듈들에 대하여 역활과 구성된 구조를 설명"
+    },
+    {
+      "community": "Kotlin Korea",
+      "name": "권태환",
+      "images": ["speakers/권태환_kotlin.png"],
+      "profile": " 7년차 안드로이드 개발자로 GDG Seoul 운영진, 드로이드나이츠 운영진이며, 3년 전부터 코틀린 학습 및 실 프로젝트에 적용하여 사용중입니다. 꿈 많은 개발자가 되자! 블로그를 통해 안드로이드 개발에 관련한 다양한 글을 비주기로 업로드하고 있습니다. 현재 딜리버리히어로코리아에서 요기요 안드로이드 개발을 하고있습니다.",
+      "title": "구글이 선택한 코틀린? 왜 좋을까?",
+      "content": "구글은 Java 기반의 안드로이드 생태계를 버리고 JetBrains 가 만든 Kotlin 을 주 개발언어로 채택 하였습니다. 이번 세션에서는 Kotlin 입문자들을 위해 해당 개발언어의 장점 또는 Java 등 과의 차이점에 대해 알아보고자 합니다."
+    },
+    {
+      "community": "TypeScript Korea",
+      "name": "이웅재",
+      "images": ["speakers/이웅재_TypeScript.jpg"],
+      "profile": "스튜디오씨드 코리아 소프트웨어 엔지니어\n마이크로소프트 MVP\n타입스크립트 한국 유저 그룹 오거나이저",
+      "title": "JavaScript 엔지니어들이 말하는 TypeScript 를 애정하는 이유",
+      "content": "현업에서 오랫동안 JavaScript 개발을 해오던 엔지니어분들이 TypeScript를 도입하면서 왜 TypeScript를 애정하게 되었는지에 대해 인터뷰한 내용을 공유 드립니다."
+    },
+    {
+      "community": "ASP.NET Korea User Group",
+      "name": "원기욱",
+      "images": ["speakers/원기옥.jpg"],
+      "profile": "- 주식회사 노블메이드 대표\n - \"호텔 서비스 이제 집에서 받자!\" 호텔 서비스의 개인화 플랫폼을 만들어 가고 있는 Start-up을 시작했습니다. 열정 넘치는 닷넷 개발자분들의 많은 연락 부탁드립니다.",
+      "title": "SPA with C#, Blazor",
+      "content": "C#을 이용해서 쉽고 빠르게 SPA를 구현 할 수 있는 Blazor에 대해서 알아봅니다."
+    },
+    {
+      "community": "JSDEVKR",
+      "name": "장기영",
+      "images": ["speakers/장기영_JSDev.jpg"],
+      "profile": "오픈소스 그룹 AXISJ.com의 대표, J-vascript UI Library axisj 와 ax5ui(http://ax5.io/), 풀스택 웹 애플리케이션 개발 프레임워크 AXBoot(http://axisj.com/axboot/) 등을 개발한 웹개발자",
+      "title": "나는 왜 React 와 Typescript를 선택하게 되었나",
+      "content": "Electron 애플리케이션을 React로 만들게 된 배경과 그 과정에서 겪은 이야기를 다룹니다."
+    },
+    {
+      "community": "Taeyo.NET",
+      "name": "박용준, 한상훈",
+      "images": ["speakers/박용준.jpg", "speakers/한상훈.jpg"],
+      "profile": "Visual Studio 분야 Microsoft 공인 강사(MCT)를 거쳐 2006년부터 12년 연속 Visual Studio and Development Technologies 분야 Microsoft MVP로 활동하고 있다. TechDays, WebCamp 등 다양한 Microsoft 기술 세미나의 스피커로 활동하며 다수의 책을 집필하고 번역하고, Taeyo.NET, ASP.NET Korea User Group 커뮤니티에 운영진으로 참여하고 있다.\n\n한상훈\n열정, 긍정, 순정을 빼면 아무것도 남는 게 없는 열혈 개발자로 주로 웹 및 윈도우 기반 개발 업무를 담당하고 있다. 2010년부터 지금까지 마이크로소프트 MVP로 활동하고 있고, 국내 최고의 .NET 커뮤니티인 Taeyo.NET과 ASP.NET Korea User Group에서 운영진으로 활동하고 있다. 후배양성만이 개발자들이 살아갈 수 있는 방법이라 믿고 있으며, 잘난 개발자보다는 좋은 개발자가 되는 것을 목표로 오늘도 열심히 달리고 있다.",
+      "title": "대한민국에서 닷넷 개발자로 살아가기",
+      "content": "어느덧 성인이 되어가는 닷넷의 역사를 되짚어 보면서 닷넷 개발에 필요한 내용과 앞으로의 발전 방향에 대해서 토론해보는 시간입니다."
+    },
+    {
+      "community": "데잇걸즈",
+      "name": "김지은",
+      "images": ["speakers/김지은.jpg"],
+      "profile": "기술과 인간의 교감을 진지하게 설계하는 사람이 되고 싶습니다. 스토리를 나누고, 본질을 이해하고, 새로움을 받아들일 수 있는 훌륭한 어른을 꿈꾸며 오늘도 열심히 공부합니다.\n- 데잇걸즈 2기 수료.\n- NAVER clova AI 인턴 중.",
+      "title": "33명이 함께한 10 minutes to pandas 번역 이야기",
+      "content": "데이터 분석에 자주 쓰이는 pandas 라이브러리! 데잇걸즈 멤버들은 pandas 튜토리얼을 번역하며 협업을 배웠습니다. Github의 conflict 지옥을 헤쳐내어 어떤 가치를 만들었고, 무엇을 배웠는지를 소개하고자 합니다."
+    },
+    {
+      "community": "코딩이랑 무관합니다만,",
+      "name": "반병현",
+      "images": ["speakers/반병헌.jpg"],
+      "profile": "- 대구지방노동청 안동지청 사회복무요원\n- 농업회사법인 상상텃밭 CTO & CBO\n- 치즈케익스튜디오 전 CEO\n- 뉴페이지 전 개발이사\n- KAIST 바이오및뇌공학과 학/석사",
+      "title": " 코딩하는 공익 - 아직 세상을 바꾸고 싶은 개발자에게",
+      "content": "시골 노동청 공익이 대한민국을 움직이기까지 어떤 일이 있었나? 그로스해킹 책에 감동을 받아 실습을 해 보고 싶었을 뿐인데 점점 일이 커져만 갔다. 겉잡을 수 없는 속도로 연달아 터지는 사건들 덕분에 높으신 분들에게 이리저리 불려다녔다. 청와대에도 호출되었다. 하마터면 대한민국 정부의 행정혁신 아이콘이 될 뻔했다. 그 와중에 병무청에서는 이 상황을 곱게 보지 않았는데.....그 동안 어떤 재미있는 일이 있었는지 들려주려 한다. 그리고 \"개발자가 세상에 파급력을 행사하고, 세상을 조금씩 바꾸려면 어떻게 해야 하는지\"에 대한 생각을 풀어보고자 한다."
+    },
+    {
+      "community": "자바카페",
+      "name": "최용호",
+      "images": ["speakers/최용호_자바카페.jpg"],
+      "profile": "게임 서버 개발자로 열혈강호2 온라인, 화이트데이, 다함께 차차차, 어스토니시아 VS, 와리가리 삼총사, 하이브 등 다수의 게임 개발에 참여하였고, 현재 넥슨 코리아 게임클라우드개발팀에서 애플리케이션 배포 및 운영 자동화 솔루션 개발 업무를 맡고 있습니다. 자바카페 커뮤니티의 운영진으로 활동하고 있으며, 실전비급 아파치 루씬 7, 실전비급 엘라스틱 스택 6.4 집필에 참여하였습니다.",
+      "title": "도커와 쿠버네티스를 활용하여 간단한 웹 서비스 구축해보기",
+      "content": "최근 퍼블릭 클라우드 3대장 AWS, GCP, Azure 모두 쿠버네티스를 기반으로하는 서비스를 제공하고 있고, 컨테이너를 활용한 서비스들이 점차 많아지고 있습니다. 많은 사람들이 컨테이너 기술을 공부하고 싶어하지만 진입하기가 쉽지만은 않습니다. 이번 워크샵을 통해 도커와 쿠버네티스의 모든 것을 알 수는 없지만 앞으로 더 많은 것을 알아가기 위한 기반을 다질 수 있었으면 좋겠습니다.\n\n- docker 개념 및 실습 \n- docker-compose를 사용하여 워드프레스 구축 실습 \n- docker-compose를 사용하여 간단한 웹 서비스 구축 실습 \n- Kubernetes 개념 및 실습 \n- kubernetes를 사용하여 간단한 웹 서비스 구축 실습"
+    },
+    {
+      "community": "Backend.AI Usergroup Workshop",
+      "name": "조만석, 김정묵",
+      "images": [
+        "speakers/조만석_backendAI.jpg",
+        "speakers/김정묵_backendAI.jpg"
+      ],
+      "profile": "조만석\n오픈소스가 좋아서 래블업에서 함께 개발하고 있습니다. 텐서플로우 개발을 쉽게 해주는 오픈소스 Backend.AI 튜토리얼을 통해서 보다 쉽게 AI 개발을 도와드리고 싶습니다.\n\n김정묵\nLablup 에서 연구원으로 일하고 있습니다. 에너지 분야를 연구하다가 다양한 분야의 연구자들이 더욱 쉽게 인공지능을 개발할 수 있도록 돕겠다는 Lablup에 동참하게 되었습니다.",
+      "title": "TensorFlow 2.0 on Backend.AI",
+      "content": "본 워크샵에서는 Backend.AI 위에서 TensorFlow 2.0 의 달라진 점들을 실습과 함께 익혀 봅니다. 워크샵 시간 동안 Backend.AI를 이용하여 TensorFlow 2.0 네이티브 코드를 작성하는 법과, 기존에 작성된 TensorFlow 1.X 코드들을 TensorFlow 2.0으로 변환하는 작업을 진행해 봅니다. 정규 워크샵 이후의 시간에는 Backend.AI 유저그룹 부스에서, 관심있는 리눅스 유저들을 대상으로 우분투에 Backend.AI 온프레미스 환경을 구축하는 것도 진행해 봅니다.\n\n워크샵 참석을 위해서는 윈도우, 맥 또는 리눅스가 설치된 랩탑이 필요합니다."
+    },
+    {
+      "community": "Microsoft Workshop",
+      "name": "김영욱",
+      "images": ["speakers/김영욱_MS.jpg"],
+      "profile": "한국마이크로소프트 공공사업부에서 기술전략가로 일하고 있으며 최근에는 Microsoft AI와 클라우드와 관련해서 일하고 있다. 회사 밖에서는 소문난 밀덕으로 알려져 있으며 전쟁사와 IT를 엮어서 'War of IT'라는 책을 집필 하기도 했다. 개인 블로그로 영욱닷컴(http://YoungWook.com)을 운영하고 있다.\n\n- IT잡지 월간마소 자문위원\n- 웹 접근성 2.0 표준 자문위원\n- 디지털교과서 프로젝트 리더\n- 저서 'War of IT' 출간 (지앤선 2016)\n- 저서 '가장 빨리 만나는 챗봇 프로그래밍 with Bot Framework' 출간 (길벗 출판사 2018)\n- Microsoft MVP 2006~2008",
+      "title": "가장 빨리 만나는 챗봇 프로그래밍 with Bot Framework",
+      "content": "https://github.com/KoreaEva/HOL/tree/master/Azure/20190223%20Chatbot \n사전 준비 사항(반드시 설치!!!)"
+    },
+    {
+      "community": "케라스 코리아(Keras Korea)",
+      "name": "",
+      "images": ["community/keras-korea.jpg"],
+      "profile": "https://tykimos.github.io/2019/02/23/KCD_2019_Workshop_Keras_Magic_Show/",
+      "title": "모두의 손에 딥러닝 툴을…",
+      "content": "- 케라스 및 케코 커뮤니티 소개 (김태영, 전미정)\n- 케라스 저자와의 만남 (김태영, 박해선, 이웅원)\n  : 책소개, 질의응답\n  * 블록과 함께하는 파이썬 딥러닝 케라스 (김태영)\n  * 케라스 창시자에게 배우는 딥러닝 (프랑소와 숄레 저/박해선 역)\n  * 파이썬과 케라스로 배우는 강화학습 (이웅원)\n- 케코x영상처리 (황준원)\n- 케코x아트 (강형석)\n- 케코x강화학습 (이웅원)\n- 케코x캐글 (이유한)"
+    }
+  ]
+}

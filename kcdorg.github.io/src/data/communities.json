@@ -1,0 +1,200 @@
+{
+  "communities": [
+    {
+      "image": "community/codeigniter.gif",
+      "title": "Codeigniter 한국사용자포럼",
+      "link": "cikorea.net",
+      "url": "http://cikorea.net",
+      "content": "PHP 프레임워크인 CodeIgniter의 매뉴얼 번역 및 개발 소스 공유, 커뮤니케이션을 목적으로 2009년 개설되어 꾸준히 활동하고 있습니다. 온라인 활동뿐만 아니라 서울, 부산, 광주에서 매달 Offline 정모를 진행하고 있으며 개발자 스터디 지원, 각종 컨퍼런스에서 초급/심화 교육을 진행하고 있습니다."
+    },
+    {
+      "image": "community/mongodb-korea.jpg",
+      "title": "MongoDB Korea",
+      "link": "krmug",
+      "url": "https://facebook.com/groups/krmug/",
+      "content": "MongoDB Korea는 MongoDB를 사용하는 사람들의 커뮤니티입니다. 2013년 7월에 커뮤니티가 시작되었으며, 현재 1,700여 명의 회원이 활동 중입니다. 정형화된 틀에서의 논의보다는 다양한 방식과 주제로 많은 정보를 공유하고 있습니다. 자유로운 질문, 토론, 답변, 논쟁, 정보공유와 오프라인 모임을 지향하고 있으며, MongoDB 뿐만 아니라 관련된 다양한 노하우를 나눠주실 분의 오프라인 모임 제안도 환영합니다."
+    },
+    {
+      "image": "community/okky.jpg",
+      "title": "OKKY",
+      "link": "okky.kr",
+      "url": "https://okky.kr",
+      "content": "OKKY는 2000년 12월에 시작하여 18년의 역사를 자랑하는 한국의 대표 개발자 커뮤니티입니다.\n12만 건의 기술 Q&A, 전체 게시글 32만 건에 담긴 정보 및 개발자들의 교류, 꾸준히 주최해온 각종 세미나와 컨퍼런스는 OKKY의 가장 소중한 유산입니다.\n이를 바탕으로 단순한 기술 커뮤니티를 넘어, S/W 개발자의 기술과 삶을 나누는 공간으로서의 역할을 담당하고 있습니다."
+    },
+    {
+      "image": "community/osxdev.jpg",
+      "title": "OSXDev",
+      "link": "osxdev.org",
+      "url": "http://osxdev.org",
+      "content": "맥/iOS 개발자 커뮤니티는 2001년도 국내 최초 맥 개발자 커뮤니티로 시작해서, OSX 개발 기술을 스터디하고 애플 기술 문서 한글화 작업등을 진행해왔다. 최근 iOS 개발자들이 많아지면서 자연스럽게 국내 최고의 맥/iOS 개발자 커뮤니티로 거듭나고 있다. 매년 맥 OSX와 iOS 개발 스터디 그룹 활동과 정기 세미나를 개최하고 있으며, 최근 맥/iOS 개발 자료를 번역하거나 책으로 소개하는 프로젝트도 진행하고 있다."
+    },
+    {
+      "image": "community/taeyo.gif",
+      "title": "Taeyo.NET",
+      "link": "taeyo.net",
+      "url": "www.taeyo.net",
+      "content": "Taeyo.NET 1998년부터 운영되어 왔으며 8만명 이상의 회원수와 1억 이상의 뷰카운트를 자랑하는 국내 최장수 ASP/ASP.NET커뮤니티입니다. 국제닷넷협회의 회원 사이트이며, 대표 운영자인 Taeyo는 한국인 최초로 Microsoft MVP Insider를 수상하였습니다. 지금까지 20명 이상의 Microsoft MVP를 배출하였으며, 한국의 100대 사이트에 선정되기도 하였습니다."
+    },
+    {
+      "image": "community/keras-korea.jpg",
+      "title": "케라스 코리아(Keras Korea)",
+      "link": "KerasKorea",
+      "url": "https://www.facebook.com/groups/KerasKorea/",
+      "content": "케라스 코리아 그룹은 파이썬으로 구현된 쉽고 간결한 딥러닝 라이브러리인 케라스(Keras)에 대한 이야기를 나누는 공간입니다. 그룹에서는 각 분야의 전문가분들이 딥러닝 기술을 쉽게 접목하거나 딥러닝 기술에 대해 입문하시고 싶은 분들에게 도움을 드리고 소통하는 것에 목표를 두고 있습니다. 또한 분야별로 어떤 문제에 어떻게 딥러닝을 접목하려는 지 또는 해본 경험을 토론하고자 분야별 모임(#케코x분야)을 두고 있습니다."
+    },
+    {
+      "image": "community/cpp.png",
+      "title": "C++ Korea",
+      "link": "cppkorea",
+      "url": "https://www.facebook.com/groups/cppkorea",
+      "content": "C++ Korea는 2013년 11월에 설립된 그룹으로, 한국 C++ 사용자들에게 최신 C++ 뉴스 및 관련 자료를 제공하고 있습니다. 현재 약 3,800명의 회원이 있으며, 여러차례 스터디와 세미나를 진행했습니다. 현재는 C++ 템플릿 스터디, C++ 핵심 가이드라인 한글화 프로젝트를 진행하고 있으며, 하반기를 목표로 C++ 컨퍼런스를 준비 중에 있습니다."
+    },
+    {
+      "image": "community/ASP.NET.jpg",
+      "title": "ASP.NET Korea",
+      "link": "aspnet.kr",
+      "url": "http://aspnet.kr",
+      "content": "한국 ASP.NET 개발자 모임입니다. ASP.NET에 관심이 있다면 누구나 참여하실 수 있는 공개 그룹으로 행복한 개발자를 꿈꾸는 분들이라면 누구나 환영합니다."
+    },
+    {
+      "image": "community/openstacknew.png",
+      "title": "오픈스택 한국 커뮤니티",
+      "link": "openstack.or.kr",
+      "url": "http://openstack.or.kr",
+      "content": "오픈스택 (OpenStack)은 클라우드 관리 플랫폼을 구축하기 위한 오픈 소스 소프트웨어 프로젝트로, 개별적으로 설치하는 6개의 코어 및 19개의 선택 컴포넌트들을 서로 유기적으로 연동하여 직접 클라우드를 구성할 수 있습니다. 2010년 7월 Rackspace사와 NASA로 부터 시작한 이후, 전 세계 179개 국가로부터 50,000명이 넘는 커뮤니티 회원이 참여 및 기여를 통해 (2016년 7월 통계) 꾸준히 성장하고 있습니다. 오픈스택 한국 커뮤니티는 공식 사용자 그룹으로서 다양한 정기 세미나, 스터디 활동, 번역팀 활동을 비롯하여 페이스북, 메일링리스트, IRC, Slack 등 여러 커뮤니케이션 채널을 통해 많은 오픈스택 유저 및 관심있는 분들과 활발히 활동하고 있습니다."
+    },
+    {
+      "image": "community/ubuntu.png",
+      "title": "우분투 한국커뮤니티",
+      "link": "ubuntu-kr.org",
+      "url": "http://ubuntu-kr.org",
+      "content": "2005년부터 시작된 우분투한국커뮤니티는 국제적으로 인증된 한국 공식 로컬팀이며, 우분투를 사용하거나 번역 및 개발에 기여하는 사람들로 구성되어 있습니다. 정기 세미나, 분기별 그룹스터디, 프로젝트, 워크샵 등 행사를 통해 오프라인 상에서의 회원간 교류를 도모하고 있습니다. 또한 비 수도권 지역 지역팀 개설과 해외 커뮤니티와의 교류를 통해 활동 영역을 더 넓히고 있습니다. 다양한 소통과 질문이 가능하도록 포럼, 페이스북 그룹, 위키, Ask Ubuntu KR, Slack, IRC 등을 운영하고 있습니다."
+    },
+    {
+      "image": "community/jsdevkr.png",
+      "title": "자바스크립트 개발자 포럼",
+      "link": "jsdev.kr",
+      "url": "https://jsdev.kr",
+      "content": "자바스크립트 개발자 포럼은 J-vaScript, TypeScript, Parse, React, Vue, AxisJ, Titanium 등 다양한 주제로 포럼을 운영하고 있습니다. 자바스크립트에 관심 있는 개발자라면 누구나 참여 가능합니다."
+    },
+    {
+      "image": "community/slipp.png",
+      "title": "SLiPP",
+      "link": "slipp.net",
+      "url": "http://slipp.net",
+      "content": "SLiPP 커뮤니티는 자바 웹 백엔드를 주제로 오프라인 스터디를 시작했다. \n현재는 자바 웹 백엔드에서 범위를 넓혀 웹 프론트엔드, 개발자 영어, 알고리즘, 다양한 JVM 언어등 다양한 주제로 활발하게 스터디를 운영하고 있다.\n다양한 개발자들이 서로 소통하고 같이 학습하면서 성장하는 것을 지향하고 있다."
+    },
+    {
+      "image": "community/databreak.png",
+      "title": "데이터뽀개기(DataBreak)",
+      "link": "DataBreak",
+      "url": ": https://www.facebook.com/groups/databreak",
+      "content": "데이터뽀개기 커뮤니티는 데이터 현장에서 일하거나, 데이터 분야로 이직 / 취업 하려는 사람의 Practical Data Playground 입니다.\n데이터뽀개기에서는 “오프라인, Meetup, Event, Study”에서 데이터를 이야기하고, 연구할 수 있는 네트워킹 장소이며, 데이터 기반의 업무(분석, 엔지니어링)를 입문하고 성장할 수 있는 방향을 지향합니다.\n커뮤니티에서는 데이터 사이언스 주제 또는 도메인(예, 금융 / 게임) 별로 소모임을 운영하고 있습니다. 소모임 통해서 데이터를 뽀갤 수 있는 가장 쉬운 방법을 커뮤니티에서 배울 수 있습니다. \n 회사, 학교, 공공기관이 아닌 커뮤니티 그룹에서 계급/학벌과 관계없이 누구나 자유롭게 접근할 수 BootCamp (Data Driven) 를 제공할 예정입니다."
+    },
+    {
+      "image": "community/babel-pish.png",
+      "title": "바벨피쉬",
+      "link": "babelPish",
+      "url": "https://www.facebook.com/groups/babelPish",
+      "content": "친구, 혹은 비서에게 말하듯이 내가 한 말을 이해하는 컴퓨터 시스템이 있다면 얼마나 편리할까요? 이는 더이상 SF 영화 속에서나 가능한 일이 아닙니다. 저희 바벨피쉬는‘자연어처리’를 통한 인공지능 시스템 구현을 목표로 주기적으로 스터디를 진행하는 커뮤니티입니다."
+    },
+    {
+      "image": "community/oss.png",
+      "title": "OSS개발자포럼",
+      "link": "ossdevforum",
+      "url": "https://www.facebook.com/groups/ossdevforum",
+      "content": "OSS개발자포럼은 개발자에게 유용한 정보(기술, 행사 등)를 공유하고 오프라인 행사(교육 및 멘토링)를 통해 선후배 개발자 간 네트워킹을 하며 정보를 교류하는 온라인 커뮤니티입니다."
+    },
+    {
+      "image": "community/lascala.jpg",
+      "title": "라스칼라코딩단",
+      "link": "scala-korea",
+      "url": "https://groups.google.com/forum/#!forum/scala-korea",
+      "content": "라스칼라 코딩단은 스칼라 프로그래밍 언어를 중심으로 구성된 커뮤니티입니다. 스칼라는 JVM 위에서 작동하며 기존의 자바 라이브러리를 그대로 활용할 수 있다는 장점이 있습니다. 동시에 함수형 프로그래밍의 패러다임을 수용하고 있습니다. 스칼라는 그 이름의 유래답게 동시성, 병렬 처리부터, DSL을 통한 스크립트 언어에서 엔터프라이즈 제품까지 모두 아우르는 언어입니다. 라 스칼라 코딩단에서는 일방적인 발표나 이론보다, 코드를 놓고 타이핑하는 실전 위주의 모임을 갖고 있습니다. 그렇다고 초보가 접하기 어려운 것은 아닙니다. 모든 것은 코드를 보며 사소한 부분부터 이야기할 수 있으니까요."
+    },
+    {
+      "image": "community/java-cafe.png",
+      "title": "자바카페",
+      "link": "javacafe",
+      "url": "https://www.facebook.com/groups/javacafe",
+      "content": "자바카페는 오프라인 스터디 모임입니다. 매년 상반기 하반기로 나눠서 스터디 모집을 하고 있으며, 스터디 모집 외에도 마소 기고, 세미나 등의 개발자 역량 향상을 위한 활동을 진행하고 있습니다. 개발자의 능력 향상뿐만 아니라 개발자 사이의 오프라인 모임을 주선하여 좀 더 좋은 개발자들 간의 관계를 조성하기 위해서 노력하는 커뮤니티입니다."
+    },
+    {
+      "image": "community/korea-azure-group.png",
+      "title": "Korea Azure User Group (KRAZURE)",
+      "link": "www.krazure.com",
+      "url": "www.krazure.com",
+      "content": "Azure를 사용하는 한국 사용자들의 모임으로써, Azure 사용자만이 아니라 관심이 있는 모든 사용자가 가입 가능한 커뮤니티입니다. 실제 Azure를 사용하고 있는 사용자들 간의 토론의 장을 마련하고 있으며, Azure 및 관련 기술 등에 대한 자료를 공유하고 있습니다. 매월 토요일에 Saturday Azure Live 오프라인 세미나를 개최하고 있습니다."
+    },
+    {
+      "image": "community/comu.png",
+      "title": "코딩이랑 무관합니다만",
+      "link": "System.out.Coding",
+      "url": "https://facebook.com/groups/System.out.Coding",
+      "content": "많은 분들이 유머페이지로 알고 계시지만 유머 페이지가 이니라 놀랍게도 개발자 커뮤니티입니다.\n•이 그룹에는 개발자들, IT에 관심있는 자들, 질문하고 싶은 자들, 닭가슴살처럼 퍽퍽한 삶에 한 조각의 치킨무와 같은 유머를 원하시는 자들 등 여러 분들이 있습니다. \n•그래서 다른 그룹에서는 하기 힘든 질문과 정보의 교류가 가능합니다. 아무리 허접한 질문이라도 친절하게 답변해주는 던전 고수들이 많습니다.\n•그래서 입문자들이 더 편하고 재미있게 기술에 입문하는데 기여하고 있습니다."
+    },
+    {
+      "image": "community/jbug-korea.jpg",
+      "title": "Jboss User Group",
+      "link": "jbossusergroup",
+      "url": "https://facebook.com/groups/jbossusergroup",
+      "content": "JBoss User Group Korea(이하 JBUG)는 세계 최대의 오픈소스 그룹 중 하나인 JBoss 한국 커뮤니티입니다. JBoss 내의 프로젝트뿐만 아니라 다양한 오픈소스에 대한 정보공유, 세미나, 스터디 를 진행하고 있습니다. 매월 마지막 주 토요일 정기 세미나(무료!)가 진행되며 누구나 참여/발표할 수 있습니다."
+    },
+    {
+      "image": "community/dataitgirls.png",
+      "title": "데잇걸즈",
+      "link": "DataItGirls",
+      "url": "https://dataitgirls2.github.io/dataitgirls2",
+      "content": "데잇걸즈는 통계, 데이터분석, 프로그래밍 도구를 활용해 데이터 기반의 문제해결 능력과 빠르게 변화하는 디지털 환경에 대한 적응전문성을 갖춘 여성인재를 양성하는 프로그램입니다. 실리콘밸리를 비롯한 테크업계의 최전선에서는 여성들이 중심이 된 세션이나, 기술 커뮤니티가 많습니다. 데잇걸즈는 우리나라에도 이러한 커뮤니티가 지속가능하다는 것을 증명하고 싶은 목표가 있습니다. 미국에 있는 심플스텝스와 같은 여성 커뮤니티처럼 여성들이 기술을 넘어 서로의 커리어를 응원하고 지원하는 공동체로 성장하는 것이 데잇걸즈의 지향점입니다."
+    },
+    {
+      "image": "community/react.png",
+      "title": "React Korea",
+      "link": "React Korea Facebook",
+      "url": "https://www.facebook.com/groups/react.ko",
+      "content": "ReactKorea는 주로 React, ReactNative와 관련된 정보, 채용, 잡담등을 공유하는 커뮤니티입니다.\n <Slack> http://bit.ly/2Fvzis1"
+    },
+    {
+      "image": "community/ts.png",
+      "title": "TypeScript Korea",
+      "link": "TypeScript Korea Facebook",
+      "url": "https://www.facebook.com/groups/TSKorea",
+      "content": "TypeScript 를 사용하는 한국 개발자들의 기술과 정보를 공유하는 모임으로 페이스북과 슬랙을 기반으로, 1400 여명이 함께하고 있습니다. MS 의 오픈소스인 타입스크립트 기술을 메인으로 하여, 자바스크립트 개발자들을 아우르고 있으며, 최근 가장 가파르게 성장하고 있는 그룹입니다. 기술이 생겨난지 오래되지 않았지만, 매년 꾸준한 미트업을 개최하며, 타입스크립트를 올바르게 사용하는 법을 공유하고 있습니다."
+    },
+    {
+      "image": "community/DevOpsKr.svg",
+      "title": "DevOps Korea",
+      "link": "devopskorea.com",
+      "url": "http://devopskorea.com",
+      "content": "DevOps Korea는 DevOps 문화/기술/Best practice 등을 공유하고, Meet-up/Study group 등의 진행을 통해, 관련 산업 발전을 위한 다양한 활동 등을 진행중에 있습니다."
+    },
+    {
+      "image": "community/backendai.svg",
+      "title": "Backend.AI 유저그룹",
+      "link": "Backend AI Gitter",
+      "url": "https://gitter.im/lablup/backend.ai",
+      "content": "Backend.AI는 래블업에서 2017년 11월 정식 공개한 오픈소스 머신러닝 플랫폼입니다. Backend.AI는 머신러닝 개발과 서비스에 필요한 환경과 연산 자원을 제공하고 최적으로 관리해줍니다. 사용자는 클라우드 서비스에 가입하거나, 오픈소스 버전을 자신의 서버에 설치하여 프로그래밍 환경을 즉시 생성하여 사용할 수 있습니다. 또한 주요 통합 개발 환경의 플러그인을 설치하면 모든 주요 프로그래밍 언어와 머신러닝 라이브러리의 다양한 버전을 매우 손쉽게 사용할 수 있습니다.\n Backend.AI 유저그룹은 2018년부터 Backend.AI 개발진 및 기여자들을 중심으로 활동을 시작했으며, 2019년부터 다양한 개발자 및 사용자들과 함께 하기 위해 폭을 넓혀나갈 준비를 하고 있습니다."
+    },
+    {
+      "image": "",
+      "title": "모닝클래스",
+      "link": "(아침에 모여서 오픈소스 기여하는 직장인 개발자 모임)",
+      "url": "",
+      "content": "모닝클래스는 오픈소스에 관심 많은 수원지역 직장인 개발자들이 출근하기 전 이른 아침에 까페에 모여서 오픈소스에 기여하는 모임입니다. 현재 모닝클래스가 기여하는 오픈소스에는 대표적으로 Chromium, Node.js, Bacardi와 같은 프로젝트들이 있으며, 각 오픈소스 커뮤니티 내에서 오너(Owner), 커미터(Committer) 등으로 활동하기도하고, 컨트리뷰톤과 같은 국내 오픈소스 확산 행사에 멘토단으로 참여하는 등 다양한 활동을 이어나가고 있습니다."
+    },
+    {
+      "image": "community/wwcode.png",
+      "title": "WOMEN WHO CODE SEOUL",
+      "link": "wwcodseoul Facebook",
+      "url": "https://www.facebook.com/wwcodeseoul",
+      "content": "2011년 설립된 위민 후 코드는 전 세계 20개국 60개 도시에서 13만 7천여명의 여성 엔지니어들이 활동하고 있는 비영리 단체입니다. 올해 3월에 시작한 위민 후 코드 서울은 대한민국 IT 업계의 여성들의 활약을 조명하고 네트워킹을 통해 함께 성장할 수 있도록 기회를 만들고자 시작되었습니다. 현재 500여 명의 온라인 회원, 10명의 운영진이 있으며, 더 많은 여성들의 활동 참여를 기다립니다."
+    },
+    {
+      "image": "community/nullfull-logo.png",
+      "title": "널채움(nullfull)",
+      "link": "nullfull Facebook",
+      "url": "https://www.facebook.com/groupnullfull",
+      "content": "널채움은 씨빅해킹 모임으로 다음의 목표를 기준으로 활동합니다.\n\"하는일 없이 꾸준히 감자 먹으러 모이는 ㅆㅂㅎㅋ 점조직 모임\"\n변화를 위해서는 사람이 힘이 필요한 만큼, 꾸준히 모이는 것을 힘으로 새로운 아이디어를 자유롭게 나누고 각자 하고 싶은 일을 해보고자 합니다."
+    }
+  ]
+}
