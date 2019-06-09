@@ -1,9 +1,9 @@
-import styled, { css } from 'styled-components'
-import { ON_MOBILE } from 'styles/responsive'
+import styled, { css } from 'styled-components/macro'
+import { ON_MOBILE } from '../../../constants/responsive'
 
 interface HeaderProps {
-  fontSize: string
-  white: boolean
+  fontSize?: string
+  white?: boolean
 }
 
 const Header = styled.div<HeaderProps>`

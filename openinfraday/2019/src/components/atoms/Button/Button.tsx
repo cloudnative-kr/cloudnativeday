@@ -1,17 +1,17 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components/macro'
 import { darken, lighten } from 'polished'
-import { GREY, PRIMARY_PINK } from 'styles/colors'
-import { ON_DESKTOP } from 'styles/responsive'
-
-interface ButtonProps {
-  width: string | number
-  height: string | number
-  large: boolean
-  shining: boolean
-  disabled: boolean
-}
+import { GREY, PRIMARY_PINK } from '../../../constants/colors'
+import { ON_DESKTOP } from '../../../constants/responsive'
 
 const PRIMARY_COLOR = PRIMARY_PINK
+
+interface ButtonProps {
+  width?: string
+  height?: string
+  large?: boolean
+  shining?: boolean
+  color?: string
+}
 
 const Button = styled.button<ButtonProps>`
   height: 38px;

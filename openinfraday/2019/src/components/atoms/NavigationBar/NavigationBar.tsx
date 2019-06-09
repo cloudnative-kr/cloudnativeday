@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
-import styled, { css } from 'styled-components'
-import { Flex, Box, BoxProps } from '@rebass/grid'
-import { animateScroll as scroll, Events, Link } from 'react-scroll'
-import Button from 'components/atoms/Button'
-import FestaLogo from 'assets/FestaLogo'
-import CollaborationX from 'assets/CollaborationX'
-import OpenInfraDayLogo from 'assets/OpenInfra_White.png'
-import { GREY, CHARCOAL_BLACK } from 'styles/colors'
-import { ON_MOBILE } from 'styles/responsive'
+import React, { Component, FC } from 'react'
+import styled, { css } from 'styled-components/macro'
+import { Flex, Box } from '@rebass/grid'
+import { animateScroll as scroll, Link } from 'react-scroll'
+import { ReactScrollLinkProps } from 'react-scroll/modules/components/Link'
+
+import Button from '../Button/Button'
+import FestaLogo from '../../../assets/FestaLogo'
+import CollaborationX from '../../../assets/CollaborationX'
+import OpenInfraDayLogo from '../../../assets/OpenInfra_White.png'
+import { GREY, CHARCOAL_BLACK } from '../../../constants/colors'
+import { ON_MOBILE } from '../../../constants/responsive'
 
 const WHITE = '#fff'
 
@@ -22,6 +24,7 @@ const Container = styled(Flex)`
 Container.defaultProps = {
   mx: 'auto',
 }
+
 const BarWrapper = styled.div<{ sticky?: boolean }>`
   display: flex;
   align-items: center;
@@ -49,10 +52,10 @@ const BarWrapper = styled.div<{ sticky?: boolean }>`
     `};
 `
 
-const LogoBox = styled(Box)<BoxProps>`
+const LogoBox = styled(Box)`
   width: 20%;
 `
-const Menu = styled(Box)<BoxProps>`
+const Menu = styled(Flex)`
   width: 80%;
   justify-content: flex-end;
 `
@@ -66,7 +69,12 @@ const ExternalLogo = styled.img<{ size?: number }>`
   width: ${p => p.size || 30}px;
 `
 
-const MenuLink = styled(Button)<{ hide?: boolean; ghost?: boolean }>`
+interface MenuLinkProps {
+  hide?: boolean
+  ghost?: boolean
+}
+
+const MenuLink = styled(Button)<MenuLinkProps>`
   height: 30px;
   padding: 0 5px 0 5px;
   margin: 0 15px 0 15px;
@@ -125,31 +133,26 @@ const MenuLink = styled(Button)<{ hide?: boolean; ghost?: boolean }>`
     `};
 `
 
-class CustomLink extends Component<any> {
-  render() {
-    return (
-      <Link
-        spy={true}
-        smooth={true}
-        duration={400}
-        delay={100}
-        to={this.props.to}
-        {...this.props}
-      />
-    )
-  }
+const CustomLink: FC<ReactScrollLinkProps> = props => {
+  return (
+    <Link
+      {...props}
+      // active={true}
+      spy={true}
+      hashSpy={true}
+      smooth={true}
+      duration={400}
+      delay={100}
+    />
+  )
 }
 
 interface NavigationBarProps {
   handleTicketBuy: () => void
-  handleScrollTo?: () => void
+  handleScrollTo: (element: any) => void
 }
 
-interface NavigationBarState {
-  isSticky: boolean
-}
-
-class NavigationBar extends Component<NavigationBarProps, NavigationBarState> {
+class NavigationBar extends Component<NavigationBarProps> {
   state = {
     isSticky: false,
   }
@@ -162,10 +165,11 @@ class NavigationBar extends Component<NavigationBarProps, NavigationBarState> {
     window.removeEventListener('scroll', this.handleScroll)
   }
 
-  handleScroll = () => {
+  handleScroll = (e: any) => {
     const top =
       document.documentElement.scrollTop ||
-      (document.body.parentNode! as HTMLBodyElement).scrollTop ||
+      (document.body.parentNode &&
+        (document.body.parentNode as any).scrollTop) ||
       document.body.scrollTop
     if (top < 1) {
       this.setState({ isSticky: false })
@@ -189,7 +193,7 @@ class NavigationBar extends Component<NavigationBarProps, NavigationBarState> {
             <CollaborationX size={15} />
             <ExternalLogo src={OpenInfraDayLogo} size={35} />
           </LogoBox>
-          <Menu flexDirection="row-reverse">
+          <Menu>
             <MenuLink
               onClick={() => {
                 this.scrollTo(0)
