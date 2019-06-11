@@ -1,0 +1,90 @@
+{
+  "speakers": [
+    {
+      "name": "Mark Collier",
+      "affiliation": "Chief Operating Officer - OpenStack Foundation",
+      "image": {
+        "alt": "Mark Collier",
+        "src": "/speakers/MarkCollier.jpg"
+      },
+      "about":
+        "Mark has spent his career working on technologies that disrupt industries, from \"a computer on every desk\", when he worked at Dell in the 90's as a product manager, to the digital music shift as Senior Director of Business Development at Yahoo! Music, to the cloud computing era, where as VP of Business Development at Rackspace he led the effort to embrace an open source development model and build an ecosystem and community around it, resulting in the founding of OpenStack in 2010. In 2012, he started the OpenStack Foundation, along with Jonathan Bryce, and now serves as it's Chief Operating Officer working full time on \"Protecting, Empowering, and Promoting OpenStack and the community around it, including users, developers and the entire ecosystem. Outside of OpenStack, he loves music, Austin, BBQ, wakeboarding on Lake Austin, and basketball (Rockets & Longhorns). He goes by \"sparkycollier\" on the inter webs, to honor his great dane sparky (R.I.P.)",
+      "keynote":
+        "OpenStack Foundation Keynote"
+    },
+    {
+      "name": "Lauren Sell",
+      "affiliation": "Vice President, Marketing and Community Services - OpenStack Foundation",
+      "image": {
+        "alt": "Lauren Sell",
+        "src": "/speakers/LaurenSell.jpg"
+      },
+      "about": "Lauren Sell is the Vice President, Marketing and Community Services for the OpenStack Foundation. She helped launch OpenStack in 2010 and has since focused on building the brand and global community around one of the largest and most successful open source projects to date. She is passionate about the community and has been working closely with OpenStack users, technical contributors and marketers to bring the OpenStack story to life and drive global adoption. Lauren has been marketing in the technology industry for more than twelve years, with a background in early stage companies, open source and enterprise software, as well as industry events like SXSW Interactive.",
+      "keynote":
+        "OpenStack Foundation Keynote"
+    },
+    {
+      "name": "이제응 대표",
+      "affiliation": "한국 리눅스 재단",
+      "image": {
+        "alt": "이제응 대표",
+        "src": "/speakers/이제응.jpg"
+      },
+      "about": "이제응 대표는 지난 수십년간 Cloud Computing 포함한 다양한 IT 신기술 Incubation 경험을 바탕으로, 한국을 포함한 아시아 시장에 Pre-sale/Sales 활동을 해왔으며, 최근 리눅스 재단하에 있는 주요 open-source project분야(CNCF, Hyperledger, Cloud Foundry Foundation 등)에 적극적으로 활동을 하고 있습니다.",
+      "keynote":
+        "Community Keynote - Cloud Native Computing Foundation"
+    },
+    {
+      "name": "조재홍 팀장",
+      "affiliation": "정보통신산업진흥원",
+      "image": {
+        "alt": "조재홍 팀장",
+        "src": "/speakers/조재홍.jpg"
+      },
+      "about":
+        "조재홍 팀장은 대한민국 충청북도 진천군에 위치한 정보통신산업진흥원(NIPA)에서 근무하고 있다. 2016년부터 NIPA 공개SW진흥팀을 맡고 있으며, 우리나라 오픈소스 생태계 성장을 위해, 오픈소스 참여문화 확산 캠페인, 유망 오픈소스 R&D 프로젝트, 개발자의 글로벌 오픈소스 프로젝트 참여 및 공공기관/중소기업의 라이선스 검증 지원 프로그램 등을 수행하고 있다. Carnegie Mellon Univ.에서 Master of Science in Information Technology 학위를 취득하였으며, 최근, 성균관대학교에서 경영학 박사과정을 수료하였다.",
+      "keynote":
+        "공개SW 소비국을 넘어 기여국으로 도약을 위하여"
+    },
+    {
+      "name": "이진현 이사",
+      "affiliation": "맨텍",
+      "image": {
+        "alt": "이진현 이사",
+        "src": "/speakers/lee.jpg"
+      },
+      "about": "이진현 이사는 현재 (주)맨텍에서 오픈소스와 마케팅부서를 총괄하고 있으며, 지난 20년간 개발, 기술지원, 엔터프라이즈와 공공시장에 대한 영업 등 다양한 업무 경험을 토대로 시장의 요구와 고객의 문제해결을 위한 솔루션의 기획과 Go to market전략을 수립하고 실행하고 있습니다.",
+      "keynote": "자율형데이터센터로의 디지털 트랜스포메이션"
+    },
+    {
+      "name": "최지웅 기술총괄이사",
+      "affiliation": "오픈소스컨설팅",
+      "image": {
+        "alt": "최지웅 기술총괄이사",
+        "src": "/speakers/최지웅.png"
+      },
+      "about": "",
+      "keynote": "모던 데이터센터 Must-Have 오픈소스 - 기업의 트렌드가 기존의 단순한 데이터센터 운용만이 아닌 다양한 환경에서의 서비스 운영 트렌드로 바뀌고 있습니다. 최고의 운영 효율성을 내기 위해 기업들이 고려해야 할 요소에 대해 설명합니다."
+    },
+    {
+      "name": "Ildiko Vanska",
+      "affiliation": "Ecosystem Technical Lead, OpenStack Foundation",
+      "image": {
+        "alt": "Ildiko",
+        "src": "/speakers/Ildiko.png"
+      },
+      "about": "Ildikó started her journey with virtualization during the university years and has been in connection with this technology different ways since then. She started her career at a small research and development company in Budapest, where she was focusing on areas like system management and business process modeling and optimization. Ildikó got in touch with OpenStack when she started to work in the cloud project at Ericsson in 2013, she was a member of the Ceilometer and Aodh project core teams. She is now working for the OpenStack Foundation and she drives NFV related feature development activities in projects like Nova and Cinder, and beyond code and documentation contributions she is also very passionate about on boarding and training activities.",
+      "keynote": "Upstream Training Korea 2018"
+    },
+    {
+      "name": "Kendall Nelson",
+      "affiliation": "Upstream Developer Advocate, OpenStack Foundation",
+      "image": {
+        "alt": "Kendall",
+        "src": "/speakers/Kendall.png"
+      },
+      "about": "Kendall is an Upstream Developer Advocate at the OpenStack Foundation based in Seattle, WA. She first started working on Cinder and os-brick in the Liberty release and since then gotten involved in StoryBoard, the Women of OpenStack (WoO), the First Contact SIG, the Contributor Guide, and OpenStack Upstream Institute. She has also worked as an election official for TC and PTL elections (Pike-Rocky) and served as a track chair for the Barcelona, Boston, Sydney, and Vancouver summits. When she is not evangelizing about the awesomeness of OpenStack, bringing people into the community, or working to make upstream development a friendlier place, she can be found reading Harry Potter, watching Doctor Who, or out on a photo taking adventure.",
+      "keynote": "Upstream Training Korea 2018"
+    }
+  ]
+}

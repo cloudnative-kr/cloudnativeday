@@ -213,7 +213,7 @@ class NavigationBar extends Component<NavigationBarProps> {
             <CustomLink to="tickets">
               <MenuLink hide={true}>Tickets</MenuLink>
             </CustomLink>
-            <CustomLink to="sponsers">
+            <CustomLink to="sponsors">
               <MenuLink hide={true}>Sponsors</MenuLink>
             </CustomLink>
             <MenuLink onClick={this.props.handleTicketBuy} ghost={true}>

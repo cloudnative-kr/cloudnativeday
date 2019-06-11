@@ -92,7 +92,7 @@ interface SpeakerModalProps {
   image: { src: string; alt: string }
   name: string
   affiliation: string
-  about: string
+  about?: string
   keynote?: string
   close: () => void
 }
