@@ -6,9 +6,8 @@ import sponsorsData from '../../../data/sponsors.json'
 import { ON_MOBILE } from '../../../constants/responsive'
 
 const StyledContainer = styled(Container)`
-  background: url('/backgrounds/footer_lodyas.png') no-repeat center center
-    fixed;
-  background-size: cover;
+  background: url('/backgrounds/use_your_illusion.png') center center fixed;
+  background-size: 100px;
 `
 
 const Row = styled.div`
@@ -21,7 +20,7 @@ const Row = styled.div`
 
 const Label = styled.div<{ shadowColor: string }>`
   flex: 1;
-  font-size: 50px;
+  font-size: 45px;
   color: white;
   text-align: center;
   font-weight: bold;
@@ -29,7 +28,7 @@ const Label = styled.div<{ shadowColor: string }>`
   min-width: 250px;
 
   @media ${ON_MOBILE} {
-    font-size: 35px;
+    font-size: 27px;
     margin-bottom: 20px;
   }
 `
@@ -53,7 +52,7 @@ const ImageCard = styled.div`
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 10px 0 rgba(123, 136, 157, 0.15);
-  height: 190px;
+  height: 140px;
   padding: 0 20px;
   margin: 5px;
 
@@ -63,7 +62,7 @@ const ImageCard = styled.div`
   }
 
   @media ${ON_MOBILE} {
-    height: 150px;
+    height: 90px;
     padding: 0 15px;
   }
 `
@@ -98,17 +97,17 @@ const SponsorsSection: FC = () => {
       <InnerContainer>
         <Header white={true}>Sponsors</Header>
         <Row>
-          <Label shadowColor="lightblue">플래티넘</Label>
+          <Label shadowColor="lightblue">Platinum</Label>
           {renderImageGrid(sponsorsData.platinum)}
         </Row>
 
         <Row>
-          <Label shadowColor="gold">골드</Label>
+          <Label shadowColor="gold">Gold</Label>
           {renderImageGrid(sponsorsData.gold)}
         </Row>
 
         <Row>
-          <Label shadowColor="silver">실버</Label>
+          <Label shadowColor="silver">Silver</Label>
           {renderImageGrid(sponsorsData.silver)}
         </Row>
 
