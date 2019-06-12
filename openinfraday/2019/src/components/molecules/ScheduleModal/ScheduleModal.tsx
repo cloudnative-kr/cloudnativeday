@@ -145,7 +145,8 @@ const Track = styled.div`
   }
 `
 
-const SpeakerDeck = styled.div`
+const SpeakerDeck = styled.a`
+  text-decoration: none;
   margin-left: auto;
   padding: 0 7px;
   font-weight: bold;
@@ -182,11 +183,76 @@ const SpeakerBox = styled(Box)`
   padding-right: 30px;
 `
 
-interface ScheduleModalProps {
-  close: () => void
+interface ISpeaker {
+  name: string
+  affiliation: string
+  description: string
+  imageUrl: string
 }
 
-const ScheduleModal: FC<ScheduleModalProps> = ({ close }) => (
+interface ScheduleSession {
+  title: string
+  time: string
+  tracks: string[]
+  deckUrl?: string
+  videoUrl?: string
+  description: string
+  speakers: ISpeaker[]
+}
+
+interface ScheduleModalProps {
+  close: () => void
+  session: ScheduleSession
+}
+
+const NewScheduleModal: FC<ScheduleModalProps> = ({
+  session: { title, time, tracks, deckUrl, videoUrl, description, speakers },
+  close,
+}) => (
+  <ModalWrapper>
+    <CloseButton onClick={close} />
+    <ContentWrapper>
+      <Flex flexWrap="wrap">
+        <SectionRow>
+          <Title>{title}</Title>
+          <TrackInfoRow>
+            <Track>{time}</Track>
+            {tracks.length > 0 && tracks.map(track => <Track>{track}</Track>)}
+            {deckUrl && (
+              <SpeakerDeck href={deckUrl} target="_blank">
+                발표자료
+              </SpeakerDeck>
+            )}
+            {videoUrl && (
+              <SpeakerDeck href={deckUrl} target="_blank">
+                영상자료
+              </SpeakerDeck>
+            )}
+          </TrackInfoRow>
+          <TrackDescription>{description}</TrackDescription>
+        </SectionRow>
+        <SectionRow>
+          <Title>Speaker</Title>
+        </SectionRow>
+        {speakers.length > 0 &&
+          speakers.map(speaker => (
+            <SpeakerBox width={[1, 1, 1 / 2]}>
+              <SpeakerRow>
+                <SpeakerImage src={speaker.imageUrl} />
+                <SpeakerInfoRow>
+                  <SpeakerName>{speaker.name}</SpeakerName>
+                  <SpeakerAffiliation>{speaker.affiliation}</SpeakerAffiliation>
+                </SpeakerInfoRow>
+              </SpeakerRow>
+              <SpeakerDescription>{speaker.description}</SpeakerDescription>
+            </SpeakerBox>
+          ))}
+      </Flex>
+    </ContentWrapper>
+  </ModalWrapper>
+)
+
+const ScheduleModal = ({ close }: { close: any }) => (
   <>
     <ModalWrapper>
       <CloseButton onClick={close} />
