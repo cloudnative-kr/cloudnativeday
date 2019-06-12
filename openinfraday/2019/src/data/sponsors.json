@@ -1,157 +1,102 @@
 {
-    "platinum": [
-        {
-            "alt": "NetApp",
-			"href": "https://www.netapp.co.kr/",
-            "src": "/sponsors/netapp.png"
-        },
-        {
-            "alt": "SK Telecom",
-			"href": "http://www.sktelecom.co.kr/",
-            "src": "/sponsors/skt.png"
-        },
-        {
-            "alt": "Mantech",
-			"href": "http://www.mantech.co.kr/",
-            "src": "/sponsors/mantech.png"
-        },
-        {
-            "alt": "오픈소스컨설팅",
-			"href": "http://www.osci.kr/",
-            "src": "/sponsors/osic.png"
-        },
-        {
-            "alt": "삼성전자",
-			"href": "http://www.samsung.com/sec/",
-            "src": "/sponsors/samsung.png"
-        },
-        {
-            "alt": "Cloud Native Computing Foudnation",
-			"href": "https://www.cncf.io/",
-            "src": "/sponsors/CNCF.png"
-        }
-    ],
-    "gold": [
-        {
-            "alt": "SUSE",
-			"href": "https://www.suse.com/",
-            "src": "/sponsors/suse.png"
-        },
-        {
-            "alt": "HP Enterprise",
-			"href": "https://www.hpe.com/kr/ko/home.html",
-            "src": "/sponsors/hpe.png"
-        },
-        {
-            "alt": "MTOS",
-			"href": "http://www.mtos.co.kr/",
-            "src": "/sponsors/mtos.png"
-        },
-        {
-            "alt": "Nokia",
-			"href": "https://networks.nokia.com/",
-            "src": "/sponsors/nokia.jpg"
-        },
-        {
-            "alt": "SPTek",
-			"href": "http://www.sptek.co.kr/",
-            "src": "/sponsors/sptek.jpg"
-        },
-        {
-            "alt": "ATTO Research",
-			"href": "http://www.atto-research.com/",
-            "src": "/sponsors/atto-research.png"
-        },
-        {
-            "alt": "KINX",
-			"href": "https://www.kinx.net/",
-            "src": "/sponsors/kinx.jpg"
-        }
-    ],
-    "silver": [
-        {
-            "alt": "OpenStack Foundation",
-			"href": "https://www.openstack.org/",
-            "src": "/sponsors/openstack.png"
-        },
-        {
-            "alt": "Innogrid & Westpac",
-			"href": "#",
-            "src": "/sponsors/innogrid-westpac.png"
-        },
-        {
-            "alt": "LINE",
-			"href": "https://linecorp.com/",
-            "src": "/sponsors/line.jpg"
-        },
-        {
-            "alt": "XS.LAB",
-			"href": "#",
-            "src": "/sponsors/xslab.png"
-        },
-        {
-            "alt": "에덴파트너스코리아",
-			"href": "https://edenchain.io/",
-            "src": "/sponsors/edenpartnerskorea.png"
-        }
-    ],
-    "general": [
-        {
-            "alt": "CUBRID",
-			"href": "http://www.cubrid.com/",
-            "src": "/sponsors/cubrid.png"
-        },
-        {
-            "alt": "NCloud24",
-			"href": "https://www.ncloud24.com/",
-            "src": "/sponsors/ncloud24.png"
-        },
-        {
-            "alt": "Open Networking Foundation",
-			"href": "https://www.opennetworking.org/",
-            "src": "/sponsors/onf.png"
-        },
-        {
-            "alt": "IBM",
-			"href": "https://www.ibm.com/kr-ko/",
-            "src": "/sponsors/ibm.png"
-        }
-    ],
-    "media": [
-        {
-            "alt": "디지털데일리",
-			"href": "http://www.ddaily.co.kr/",
-            "src": "/sponsors/media-digital-daily.gif"
-        },
-        {
-            "alt": "네트워크타임즈",
-			"href": "http://www.datanet.co.kr/",
-            "src": "/sponsors/media-network-times.jpg"
-        },
-        {
-            "alt": "아크로팬",
-			"href": "http://kr.acrofan.com/",
-            "src": "/sponsors/media-acrofan.jpg"
-        },
-        {
-            "alt": "ZDNet",
-			"href": "http://zdnet.co.kr",
-            "src": "/sponsors/media-zdnet.png"
-        },
-        {
-            "alt": "테크수다",
-			"href": "http://www.techsuda.com/",
-            "src": "/sponsors/media-techsuda.png"
-        },
-        {
-            "alt": "한빛미디어",
-			"href": "http://www.hanbit.co.kr/media/",
-            "src": "/sponsors/book-hanbit.png"
-        },
-        {
-            "alt": "길벗",
-			"href": "https://www.gilbut.co.kr/",
-            "src": "/sponsors/book-gilbut.jpg"
-        }
-	]
+  "host": [
+    {
+      "alt": "OpenStack Korea User Group",
+      "href": "",
+      "src": "/sponsors/openstack-korea-user-group.png"
+    },
+    {
+      "alt": "OpenStack",
+      "href": "https://www.openstack.org",
+      "src": "/sponsors/openstack.png"
+    },
+    {
+      "alt": "CNCK",
+      "href": "",
+      "src": "/sponsors/CNCK.png"
+    }
+  ],
+  "organizer": [
+    {
+      "alt": "OpenStack Korea User Group",
+      "href": "",
+      "src": "/sponsors/openstack-korea-user-group.png"
+    },
+    {
+      "alt": "OpenStack",
+      "href": "https://www.openstack.org",
+      "src": "/sponsors/openstack.png"
+    },
+    {
+      "alt": "NIPA",
+      "href": "",
+      "src": "/sponsors/nipa.png"
+    }
+  ],
+  "diamond": [
+    {
+      "alt": "Kakao",
+      "href": "https://www.kakao.com/",
+      "src": "/sponsors/kakao.png"
+    },
+    {
+      "alt": "Samsung",
+      "href": "https://www.samsung.com/sec/aboutsamsung/home/",
+      "src": "/sponsors/samsung.png"
+    },
+    {
+      "alt": "SK Telecom",
+      "href": "https://www.sktelecom.com/index.html",
+      "src": "/sponsors/sk-telecom.png"
+    },
+    {
+      "alt": "Line",
+      "href": "https://line.me/ko/",
+      "src": "/sponsors/line.png"
+    }
+  ],
+  "gold": [
+    {
+      "alt": "Mantech",
+      "href": "http://www.mantech.co.kr",
+      "src": "/sponsors/mantech.png"
+    },
+    {
+      "alt": "Nutanix",
+      "href": "",
+      "src": "/sponsors/nutanix.png"
+    },
+    {
+      "alt": "F5",
+      "href": "",
+      "src": "/sponsors/f5.png"
+    },
+    {
+      "alt": "SK C&C",
+      "href": "",
+      "src": "/sponsors/sk-cnc.png"
+    },
+    {
+      "alt": "Red Hat",
+      "href": "",
+      "src": "/sponsors/redhat.png"
+    },
+    {
+      "alt": "NewRelic",
+      "href": "",
+      "src": "/sponsors/newrelic.png"
+    },
+    {
+      "alt": "CNCF",
+      "href": "",
+      "src": "/sponsors/cncf.png"
+    }
+  ],
+  "silver": [
+    {
+      "alt": "NetApp",
+      "href": "",
+      "src": "/sponsors/netapp.png"
+    }
+  ]
 }
