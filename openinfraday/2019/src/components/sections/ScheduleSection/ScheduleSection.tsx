@@ -75,6 +75,7 @@ const Table = styled.table`
 
   @media ${ON_MOBILE} {
     font-size: 13px;
+    table-layout: auto;
   }
 `
 
@@ -102,7 +103,7 @@ const TData = styled.td`
   }
 
   @media ${ON_MOBILE} {
-    padding: 5px;
+    padding: 10px;
   }
 `
 
