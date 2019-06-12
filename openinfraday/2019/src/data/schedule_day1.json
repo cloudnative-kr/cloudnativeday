@@ -4,7 +4,7 @@
       "time": "09:00 ~ 09:20",
       "cols": [
         {
-          "colSpan": 4,
+          "colSpan": 7,
           "title": "Registration & 전시부스 관람",
           "href": "https://event.openinfradays.kr/2018/session1/00_registration",
           "speakers": []
@@ -15,409 +15,263 @@
       "time": "09:20 ~ 09:30",
       "cols": [
         {
-          "colSpan": 4,
-          "title": "Opening & OpenInfra Days Korea 2018 프로그램 소개",
+          "colSpan": 1,
+          "title": "Opening",
           "href": "https://event.openinfradays.kr/2018/session1/01_opening",
-          "speakers": [
-            "조성수 - OpenStack Korea User Group",
-            "안승규 - Kubernetes User Group"
-          ],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018",
-          "video": "https://youtu.be/rVW9xGg5QZs"
+          "speakers": ["안승규 - Kubernetes User Group"]
+        },
+        {
+          "colSpan": 1,
+          "title": "Opening",
+          "href": "https://event.openinfradays.kr/2018/session1/01_opening",
+          "speakers": ["조성수 - OpenStack Korea User Group"]
+        },
+        {
+          "colSpan": 5,
+          "rowSpan": 6,
+          "title": "Broadcasting",
+          "speakers": []
         }
       ]
     },
     {
-      "time": "09:30 ~ 10:10",
+      "time": "09:30 ~ 09:50",
       "cols": [
         {
-          "colSpan": 4,
-          "title": "OpenStack Foundation Keynote",
+          "colSpan": 2,
+          "title": "Thank you all Sponsors on Cloud Native Day Korea & 프로그램 소개 Community Report",
           "href": "https://event.openinfradays.kr/2018/session1/11_keynote1",
-          "speakers": [
-            "Mark Collier, Chief Operating Officer - OpenStack Foundation",
-            "Lauren Sell, Vice President, Marketing and Community Services - OpenStack Foundation"
-          ],
-          "video": "https://youtu.be/_OrbxBYgprs"
+          "speakers": ["OpenStack", "Kubernetes", "Ceph", "OCP 커뮤니티"]
         }
       ]
     },
     {
-      "time": "10:10 ~ 10:30",
+      "time": "09:50 ~ 10:30",
       "cols": [
         {
-          "colSpan": 4,
-          "title": "Community Keynote - Cloud Native Computing Foundation",
+          "colSpan": 2,
+          "title": "Kenote 1",
           "href": "https://event.openinfradays.kr/2018/session1/11_keynote2",
-          "speakers": ["이제응 대표 - 한국 리눅스 재단"],
-          "video": "https://youtu.be/FuPvXPVO1SA"
+          "speakers": ["OSF"]
         }
       ]
     },
     {
-      "time": "10:30 ~ 10:40",
+      "time": "10:30 ~ 10:50",
       "cols": [
         {
-          "colSpan": 4,
-          "title": "Community Report",
+          "colSpan": 2,
+          "title": "Keynote 2",
           "href": "https://event.openinfradays.kr/2018/session1/11_keynote3",
-          "speakers": ["최영락 회장 - OpenStack Korea User Group"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-community-report",
-          "video": "https://youtu.be/zjeVqYCqIP4"
+          "speakers": ["NIPA"]
         }
       ]
     },
     {
-      "time": "10:40 ~ 11:00",
+      "time": "10:50 ~ 11:20",
       "cols": [
         {
-          "colSpan": 4,
-          "title": "공개SW 소비국을 넘어 기여국으로 도약을 위하여",
+          "colSpan": 2,
+          "title": "Keynote 3\nCloud, Current Currents and Directions with open powers",
           "href": "https://event.openinfradays.kr/2018/session1/11_keynote4",
-          "speakers": ["조재홍 팀장 - 정보통신산업진흥원"],
-          "video": "https://youtu.be/HN7U-MrrZhM"
+          "speakers": ["KAKAO"]
         }
       ]
     },
     {
-      "time": "11:00 ~ 11:15",
+      "time": "11:20 ~ 11:50",
       "cols": [
         {
-          "colSpan": 4,
-          "title": "Sponsor keynote - NetApp",
+          "colSpan": 2,
+          "title": "Keynote 4",
           "href": "https://event.openinfradays.kr/2018/session1/15_keynote_sponsors",
-          "speakers": ["전국섭 상무 - NetApp"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-netapp-open-source-with-netapp",
-          "video": "https://youtu.be/ai7VXJCv_t4"
+          "speakers": ["삼성전자"]
         }
       ]
     },
     {
-      "time": "11:15 ~ 11:30",
+      "time": "11:50 ~ 13:20",
       "cols": [
         {
-          "colSpan": 4,
-          "title": "Sponsor keynote - 맨텍",
-          "href": "https://event.openinfradays.kr/2018/session1/15_keynote_sponsors",
-          "speakers": ["이진현 이사 - 맨텍"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-103465744",
-          "video": "https://youtu.be/_c-jSJ3l6ug"
-        }
-      ]
-    },
-    {
-      "time": "11:30 ~ 11:45",
-      "cols": [
-        {
-          "colSpan": 4,
-          "title": "Sponsor keynote - 삼성전자",
-          "href": "https://event.openinfradays.kr/2018/session1/15_keynote_sponsors",
-          "speakers": ["남기범 - 삼성전자"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-evolution-to-cloud-native",
-          "video": "https://youtu.be/mchSBX0Cs40"
-        }
-      ]
-    },
-    {
-      "time": "11:45 ~ 12:00",
-      "cols": [
-        {
-          "colSpan": 4,
-          "title": "Sponsor keynote - 오픈소스컨설팅",
-          "href": "https://event.openinfradays.kr/2018/session1/15_keynote_sponsors",
-          "speakers": ["최지웅 기술총괄이사 - 오픈소스컨설팅"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-103465898",
-          "video": "https://youtu.be/zftKFlrOuFU"
-        }
-      ]
-    },
-    {
-      "time": "12:00 ~ 13:20",
-      "cols": [
-        {
-          "colSpan": 4,
-          "title": "점심 시간 (Lunch)",
+          "colSpan": 7,
+          "title": "점심식사 & 부스 둘러보기",
           "href": "https://event.openinfradays.kr/2018/session1/20_lunch",
           "speakers": []
         }
       ]
     },
     {
-      "time": "13:20 ~ 13:50",
+      "time": "13:20 ~ 14:00",
       "cols": [
         {
           "colSpan": 1,
-          "title": "Kubernetes 환경에서의 Volume 배포와 데이터 관리의 유연성 확보(실 테스트 사례 공유)",
+          "title": "",
           "href": "https://event.openinfradays.kr/2018/session1/track_1_0",
-          "speakers": ["김진학 부장 - NetApp", "장다성 선임 - LG CNS"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-1-kubernetes-volume"
+          "speakers": ["삼성전자"]
         },
         {
           "colSpan": 1,
-          "title": "컨테이너 기반 Deep Learning 구축 사례 소개",
+          "title": "",
           "href": "https://event.openinfradays.kr/2018/session1/track_2_0",
-          "speakers": ["서경진 차장 - HPE"]
+          "speakers": ["(스폰서)"]
         },
         {
           "colSpan": 1,
-          "title": "Software Defined Infrastructure 전략 및 사례",
+          "title": "Accelerating neutron DVR data plane using DPDK",
           "href": "https://event.openinfradays.kr/2018/session1/track_3_0",
-          "speakers": ["전철민 차장 - SUSE"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-3-software-defined-infrastructure"
+          "speakers": [""]
         },
         {
           "colSpan": 1,
-          "title": "CloudEvents 소개 - 상호 운용 가능성을 극대화한 이벤트 데이터를 정의하는 새로운 포맷",
+          "rowSpan": 3,
+          "title": "Ceph Community Hands-On Workshop",
           "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
-          "speakers": ["유정협 (Justin Yoo) - Mexia Consulting"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-1-kubernetes-volume",
-          "video": "https://youtu.be/h2_ZNTXwlVc"
+          "speakers": [""]
+        },
+        {
+          "colSpan": 1,
+          "rowSpan": 6,
+          "title": "Hands-on Kubernetes and Service Monitoring with Prometheus",
+          "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
+          "speakers": [""]
+        },
+        {
+          "colSpan": 1,
+          "rowSpan": 6,
+          "title": "Windows와 Linux 컨테이너를 동시에 지원하는 Kubernetes 클러스터 만들기 - 13:00~15:10    컨테이너 어렵게 배우기(Container The Hard Way) - 15:30~17:40",
+          "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
+          "speakers": [""]
+        },
+        {
+          "colSpan": 1,
+          "rowSpan": 6,
+          "title": "Kubernetes 101 Workshop II   Kubeadm 을 이용해 고가용성 Kubernetes 클러스터 구축하기  & Kubernetes the Hard Way 가이드가이드",
+          "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
+          "speakers": [""]
         }
       ]
     },
     {
-      "time": "13:50 ~ 14:20",
+      "time": "14:10 ~ 14:50",
       "cols": [
         {
           "colSpan": 1,
-          "title": "IaaS에서 PaaS로의 고도화 여정",
+          "title": "KOCOON – KAKAO Automatic K8S Monitoring",
           "href": "https://event.openinfradays.kr/2018/session1/track_1_1",
-          "speakers": ["김호성 차장 - 맨텍"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-1-iaas-paas"
+          "speakers": ["KAKAO"]
         },
         {
           "colSpan": 1,
-          "title": "Microservice Architecture, DevOps 그리고 5G Multi-access Edge Computing",
+          "title": "",
           "href": "https://event.openinfradays.kr/2018/session1/track_2_1",
-          "speakers": ["정정문 본부장 - 에스피테크놀로지"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-2-microservice-architecture-devops-5g-multiaccess-edge-computing"
+          "speakers": ["(스폰서)"]
         },
         {
           "colSpan": 1,
-          "title": "차세대 SDN과 오픈스택/컨테이너",
+          "title": "앤서블을 통한 오픈네트워크의 관리 자동화 ",
           "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
           "speakers": ["최성남 실장 - 노키아"]
-        },
-        {
-          "colSpan": 1,
-          "title": "Grafana를 이용한 OpenStack 클라우드 성능 모니터링",
-          "href": "https://event.openinfradays.kr/2018/session1/track_4_1",
-          "speakers": ["임재민 - 고려대학교"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-4-grafana-openstack-104161634",
-          "video": "https://youtu.be/is4zSNXJ5AA"
         }
       ]
     },
     {
-      "time": "14:20 ~ 14:30",
+      "time": "15:00 ~ 15:40",
+      "cols": [
+        {
+          "colSpan": 1,
+          "title": "",
+          "href": "https://event.openinfradays.kr/2018/session1/track_1_1",
+          "speakers": ["(스폰서)"]
+        },
+        {
+          "colSpan": 1,
+          "title": "",
+          "href": "https://event.openinfradays.kr/2018/session1/track_2_1",
+          "speakers": ["(스폰서)"]
+        },
+        {
+          "colSpan": 1,
+          "title": "kubernetes scheduler deep dive",
+          "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
+          "speakers": [""]
+        }
+      ]
+    },
+    {
+      "time": "15:40 ~ 16:10",
       "cols": [
         {
           "colSpan": 4,
-          "title": "휴식 시간 (Break)",
+          "title": "커피 브레이크",
           "href": "https://event.openinfradays.kr/2018/session1/90-break1",
           "speakers": []
         }
       ]
     },
     {
-      "time": "14:30 ~ 15:00",
+      "time": "16:10 ~ 16:50",
       "cols": [
         {
           "colSpan": 1,
-          "title": "Openstack 쉽게 설치하기 - SOfTI Easy Installer",
+          "title": "Community OpenStack & Ceph 기반 서비스 구축 사례 및  운영 장애 극복기",
           "href": "https://event.openinfradays.kr/2018/session1/track_1_2",
-          "speakers": ["박종한 - 삼성전자"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-1-openstack-softi-easy-installer"
+          "speakers": ["OSCI"]
         },
         {
           "colSpan": 1,
-          "title": "오픈스택 기반 온프레미스 및 멀티클라우드 연동 사례: IXcloud KDX",
+          "title": "Lession Learned from Running OpenStack on Baremetal Kubernetes Clusters in Telco NFV Production",
           "href": "https://event.openinfradays.kr/2018/session1/track_2_2",
-          "speakers": ["소병준 차장 - KINX"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-2-ixcloud-kdx"
+          "speakers": ["SKT"]
         },
         {
           "colSpan": 1,
-          "title": "Blockchain & Cloud",
+          "title": "Kubernetes에서 Kafka 와 Flink 를 사용하여 실시간 데이터 스트리밍 파이프라인 구현하기",
           "href": "https://event.openinfradays.kr/2018/session1/track_3_2",
-          "speakers": ["안명호 대표이사 - 주식회사 에덴파트너스코리아"]
+          "speakers": [""]
         },
         {
           "colSpan": 1,
-          "title": "Provisioning Dedicated Game Server on Kubernetes Cluster",
+          "title": "Meeting with Thierry",
           "href": "https://event.openinfradays.kr/2018/session1/track_4_2",
-          "speakers": ["김진웅 - SK C&C"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-4-provisioning-dedicated-game-server-on-kubernetes-cluster",
-          "video": "https://youtu.be/LtGGzKBoVZQ"
+          "speakers": ["OSF"]
         }
       ]
     },
     {
-      "time": "15:00 ~ 15:20",
-      "cols": [
-        {
-          "colSpan": 4,
-          "title": "커피 브레이크",
-          "href": "https://event.openinfradays.kr/2018/session1/90-break2",
-          "speakers": []
-        }
-      ]
-    },
-    {
-      "time": "15:20 ~ 15:50",
+      "time": "17:00 ~ 17:40",
       "cols": [
         {
           "colSpan": 1,
-          "title": "커뮤니티 오픈스택 패키징 도입 전략 및 구현사례 발표",
+          "title": "엔씨소프트에서 Kubernetes 운영하기",
           "href": "https://event.openinfradays.kr/2018/session1/track_1_3",
-          "speakers": ["김호진 - 오픈소스컨설팅"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-1"
+          "speakers": ["NC Soft"]
         },
         {
           "colSpan": 1,
-          "title": "넷마블의 Cloud 환경에서의 보안과 네트워크 성능 보안 (xFW), DPDK OVS",
+          "title": "라인에서 Kubernetes를 쓰는 방법과 그 동안 배운 것들",
           "href": "https://event.openinfradays.kr/2018/session1/track_2_3",
-          "speakers": ["손주호 클라우드기술팀 - 넷마블"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-2-cloud-xfw-dpdk-ovs"
+          "speakers": ["Line"]
         },
         {
           "colSpan": 1,
-          "title": "SDN/NFV enabled Openstack Platform : ATOM Stack",
+          "title": "Source to URL without Dockerfile",
           "href": "https://event.openinfradays.kr/2018/session1/track_3_3",
-          "speakers": ["윤성업 이사 - 아토리서치"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-3-sdnnfv-enabled-openstack-platform-atom-stack"
+          "speakers": [""]
         },
         {
           "colSpan": 1,
-          "title": "Backend.AI: 오픈소스 머신러닝 인프라 프레임워크",
+          "title": "Kubernetes Community Session",
           "href": "https://event.openinfradays.kr/2018/session1/track_4_3",
-          "speakers": ["신정규 - Lablup"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-4-backendai",
-          "video": "https://youtu.be/vpbfN6kbVH0"
+          "speakers": [""]
         }
       ]
     },
     {
-      "time": "15:50 ~ 16:20",
+      "time": "17:40 ~ 18:10",
       "cols": [
         {
-          "colSpan": 1,
-          "title": "TACO (SKT All Container OpenStack): Cloud Native로의 진화",
-          "href": "https://event.openinfradays.kr/2018/session1/track_1_4",
-          "speakers": ["안재석 - SK Telecom"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-1-taco-skt-all-container-openstack-cloud-native"
-        },
-        {
-          "colSpan": 1,
-          "title": "OpenStack 기반의 IaaS, PaaS 통합 Orchestration 플랫폼, DCOSTACK",
-          "href": "https://event.openinfradays.kr/2018/session1/track_2_4",
-          "speakers": ["하윤태 이사 - MTOS"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-2-openstack-iaas-paas-orchestration-dcostack"
-        },
-        {
-          "colSpan": 1,
-          "title": "OpenStack Automation with Ansible",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_4",
-          "speakers": ["장현정 - 한국레드햇"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-3-openstack-automation-with-ansible"
-        },
-        {
-          "colSpan": 1,
-          "title": "FreeIPA와 함께 SSO 구성",
-          "href": "https://event.openinfradays.kr/2018/session1/track_4_4",
-          "speakers": ["송상준 - 서진디에스에이"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-4-freeipa-sso",
-          "video": "https://youtu.be/nkywpHvqEwM"
-        }
-      ]
-    },
-    {
-      "time": "16:20 ~ 16:30",
-      "cols": [
-        {
-          "colSpan": 4,
-          "title": "휴식 시간 (Break)",
-          "href": "https://event.openinfradays.kr/2018/session1/90-break3",
-          "speakers": []
-        }
-      ]
-    },
-    {
-      "time": "16:30 ~ 17:00",
-      "cols": [
-        {
-          "colSpan": 1,
-          "title": "From OpenStack to cloud native",
-          "href": "https://event.openinfradays.kr/2018/session1/track_1_5",
-          "speakers": ["공용준 - Kakao"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-1-from-openstack-to-cloud-native"
-        },
-        {
-          "colSpan": 1,
-          "title": "Neutron LBaaS 어디까지 왔니? - Octavia 소개",
-          "href": "https://event.openinfradays.kr/2018/session1/track_2_5",
-          "speakers": ["우병열 - 넥슨코리아"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-2-neutron-lbaas-octavia"
-        },
-        {
-          "colSpan": 1,
-          "title": "CephFS with OpenStack Manila based on Bluestore and Erasure Code",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_5",
-          "speakers": ["유장선 - 네이버"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-3-cephfs-with-openstack-manila-based-on-bluestore-and-erasure-code"
-        },
-        {
-          "colSpan": 1,
-          "title": "오픈스택기반 NFV 관리 및 HA (high Availability) 기술",
-          "href": "https://event.openinfradays.kr/2018/session1/track_4_5",
-          "speakers": [
-            "양현식, 김민욱 - 숭실대 인터넷인프라시스템 기술연구센터"
-          ],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-4-nfv-ha-high-availability",
-          "video": "https://youtu.be/aBsq6ujIrKs"
-        }
-      ]
-    },
-    {
-      "time": "17:00 ~ 17:30",
-      "cols": [
-        {
-          "colSpan": 1,
-          "title": "컨테이너 시대에 딱 맞는 매니코어 기반의 ARM 서버",
-          "href": "https://event.openinfradays.kr/2018/session1/track_1_6",
-          "speakers": ["유명환 - 엑세스랩(주)"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-1-arm"
-        },
-        {
-          "colSpan": 1,
-          "title": "Helm - Kubernetes Package Manager",
-          "href": "https://event.openinfradays.kr/2018/session1/track_2_6",
-          "speakers": ["김대성 - SK Telecom"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-2-helm-kubernetes-package-manager-103468301"
-        },
-        {
-          "colSpan": 1,
-          "title": "Zuul v3 - OpenStack 인프라 코드로 CI/CD 살펴보기",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_6",
-          "speakers": ["최영락 - OpenStack Korea User Group"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-track-3-zuul-v3-openstack-cicd"
-        },
-        {
-          "colSpan": 1,
-          "title": "Ceph Storage, PaaS 로 서비스/운영하기",
-          "href": "https://event.openinfradays.kr/2018/session1/track_4_6",
-          "speakers": ["하현 - 네이버"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-1-t47-ceph-paas",
-          "video": "https://www.youtube.com/watch?v=dufOETgGweQ"
-        }
-      ]
-    },
-    {
-      "time": "17:30 ~ 17:40",
-      "cols": [
-        {
-          "colSpan": 4,
-          "title": "경품 추첨 및 마무리",
+          "colSpan": 7,
+          "title": "경품 추첨 & 정리",
           "href": "https://event.openinfradays.kr/2018/session1/99_closing",
           "speakers": []
         }
