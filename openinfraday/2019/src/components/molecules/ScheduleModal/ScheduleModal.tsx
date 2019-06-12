@@ -1,17 +1,37 @@
 import React, { FC } from 'react'
 import styled from 'styled-components/macro'
-import { ON_DESKTOP } from 'constants/responsive'
+import { ON_MOBILE } from 'constants/responsive'
 import { CloseO } from 'styled-icons/evil/CloseO'
+import { Flex, Box } from '@rebass/grid'
+import SampleImg from 'speakers/cho.jpg'
 
 const ModalWrapper = styled.div`
   width: 100%;
   height: 100%;
+  min-height: 600px;
+  min-width: 1100px;
+
   background-color: #2f323e;
 
-  @media ${ON_DESKTOP} {
-    width: 80%;
-    height: 85%;
-    position: absolute;
+  @media ${ON_MOBILE} {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    min-width: 310px;
+  }
+`
+
+const ContentWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  padding: 50px 0 0 0;
+
+  @media ${ON_MOBILE} {
+    min-width: 310px;
   }
 `
 
@@ -19,10 +39,97 @@ const CloseButton = styled(CloseO)`
   cursor: pointer;
   position: absolute;
   display: block;
-  padding: 10px 15px;
+  height: 30px;
   line-height: 20px;
   right: 0px;
   top: 0px;
+`
+
+const FirstSection = styled.div`
+  display: flex;
+  width: 100%;
+`
+
+const Title = styled.div`
+  max-width: 500px;
+  font-size: 30px;
+  font-weight: bold;
+`
+
+const SpeakerRow = styled.div`
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-bottom: 10px;
+`
+
+const SpeakerInfoRow = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+`
+
+const SpeakerName = styled.div`
+  font-size: 22px;
+  width: 100%;
+  font-weight: bold;
+  @media ${ON_MOBILE} {
+    font-size: 17px;
+    font-weight: bold;
+  }
+`
+
+const SpeakerImage = styled.img`
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-right: 20px;
+  @media ${ON_MOBILE} {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+  }
+`
+
+const SpeakerAffiliation = styled.div`
+  width: 100%;
+  color: #f74c4f;
+  /* font-weight: bold; */
+  font-size: 17px;
+  @media ${ON_MOBILE} {
+    font-size: 13px;
+    /* font-weight: bold; */
+  }
+`
+const SpeakerDescription = styled.div`
+  width: 100%;
+  font-size: 15px;
+  margin-top: 10px;
+  border-top: 4px solid white;
+  padding-top: 10px;
+  letter-spacing: 0.2px;
+
+  @media ${ON_MOBILE} {
+    font-size: 13px;
+  }
+`
+
+const TrackInfoRow = styled.div`
+  display: inline-flex;
+  margin-top: 5px;
+`
+
+const Track = styled.div`
+  padding: 0 4px;
+  border-radius: 1px;
+  font-size: 17px;
+  background: rgb(244, 160, 122);
+  margin-right: 5px;
+  color: #2f323e;
+  @media ${ON_MOBILE} {
+    font-size: 13px;
+  }
 `
 
 interface ScheduleModalProps {
@@ -31,7 +138,39 @@ interface ScheduleModalProps {
 
 const ScheduleModal: FC<ScheduleModalProps> = ({ close }) => (
   <>
-    <ModalWrapper />
+    <ModalWrapper>
+      <ContentWrapper>
+        {/* <CloseButton /> */}
+        <Flex flexWrap="wrap">
+          <Box width={[1, 1, 1, 50 / 100]}>
+            <Title>Opening & OpenInfra Days Korea 2018 프로그램 소개</Title>
+            <TrackInfoRow>
+              <Track>4:00 pm</Track>
+              <Track>Track 1</Track>
+            </TrackInfoRow>
+          </Box>
+          <Box width={[1, 1, 1, 50 / 100]}>
+            <SpeakerRow>
+              <SpeakerImage src="speakers/cho.jpg" />
+              <SpeakerInfoRow>
+                <SpeakerName>김정수</SpeakerName>
+                <SpeakerAffiliation>
+                  OpenStack Korea User Group
+                </SpeakerAffiliation>
+              </SpeakerInfoRow>
+            </SpeakerRow>
+            <SpeakerDescription>
+              고가용성, 저비용, 유연하게 확장 가능한 인프라 그리고 빠른 서비스
+              딜리버리를 가능하게하기 위한 인프라의 중요성은 갈수록 증가 하고
+              있습니다. IaaS, PaaS, CaaS, SDS 영역에서 SUSE에서 서포트하는
+              프로젝트인 OpenStack, Cloud Foundry, Kubernetes, Ceph 등의
+              오픈소스 프로젝트를 활용한 SUSE의 인프라 구축/운영 전략, 사용하는
+              기술스택, 사례 그리고 HPE와의 파트너쉽을 소개 합니다.
+            </SpeakerDescription>
+          </Box>
+        </Flex>
+      </ContentWrapper>
+    </ModalWrapper>
   </>
 )
 

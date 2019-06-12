@@ -5,6 +5,8 @@ import Header from '../../atoms/Header/Header'
 import scheduleDay1Data from '../../../data/schedule_day1.json'
 import scheduleDay2Data from '../../../data/schedule_day2.json'
 import { ON_MOBILE } from '../../../constants/responsive'
+import Popup from 'reactjs-popup'
+import ScheduleModal from 'components/molecules/ScheduleModal/ScheduleModal'
 
 const StyledHeader = styled(Header)`
   color: #fff;
@@ -95,9 +97,12 @@ const TData = styled.td`
   text-align: left;
   border: 1px solid #a4a4a4;
 
-  a {
-    text-decoration: none;
-    color: rgb(244, 160, 122);
+  .popup-content {
+    padding: 0px !important;
+    border: 0px !important;
+    background: transparent !important;
+    width: auto !important;
+    /* min-width: 400px; */
   }
 
   @media ${ON_MOBILE} {
@@ -108,6 +113,8 @@ const TData = styled.td`
 const Title = styled.div`
   font-weight: bold;
   margin-bottom: 10px;
+  text-decoration: none;
+  color: rgb(244, 160, 122);
 `
 
 const Speaker = styled.div`
@@ -154,11 +161,13 @@ class ScheduleSection extends PureComponent {
         <THeader>{row.time}</THeader>
         {row.cols.map((col, i) => (
           <TData key={i} colSpan={col.colSpan} rowSpan={col.rowSpan || 1}>
-            <Title>
-              <a href={col.href} target="_blank">
-                {col.title}
-              </a>
-            </Title>
+            <Popup
+              trigger={<Title>{col.title}</Title>}
+              modal={true}
+              closeOnDocumentClick={true}
+            >
+              {close => <ScheduleModal close={close} />}
+            </Popup>
             {col.speakers.map(s => (
               <Speaker key={s}>{s}</Speaker>
             ))}
