@@ -31,10 +31,10 @@ const BarWrapper = styled.div<{ sticky?: boolean }>`
   font-size: 12px;
   top: 0;
   width: 100%;
-  height: 70px;
+  height: 90px;
   position: fixed;
   z-index: 102;
-  transition: all 0.3s ease;
+  transition: all 0.1s linear;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   color: rgba(0, 0, 0, 0);
@@ -47,8 +47,8 @@ const BarWrapper = styled.div<{ sticky?: boolean }>`
   ${p =>
     p.sticky &&
     css`
-      height: 47px;
-      background-color: rgba(50, 50, 50, 0.3);
+      height: 60px;
+      background-color: rgba(50, 50, 50, 1);
     `};
 `
 
@@ -58,6 +58,7 @@ const LogoBox = styled(Box)`
 const Menu = styled(Flex)`
   width: 80%;
   justify-content: flex-end;
+  align-items: flex-start;
 `
 
 const FestaLogoAdjuster = styled.div`
@@ -75,27 +76,31 @@ interface MenuLinkProps {
 }
 
 const MenuLink = styled(Button)<MenuLinkProps>`
+  letter-spacing: -0.3px;
   height: 30px;
   padding: 0 5px 0 5px;
   margin: 0 15px 0 15px;
-  font-size: 14px;
+  font-size: 16px;
   background-color: transparent;
   border: 0;
   line-height: inherit;
   word-break: keep-all;
-  transition: all 0.1s ease;
-
+  font-weight: bold;
+  transition: all 0.1s linear;
+  border-radius: 0;
   &:hover,
   &:focus {
     background-color: transparent;
-    font-weight: bold;
-    text-shadow: 0px 0px 15px lightblue;
+    /* text-shadow: 0px 0px 3px lightblue; */
+    color: rgb(244, 160, 122);
     cursor: pointer;
+    border-bottom: 3px solid rgb(244, 160, 122);
   }
   &:active {
     background-color: transparent;
     font-weight: bold;
-    text-shadow: 0px 0px 15px lightblue;
+    /* text-shadow: 0px 0px 3px lightblue; */
+    color: rgb(244, 160, 122);
   }
 
   @media ${ON_MOBILE} {
@@ -113,9 +118,10 @@ const MenuLink = styled(Button)<MenuLinkProps>`
   ${p =>
     p.ghost &&
     css`
+      font-weight: 600;
       padding: 0 15px 0 15px;
       border: 1.3px solid ${WHITE};
-      border-radius: 30px;
+      /* border-radius: 30px; */
       background-color: #fff;
       color: ${CHARCOAL_BLACK};
       &:hover,
@@ -187,10 +193,10 @@ class NavigationBar extends Component<NavigationBarProps> {
       <BarWrapper sticky={this.state.isSticky}>
         <Container flexWrap="wrap" px={2}>
           <LogoBox>
-            <FestaLogoAdjuster>
+            {/* <FestaLogoAdjuster>
               <FestaLogo size={50} />
             </FestaLogoAdjuster>
-            <CollaborationX size={15} />
+            <CollaborationX size={15} /> */}
             <ExternalLogo src={OpenInfraDayLogo} size={35} />
           </LogoBox>
           <Menu>
