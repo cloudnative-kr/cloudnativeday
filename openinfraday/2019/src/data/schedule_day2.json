@@ -1,397 +1,295 @@
 {
-  "workshop1": [
+  "rows": [
     {
       "time": "09:00 ~ 09:30",
       "cols": [
         {
-          "colSpan": 2,
-          "title": "2일차 - Registration & 전시부스 관람",
-          "href": "https://event.openinfradays.kr/2018/session2/00_registration",
+          "colSpan": 7,
+          "title": "Registration & 전시부스 관람",
+          "href": "https://event.openinfradays.kr/2018/session1/00_registration",
           "speakers": []
         }
       ]
     },
     {
-      "time": "09:30 ~ 09:55",
+      "time": "09:30 ~ 10:00",
       "cols": [
         {
-          "colSpan": 1,
-          "rowSpan": 2,
-          "title": "Invited Talk: A Day in the Java Developer's Life, with a Taste of Kubernetes",
-          "href": "https://event.openinfradays.kr/2018/session2/10_track1",
-          "speakers": ["Arun Gupta (Principal Open Source Technologist) - AWS"]
+          "colSpan": 3,
+          "title": "Keynote 1",
+          "href": "https://event.openinfradays.kr/2018/session1/01_opening",
+          "speakers": ["Community Invited Talk"]
         },
         {
-          "colSpan": 1,
-          "rowSpan": 1,
-          "title": "Invited Talk: Mesos to Kubernetes, cloud native 서비스를 위한 여정",
-          "href": "https://event.openinfradays.kr/2018/session2/10_track2_1",
-          "speakers": ["홍석용 - Kakao"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-e5-mesos-to-kubernetes-cloud-native",
-          "video": "https://youtu.be/rA20Q_g6nXM"
-        }
-      ]
-    },
-    {
-      "time": "09:55 ~ 10:20",
-      "cols": [
-        {
-          "colSpan": 1,
-          "title": "Invited Talk: Kubicorn - Building Simple Kubernetes Infrastructure",
-          "href": "https://event.openinfradays.kr/2018/session2/10_track2_2",
-          "speakers": ["안승규 - Kubernetes UG / SKT"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-e51-invited-talk-kubicorn-building-simple-kubernetes-infrastructure",
-          "video": "https://youtu.be/xgdK031o3VE"
-        }
-      ]
-    },
-    {
-      "time": "10:20 ~ 10:30",
-      "cols": [
-        {
-          "colSpan": 1,
-          "title": "Break",
-          "href": "https://event.openinfradays.kr/2018/session2/15_track1",
-          "speakers": []
-        },
-        {
-          "colSpan": 1,
-          "title": "Break",
-          "href": "https://event.openinfradays.kr/2018/session2/15_track2",
+          "colSpan": 4,
+          "rowSpan": 5,
+          "title": "Broadcasting",
           "speakers": []
         }
       ]
     },
     {
-      "time": "10:30 ~ 11:05",
+      "time": "10:00 ~ 10:30",
       "cols": [
         {
-          "colSpan": 1,
-          "title": "K8s: User Groups 공동 워크샵 I-1",
-          "href": "https://event.openinfradays.kr/2018/session2/20_track1",
-          "speakers": ["안승규 - Kubernetes user Group"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-k8s-workshop-kubernetes-for-beginner"
-        },
-        {
-          "colSpan": 1,
-          "title": "K8s: User Groups 공동 워크샵 II-1 (20분)",
-          "href": "https://event.openinfradays.kr/2018/session2/20_track2",
-          "speakers": ["최영락 - OpenStack Korea User Group & Microsoft MVP"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-k8s-workshop-with-containers-k8s-on-openstack-azure",
-          "video": "https://youtu.be/buPUOUh57Lk"
+          "colSpan": 3,
+          "title": "Keynote 2",
+          "href": "https://event.openinfradays.kr/2018/session1/11_keynote1",
+          "speakers": ["Cloud Native Computing Foundation"]
         }
       ]
     },
     {
-      "time": "11:05 ~ 11:40",
+      "time": "10:30 ~ 11:00",
       "cols": [
         {
-          "colSpan": 1,
-          "title": "K8s: User Groups 공동 워크샵 I-2",
-          "href": "https://event.openinfradays.kr/2018/session2/20_track1",
-          "speakers": ["유정열 - AWS 한국 사용자 그룹"]
-        },
-        {
-          "colSpan": 1,
-          "title": "K8s: User Groups 공동 워크샵 II-2 (50분)",
-          "href": "https://event.openinfradays.kr/2018/session2/20_track2",
-          "speakers": ["남정현 - Korea Azure User Group"],
-          "material": "https://www.slideshare.net/rkttu/kubernetes-windows-application",
-          "video": "https://youtu.be/Osbx5pIx5_Q"
+          "colSpan": 3,
+          "title": "Keynote 3",
+          "href": "https://event.openinfradays.kr/2018/session1/11_keynote3",
+          "speakers": ["Open Compute Project"]
         }
       ]
     },
     {
-      "time": "11:40 ~ 11:50",
+      "time": "11:00 ~ 11:20",
       "cols": [
         {
-          "colSpan": 1,
-          "title": "오후 프로그램 소개",
-          "href": "https://event.openinfradays.kr/2018/session2/30_track1",
-          "speakers": [],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2"
-        },
-        {
-          "colSpan": 1,
-          "title": "오후 프로그램 소개",
-          "href": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2",
-          "speakers": [],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018"
+          "colSpan": 3,
+          "title": "Keynote 4",
+          "href": "https://event.openinfradays.kr/2018/session1/11_keynote4",
+          "speakers": ["SKT"]
         }
       ]
     },
     {
-      "time": "12:00 ~ 13:20",
+      "time": "11:20 ~ 11:40",
       "cols": [
         {
-          "colSpan": 2,
-          "title": "점심 식사 & 부스 둘러보기",
-          "href": "https://event.openinfradays.kr/2018/session2/35_lunch",
+          "colSpan": 3,
+          "title": "Break & 이동",
+          "href": "https://event.openinfradays.kr/2018/session1/15_keynote_sponsors",
+          "speakers": []
+        }
+      ]
+    },
+
+    {
+      "time": "12:00 ~ 12:40",
+      "cols": [
+        {
+          "colSpan": 1,
+          "title": "대륙의 서비스 개발 삽질기",
+          "href": "https://event.openinfradays.kr/2018/session1/track_1_0",
+          "speakers": ["Kubernetes", "마이크로서비스"]
+        },
+        {
+          "colSpan": 1,
+          "title": "카카오는 Kubernetes 클러스터 500개를 어떻게 운영하고 있을까?",
+          "href": "https://event.openinfradays.kr/2018/session1/track_2_0",
+          "speakers": []
+        },
+        {
+          "colSpan": 1,
+          "title": "OCP Community Session",
+          "href": "https://event.openinfradays.kr/2018/session1/track_3_0",
+          "speakers": []
+        },
+        {
+          "colSpan": 1,
+          "title": "2-16: 쿠버네티스를 이용한 기능 브랜치별 테스트 서버 만들기",
+          "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
+          "speakers": []
+        },
+        {
+          "colSpan": 1,
+          "title": "워크샵 준비",
+          "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
+          "speakers": []
+        },
+        {
+          "colSpan": 1,
+          "title": "워크샵 준비",
+          "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
+          "speakers": []
+        },
+        {
+          "colSpan": 1,
+          "title": "워크샵 준비",
+          "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
           "speakers": []
         }
       ]
     },
     {
-      "time": "13:20 ~ 13:50",
+      "time": "12:40~ 14:00",
       "cols": [
         {
-          "colSpan": 1,
-          "rowSpan": 3,
-          "title": "워크샵: 실 업무에 사용해보는 Kubernetes",
-          "href": "https://event.openinfradays.kr/2018/session2/40_track1-1",
-          "speakers": ["공진기 - IBM"],
-          "material": "https://github.com/jgkong/kubernetes-handson"
-        },
-        {
-          "colSpan": 1,
-          "title": "Device as a Service",
-          "href": "https://event.openinfradays.kr/2018/session2/40_track2-1",
-          "speakers": ["유준희 - 삼성전자"]
-        }
-      ]
-    },
-    {
-      "time": "13:50 ~ 14:20",
-      "cols": [
-        {
-          "colSpan": 1,
-          "title": "차세대 SDN(Nuage) 기반 오픈스택 클라우드 네트워크 관리 데모",
-          "href": "https://event.openinfradays.kr/2018/session2/40_track2-3",
-          "speakers": ["고재곤 차장 - Nokia"]
-        }
-      ]
-    },
-    {
-      "time": "14:20 ~ 14:50",
-      "cols": [
-        {
-          "colSpan": 1,
-          "title": "KubeMonkey를 통한 Chaos Engineering 실전 운영하기",
-          "href": "https://event.openinfradays.kr/2018/session2/40_track2-5",
-          "speakers": ["윤석찬 - Korea Chaos Engineering Community"]
-        }
-      ]
-    },
-    {
-      "time": "14:50 ~ 15:20",
-      "cols": [
-        {
-          "colSpan": 2,
-          "title": "Coffee Break",
-          "href": "https://event.openinfradays.kr/2018/session2/45_coffeebreak",
+          "colSpan": 7,
+          "title": "점심식사 & 부스 둘러보기",
+          "href": "https://event.openinfradays.kr/2018/session1/track_1_1",
           "speakers": []
         }
       ]
     },
     {
-      "time": "15:20 ~ 16:00",
+      "time": "14:00 ~ 14:40",
       "cols": [
-        {
-          "colSpan": 1,
-          "title": "CEPH 운영자를 위한 Object Storage Performance Tuning",
-          "href": "https://event.openinfradays.kr/2018/session2/50_track1",
-          "speakers": ["한승진 - netmarble"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-ceph-object-storage-performance-tuning"
-        },
-        {
-          "colSpan": 1,
-          "title": "OpenInfra monitoring with Prometheus",
-          "href": "https://event.openinfradays.kr/2018/session2/50_track2",
-          "speakers": ["문진수 - SK C&C"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-e6-openinfra-monitoring-with-prometheus"
-        }
-      ]
-    },
-    {
-      "time": "16:10 ~ 16:50",
-      "cols": [
-        {
-          "colSpan": 1,
-          "title": "GPU on Kubernetes",
-          "href": "https://event.openinfradays.kr/2018/session2/60_track1",
-          "speakers": ["이종철 책임 - LG CNS"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-e5-gpu-on-kubernetes"
-        },
-        {
-          "colSpan": 1,
-          "title": "SONA: ONOS SDN Controller 기반 OpenStack/Kubernetes 네트워크 관리 솔루션",
-          "href": "https://event.openinfradays.kr/2018/session2/60_track2",
-          "speakers": [
-            "이건 - ONF Korea",
-            "신상호 - ONF Korea",
-            "박민철 - ONF Korea"
-          ],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-e6-sona-onos-sdn-controller-openstackkubernetes"
-        }
-      ]
-    },
-    {
-      "time": "17:00 ~ 17:40",
-      "cols": [
-        {
-          "colSpan": 1,
-          "title": "Gitlab과 Kubernetes를 통한 CI/CD구축",
-          "href": "https://event.openinfradays.kr/2018/session2/70_track1",
-          "speakers": ["김철구 - 콘텐츠연합플랫폼"],
-          "material": "https://www.slideshare.net/ssuser158055/gitlab-kubernetes-cicd"
-        },
-        {
-          "colSpan": 1,
-          "title": "마이크로서비스를 위한 Istio & Kubernetes",
-          "href": "https://event.openinfradays.kr/2018/session2/70_track2",
-          "speakers": ["김충섭 - Purpleworks"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-e6-istio-kubernetes"
-        }
-      ]
-    },
-    {
-      "time": "17:40 ~ 18:00",
-      "cols": [
-        {
-          "colSpan": 2,
-          "title": "경품 추첨 및 마무리",
-          "href": "https://event.openinfradays.kr/2018/session2/99_closing",
-          "speakers": []
-        }
-      ]
-    }
-  ],
-  "workshop2": [
-    {
-      "time": "10:00 ~ 11:50",
-      "cols": [
-        {
-          "colSpan": 1,
-          "title": "핸즈온 워크샵: ONOS (SONA)를 이용한 OpenStack 네트워크 관리 실습",
-          "href": "https://event.openinfradays.kr/2018/workshop2/10_track-morning-1",
-          "speakers": [
-            "이건 - ONF Korea",
-            "신상호 - ONF Korea",
-            "박민철 - ONF Korea"
-          ],
-          "material": "https://github.com/sonaproject/sona_all_in_one_install/blob/master/README.md"
-        },
         {
           "colSpan": 1,
           "title": "",
+          "href": "https://event.openinfradays.kr/2018/session1/track_1_1",
+          "speakers": ["(스폰서: SKT)"]
+        },
+        {
+          "colSpan": 1,
+          "title": "멀티 k8s 클러스터 환경에서의 데이터 Mobility 구현",
+          "href": "https://event.openinfradays.kr/2018/session1/track_2_1",
+          "speakers": ["NetApp"]
+        },
+        {
+          "colSpan": 1,
+          "title": "Open-Channel Solid Date Drives: Update and Future Steps",
+          "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
           "speakers": []
         },
         {
           "colSpan": 1,
-          "title": "",
-          "speakers": []
-        },
-        {
-          "colSpan": 1,
-          "title": "",
+          "title": "Game metrics monitoring on Kubernetes",
+          "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
           "speakers": []
         },
         {
           "colSpan": 1,
           "rowSpan": 5,
-          "title": "Upstream Training Korea 2018",
-          "href": "https://event.openinfradays.kr/2018/workshop2/10_track-morning-7",
+          "title": "Line Corp - Deep Dive Workshops",
+          "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
+          "speakers": []
+        },
+        {
+          "colSpan": 1,
+          "rowSpan": 5,
+          "title": "Aerodome Hands-on Workshop",
+          "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
           "speakers": [
-            "Ildiko Vanska - Ecosystem Technical Lead, OpenStack Foundation",
-            "Kendall Nelson - Upstream Developer Advocate, OpenStack Foundation"
+            "BM, Ceph, Kubernetes, OpenStack, LMA",
+            "Kubernetes on OpenStack (Cluster-API OpenStack Provider)"
           ]
-        }
-      ]
-    },
-    {
-      "time": "12:00 ~ 13:20",
-      "cols": [
+        },
         {
-          "colSpan": 4,
-          "title": "점심 식사 & 부스 둘러보기",
-          "href": "https://event.openinfradays.kr/2018/workshop2/15_lunch",
+          "colSpan": 1,
+          "rowSpan": 5,
+          "title": "How to scale your ML job with Kubernetes",
+          "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
           "speakers": []
         }
       ]
     },
     {
-      "time": "13:00 ~ 14:50",
+      "time": "14:50 ~ 15:30",
       "cols": [
         {
           "colSpan": 1,
-          "title": "딥다이브 - OpenStack 생존기",
-          "href": "https://event.openinfradays.kr/2018/workshop2/20-track-1",
-          "speakers": [
-            "김호진 이사 - 오픈소스컨설팅",
-            "우성진 과장 - 오픈소스컨설팅",
-            "이영주 과장 - 오픈소스컨설팅",
-            "윤찬열 과장 - 오픈소스컨설팅"
-          ],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-e1-openstack"
+          "title": "",
+          "href": "https://event.openinfradays.kr/2018/session1/track_1_2",
+          "speakers": ["(스폰서)"]
         },
         {
           "colSpan": 1,
-          "title": "핸즈온 워크샵 - Azure Kubernetes Service와 Virtual Kubelet",
-          "href": "https://event.openinfradays.kr/2018/workshop2/20-track-2",
-          "speakers": ["남정현 - Korea Azure User Group"],
-          "material": "https://bit.ly/2KvJtzV"
+          "title": "",
+          "href": "https://event.openinfradays.kr/2018/session1/track_2_2",
+          "speakers": ["(스폰서)"]
         },
         {
           "colSpan": 1,
-          "title": "GKE 딥다이브: Initial Service Deployment and Advanced Cluster Management",
-          "href": "https://event.openinfradays.kr/2018/workshop2/20-track-3",
-          "speakers": ["이민구 - CTO, Shakr (Google Cloud Platform User Group)"]
+          "title": "High Density Rack Power Cooling",
+          "href": "https://event.openinfradays.kr/2018/session1/track_3_2",
+          "speakers": []
         },
         {
           "colSpan": 1,
-          "title": "핸즈온 워크샵: 서버리스가 컨테이너를 만났을 때",
-          "href": "https://event.openinfradays.kr/2018/workshop2/20-track-4",
-          "speakers": ["유정협 (Justin Yoo) - Mexia Consulting"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-e4",
-          "video": "https://youtu.be/OfMF46icSWE"
-        }
-      ]
-    },
-    {
-      "time": "14:50 ~ 15:20",
-      "cols": [
-        {
-          "colSpan": 4,
-          "title": "Coffee Break",
-          "href": "https://event.openinfradays.kr/2018/workshop2/25_coffeebreak",
+          "title": "Efficient Job Scheduling for Machine Learning Workloads in Kubernetes Environments",
+          "href": "https://event.openinfradays.kr/2018/session1/track_4_2",
           "speakers": []
         }
       ]
     },
     {
-      "time": "15:30 ~ 17:20",
+      "time": "15:30 ~ 16:00",
+      "cols": [
+        {
+          "colSpan": 4,
+          "title": "커피/다과 브레이크",
+          "href": "https://event.openinfradays.kr/2018/session1/90-break1",
+          "speakers": []
+        }
+      ]
+    },
+    {
+      "time": "16:00 ~ 16:40",
       "cols": [
         {
           "colSpan": 1,
-          "title": "핸즈온 워크샵: 온프레미스에서 Kubernetes 구축 및 관리하기",
-          "href": "https://event.openinfradays.kr/2018/workshop2/30-track-1",
-          "speakers": ["양현주 - IBM Cloud User Group"],
-          "material": "https://github.com/gracehyunjuyang/ibmcloudprivate-handson"
+          "title": "Deep Dive into Kubernetes internal",
+          "href": "https://event.openinfradays.kr/2018/session1/track_1_2",
+          "speakers": []
         },
         {
           "colSpan": 1,
-          "title": "핸즈온 워크샵: AWS에서 Kops를 활용한 Kubernetes 클러스터 운영하기",
-          "href": "https://event.openinfradays.kr/2018/workshop2/30-track-2",
-          "speakers": ["유정열/베스핀글로벌 - AWS 한국 사용자 모임"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-e2-aws-kops-kubernetes-cluster"
+          "title": "대규모 GPU 기반 K8S Cluster를 활용한  ML Training Troubleshooting",
+          "href": "https://event.openinfradays.kr/2018/session1/track_2_2",
+          "speakers": []
         },
         {
           "colSpan": 1,
-          "title": "핸즈온 워크샵: Kubespray, Helm, Armada를 이용한 OpenStack on Kubernetes 구축",
-          "href": "https://event.openinfradays.kr/2018/workshop2/30-track-3",
-          "speakers": [
-            "안승규 - Kubernetes User Group & OpenStack Korea Community / SKT",
-            "추자원 - Kubernetes User Group & OpenStack Korea Community / SKT"
-          ],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-e32-kubespray-helm-armada-openstack-on-kubernetes"
+          "title": "Ceph 성능 최적화를 위한 White-box 접근",
+          "href": "https://event.openinfradays.kr/2018/session1/track_3_2",
+          "speakers": []
         },
         {
           "colSpan": 1,
-          "title": "딥다이브: immutable Kubernetes architecture",
-          "href": "https://event.openinfradays.kr/2018/workshop2/30-track-4",
-          "speakers": ["이어형 - 라인"],
-          "material": "https://www.slideshare.net/openstack_kr/openinfra-days-korea-2018-day-2-e4-immutable-kubernetes-architecture",
-          "video": "https://youtu.be/uOckBOG4Qfs"
+          "title": "Video understanding on KubeFlow: KubeFlow 위에서 \"도둑\"자바요",
+          "href": "https://event.openinfradays.kr/2018/session1/track_4_2",
+          "speakers": []
+        }
+      ]
+    },
+    {
+      "time": "16:50 ~ 17:30",
+      "cols": [
+        {
+          "colSpan": 1,
+          "title": "Truly understanding container",
+          "href": "https://event.openinfradays.kr/2018/session1/track_1_3",
+          "speakers": []
+        },
+        {
+          "colSpan": 1,
+          "title": "POOQ의 마이크로 서비스 적용 사례",
+          "href": "https://event.openinfradays.kr/2018/session1/track_2_3",
+          "speakers": []
+        },
+        {
+          "colSpan": 1,
+          "title": "ceph 클러스터의 서비스 수준 99.9999% 운영",
+          "href": "https://event.openinfradays.kr/2018/session1/track_3_3",
+          "speakers": []
+        },
+        {
+          "colSpan": 1,
+          "title": "Kubernetes를 활용하여 효율적인 Machine Learning Pipeline 만들기",
+          "href": "https://event.openinfradays.kr/2018/session1/track_4_3",
+          "speakers": []
+        }
+      ]
+    },
+    {
+      "time": "17:30 ~ 18:00",
+      "cols": [
+        {
+          "colSpan": 7,
+          "title": "경품 추첨 & 정리",
+          "href": "https://event.openinfradays.kr/2018/session1/99_closing",
+          "speakers": []
         }
       ]
     }
