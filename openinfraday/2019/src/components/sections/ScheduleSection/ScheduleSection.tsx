@@ -1,5 +1,5 @@
 import React, { PureComponent, Fragment, MouseEvent } from 'react'
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components/macro'
 import Container, { InnerContainer } from '../../atoms/Container/Container'
 import Header from '../../atoms/Header/Header'
 import scheduleDay1Data from '../../../data/schedule_day1.json'
@@ -7,9 +7,15 @@ import scheduleDay2Data from '../../../data/schedule_day2.json'
 import { ON_MOBILE } from '../../../constants/responsive'
 
 const StyledHeader = styled(Header)`
-  span {
+  color: #fff;
+
+  /* span {
     background-color: yellow;
-  }
+  } */
+`
+
+const StyledContainer = styled(Container)`
+  background-color: rgba(31, 26, 50, 1);
 `
 
 const DayButtonRow = styled.div`
@@ -58,9 +64,13 @@ const TableWrapper = styled.div`
 const Table = styled.table`
   width: 100%;
   min-width: 600px;
-  border-top: 8px solid black;
-  border-bottom: 8px solid black;
+  border-top: 5px double #fff;
+  border-bottom: 4px double #fff;
   border-collapse: collapse;
+
+  font-size: 14px;
+  table-layout: fixed;
+  color: #fff;
 
   @media ${ON_MOBILE} {
     font-size: 13px;
@@ -71,8 +81,8 @@ const TRow = styled.tr``
 
 const THeader = styled.th`
   padding: 8px;
-  border: 1px solid #4a4a4a;
-  min-width: 200px;
+  border: 1px solid #a4a4a4;
+  min-width: 100px;
 
   @media ${ON_MOBILE} {
     padding: 4px;
@@ -81,9 +91,14 @@ const THeader = styled.th`
 `
 
 const TData = styled.td`
-  padding: 20px;
-  text-align: center;
-  border: 1px solid #4a4a4a;
+  padding: 30px 15px;
+  text-align: left;
+  border: 1px solid #a4a4a4;
+
+  a {
+    text-decoration: none;
+    color: rgb(244, 160, 122);
+  }
 
   @media ${ON_MOBILE} {
     padding: 5px;
@@ -92,10 +107,12 @@ const TData = styled.td`
 
 const Title = styled.div`
   font-weight: bold;
+  margin-bottom: 10px;
 `
 
 const Speaker = styled.div`
-  color: #5a5a5a;
+  color: #fff;
+  font-size: 13px;
 `
 
 const TableLabel = styled.div`
@@ -177,6 +194,9 @@ class ScheduleSection extends PureComponent {
               <THeader>Track 2</THeader>
               <THeader>Track 3</THeader>
               <THeader>Track 4</THeader>
+              <THeader>Track 5</THeader>
+              <THeader>Track 6</THeader>
+              <THeader>Track 7</THeader>
             </TRow>
           </thead>
           <tbody>{this.renderTableRows(scheduleDay1Data.rows)}</tbody>
@@ -223,7 +243,7 @@ class ScheduleSection extends PureComponent {
 
   render() {
     return (
-      <Container>
+      <StyledContainer>
         <InnerContainer>
           <StyledHeader>
             <span>Schedule</span>
@@ -246,7 +266,7 @@ class ScheduleSection extends PureComponent {
             ? this.renderDay1Table()
             : this.renderDay2Table()}
         </InnerContainer>
-      </Container>
+      </StyledContainer>
     )
   }
 }
