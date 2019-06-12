@@ -31,12 +31,12 @@ const BarWrapper = styled.div<{ sticky?: boolean }>`
   font-size: 12px;
   top: 0;
   width: 100%;
-  height: 90px;
+  height: 70px;
   position: fixed;
   z-index: 102;
-  transition: all 0.1s linear;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+  /* transition: all 0.1s linear; */
+  /* -webkit-transform: translate3d(0, 0, 0); */
+  /* transform: translate3d(0, 0, 0); */
   color: rgba(0, 0, 0, 0);
 
   * {
@@ -47,7 +47,6 @@ const BarWrapper = styled.div<{ sticky?: boolean }>`
   ${p =>
     p.sticky &&
     css`
-      height: 60px;
       background-color: rgba(50, 50, 50, 1);
     `};
 `
