@@ -5,11 +5,11 @@ import styled from 'styled-components/macro'
 import { ON_MOBILE } from '../../../constants/responsive'
 
 const StyledContainer = styled(Container)`
-  background: #dc3b3b;
+  background: #dc3232;
 `
 
 const Row = styled.div`
-  margin-top: 50px;
+  margin-top: 40px;
 `
 
 const TopRow = styled(Row)`
@@ -17,16 +17,17 @@ const TopRow = styled(Row)`
 `
 
 const Label = styled.div`
-  text-align: right;
-  font-size: 26px;
+  font-size: 18px;
+  font-weight: 500;
   color: white;
 
   @media ${ON_MOBILE} {
-    font-size: 22px;
+    font-size: 14px;
   }
 `
 
 const Line = styled.hr`
+  margin-top: 40px;
   border-top: 6px solid white;
 
   @media ${ON_MOBILE} {
@@ -37,9 +38,10 @@ const Line = styled.hr`
 const Para = styled.p`
   color: white;
   font-family: sans-serif;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 22px;
+  font-weight: 600;
   word-break: keep-all;
+  margin-top: 6px;
 
   strong {
     font-weight: bold;
@@ -59,35 +61,51 @@ const InfoSection: FC = () => {
   return (
     <StyledContainer>
       <InnerContainer>
-        <Header white={true}>Information</Header>
+        <Header white={true}>
+          Open Infrastructure & <br />
+          Cloud Native Days Korea 2019
+        </Header>
         <TopRow>
-          <Label>OpenInfra Days Korea 2018</Label>
-          <Line />
-          <Para>
-            주제 - Open Infrastructure: OpenStack, Containers, and Cloud Native
-            Computing
-            <br />
-            주최 - OpenStack 한국 커뮤니티, OpenStack Foundation, CNCF 한국
-            커뮤니티
-            <br />
-            주관 - OpenStack 한국 커뮤니티, CNCF 한국 커뮤니티, OpenStack
-            Foundation, 정보통신산업진흥원
-            <br />
-          </Para>
+          <Label>주제</Label>
+          <Para>Bring All Together: Open and Intelligent Infrastructure</Para>
         </TopRow>
         <Row>
-          <Label>일시 및 장소</Label>
-          <Line />
+          <Label>주최</Label>
           <Para>
-            2018년 <strong>6월 28일(목) - 29일(금)</strong> 09:00~18:00
+            OpenStack 한국 커뮤니티
             <br />
-            코엑스 3층 컨퍼런스룸 E (구 Hall E)
+            OpenStack Foundation
+            <br />
+            CNCF 한국 커뮤니티
+            <br />
+            Ceph 한국커뮤니티
+          </Para>
+        </Row>
+        <Row>
+          <Label>주관</Label>
+          <Para>
+            OpenStack 한국 커뮤니티
+            <br />
+            CNCF 한국 커뮤니티
+            <br />
+            OpenStack Foundation
+            <br />
+            정보통신산업진흥원
+          </Para>
+        </Row>
+        <Line />
+        <Row>
+          <Label>일시 및 장소</Label>
+          <Para>
+            2019년 <strong>7월 18일(목) - 19일(금)</strong> 09:00~18:00
+            <br />
+            페럼타워, 삼화타워, T타워 (을지로입구)
           </Para>
         </Row>
         <GoogleMapWrapper>
           <iframe
             title="google"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.400950026019!2d127.05634489542675!3d37.512408109623685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2012d6bd01b%3A0x30702ebd32133065!2z7Iqk7YOA7ZWE65OcIOy9lOyXkeyKpOuqsA!5e0!3m2!1sko!2skr!4v1528983025793"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2045.8915763695397!2d126.98480390590787!3d37.56696928999183!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc4e8b08386639fe1!2zRmVycnVtIFRvd2VyICjtjpjrn7wg7YOA7JuMKQ!5e0!3m2!1sen!2skr!4v1560367089994!5m2!1sen!2skr"
             width="100%"
             height="100%"
             frameBorder="0"
