@@ -63,7 +63,7 @@ class IntroSection extends Component {
                 Open Infrastructure: OpenStack, Containers, and Cloud Native
                 Computing
               </strong>
-              이라는 주제로 <strong>Open Infra Days Korea 2018</strong>을
+              이라는 주제로 <strong>Open Infra Days Korea 2019</strong>을
               개최합니다. OpenStack/OpenInfra Days는 OpenStack Foundation에서
               주최 참여를 하는 공식 글로벌 행사이며, 전 세계 많은 나라에서
               개최되고 있습니다.
@@ -82,7 +82,7 @@ class IntroSection extends Component {
               중심으로 한 다양한 프로그램을 구성하였습니다.
             </Para>
             <Para>
-              Open Infra Days Korea 2018에서는 클라우드 컴퓨팅 및 컨테이너를
+              Open Infra Days Korea 2019에서는 클라우드 컴퓨팅 및 컨테이너를
               이루는 OpenStack, Ceph, Docker, Kubernetes 등 다양한 오픈 인프라
               솔루션과 함께 DevOps, CI/CD 등 다양한 오픈 인프라에서의 유스
               케이스와 관련한 다양한 분야의 기술들을 접하고, 서로 얘기하고 배울

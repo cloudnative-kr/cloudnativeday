@@ -260,7 +260,7 @@ const ScheduleModal = ({ close }: { close: any }) => (
         {/* <CloseButton /> */}
         <Flex flexWrap="wrap">
           <SectionRow>
-            <Title>Opening & OpenInfra Days Korea 2018 프로그램 소개</Title>
+            <Title>Opening & OpenInfra Days Korea 2019 프로그램 소개</Title>
             <TrackInfoRow>
               <Track>4:00 pm</Track>
               <Track>Track 1</Track>

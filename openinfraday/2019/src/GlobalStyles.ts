@@ -4,6 +4,7 @@ import { fontFace } from 'polished'
 
 const GlobalStyle = createGlobalStyle`
   ${styledNormalize}
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
 
   body {
     margin: 0;

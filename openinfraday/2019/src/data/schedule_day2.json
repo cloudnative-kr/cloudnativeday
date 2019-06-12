@@ -6,7 +6,7 @@
         {
           "colSpan": 7,
           "title": "Registration & 전시부스 관람",
-          "href": "https://event.openinfradays.kr/2018/session1/00_registration",
+          "href": "https://event.openinfradays.kr/2019/session1/00_registration",
           "speakers": []
         }
       ]
@@ -17,7 +17,7 @@
         {
           "colSpan": 3,
           "title": "Keynote 1",
-          "href": "https://event.openinfradays.kr/2018/session1/01_opening",
+          "href": "https://event.openinfradays.kr/2019/session1/01_opening",
           "speakers": ["Community Invited Talk"]
         },
         {
@@ -34,7 +34,7 @@
         {
           "colSpan": 3,
           "title": "Keynote 2",
-          "href": "https://event.openinfradays.kr/2018/session1/11_keynote1",
+          "href": "https://event.openinfradays.kr/2019/session1/11_keynote1",
           "speakers": ["Cloud Native Computing Foundation"]
         }
       ]
@@ -45,7 +45,7 @@
         {
           "colSpan": 3,
           "title": "Keynote 3",
-          "href": "https://event.openinfradays.kr/2018/session1/11_keynote3",
+          "href": "https://event.openinfradays.kr/2019/session1/11_keynote3",
           "speakers": ["Open Compute Project"]
         }
       ]
@@ -56,7 +56,7 @@
         {
           "colSpan": 3,
           "title": "Keynote 4",
-          "href": "https://event.openinfradays.kr/2018/session1/11_keynote4",
+          "href": "https://event.openinfradays.kr/2019/session1/11_keynote4",
           "speakers": ["SKT"]
         }
       ]
@@ -67,7 +67,7 @@
         {
           "colSpan": 3,
           "title": "Break & 이동",
-          "href": "https://event.openinfradays.kr/2018/session1/15_keynote_sponsors",
+          "href": "https://event.openinfradays.kr/2019/session1/15_keynote_sponsors",
           "speakers": []
         }
       ]
@@ -79,43 +79,43 @@
         {
           "colSpan": 1,
           "title": "대륙의 서비스 개발 삽질기",
-          "href": "https://event.openinfradays.kr/2018/session1/track_1_0",
+          "href": "https://event.openinfradays.kr/2019/session1/track_1_0",
           "speakers": ["Kubernetes", "마이크로서비스"]
         },
         {
           "colSpan": 1,
           "title": "카카오는 Kubernetes 클러스터 500개를 어떻게 운영하고 있을까?",
-          "href": "https://event.openinfradays.kr/2018/session1/track_2_0",
+          "href": "https://event.openinfradays.kr/2019/session1/track_2_0",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "OCP Community Session",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_0",
+          "href": "https://event.openinfradays.kr/2019/session1/track_3_0",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "2-16: 쿠버네티스를 이용한 기능 브랜치별 테스트 서버 만들기",
-          "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
+          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "워크샵 준비",
-          "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
+          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "워크샵 준비",
-          "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
+          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "워크샵 준비",
-          "href": "https://event.openinfradays.kr/2018/session1/track_4_0",
+          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
           "speakers": []
         }
       ]
@@ -126,7 +126,7 @@
         {
           "colSpan": 7,
           "title": "점심식사 & 부스 둘러보기",
-          "href": "https://event.openinfradays.kr/2018/session1/track_1_1",
+          "href": "https://event.openinfradays.kr/2019/session1/track_1_1",
           "speakers": []
         }
       ]
@@ -137,39 +137,39 @@
         {
           "colSpan": 1,
           "title": "",
-          "href": "https://event.openinfradays.kr/2018/session1/track_1_1",
+          "href": "https://event.openinfradays.kr/2019/session1/track_1_1",
           "speakers": ["(스폰서: SKT)"]
         },
         {
           "colSpan": 1,
           "title": "멀티 k8s 클러스터 환경에서의 데이터 Mobility 구현",
-          "href": "https://event.openinfradays.kr/2018/session1/track_2_1",
+          "href": "https://event.openinfradays.kr/2019/session1/track_2_1",
           "speakers": ["NetApp"]
         },
         {
           "colSpan": 1,
           "title": "Open-Channel Solid Date Drives: Update and Future Steps",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
+          "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "Game metrics monitoring on Kubernetes",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
+          "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
           "speakers": []
         },
         {
           "colSpan": 1,
           "rowSpan": 5,
           "title": "Line Corp - Deep Dive Workshops",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
+          "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
           "speakers": []
         },
         {
           "colSpan": 1,
           "rowSpan": 5,
           "title": "Aerodome Hands-on Workshop",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
+          "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
           "speakers": [
             "BM, Ceph, Kubernetes, OpenStack, LMA",
             "Kubernetes on OpenStack (Cluster-API OpenStack Provider)"
@@ -179,7 +179,7 @@
           "colSpan": 1,
           "rowSpan": 5,
           "title": "How to scale your ML job with Kubernetes",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_1",
+          "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
           "speakers": []
         }
       ]
@@ -190,25 +190,25 @@
         {
           "colSpan": 1,
           "title": "",
-          "href": "https://event.openinfradays.kr/2018/session1/track_1_2",
+          "href": "https://event.openinfradays.kr/2019/session1/track_1_2",
           "speakers": ["(스폰서)"]
         },
         {
           "colSpan": 1,
           "title": "",
-          "href": "https://event.openinfradays.kr/2018/session1/track_2_2",
+          "href": "https://event.openinfradays.kr/2019/session1/track_2_2",
           "speakers": ["(스폰서)"]
         },
         {
           "colSpan": 1,
           "title": "High Density Rack Power Cooling",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_2",
+          "href": "https://event.openinfradays.kr/2019/session1/track_3_2",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "Efficient Job Scheduling for Machine Learning Workloads in Kubernetes Environments",
-          "href": "https://event.openinfradays.kr/2018/session1/track_4_2",
+          "href": "https://event.openinfradays.kr/2019/session1/track_4_2",
           "speakers": []
         }
       ]
@@ -219,7 +219,7 @@
         {
           "colSpan": 4,
           "title": "커피/다과 브레이크",
-          "href": "https://event.openinfradays.kr/2018/session1/90-break1",
+          "href": "https://event.openinfradays.kr/2019/session1/90-break1",
           "speakers": []
         }
       ]
@@ -230,25 +230,25 @@
         {
           "colSpan": 1,
           "title": "Deep Dive into Kubernetes internal",
-          "href": "https://event.openinfradays.kr/2018/session1/track_1_2",
+          "href": "https://event.openinfradays.kr/2019/session1/track_1_2",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "대규모 GPU 기반 K8S Cluster를 활용한  ML Training Troubleshooting",
-          "href": "https://event.openinfradays.kr/2018/session1/track_2_2",
+          "href": "https://event.openinfradays.kr/2019/session1/track_2_2",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "Ceph 성능 최적화를 위한 White-box 접근",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_2",
+          "href": "https://event.openinfradays.kr/2019/session1/track_3_2",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "Video understanding on KubeFlow: KubeFlow 위에서 \"도둑\"자바요",
-          "href": "https://event.openinfradays.kr/2018/session1/track_4_2",
+          "href": "https://event.openinfradays.kr/2019/session1/track_4_2",
           "speakers": []
         }
       ]
@@ -259,25 +259,25 @@
         {
           "colSpan": 1,
           "title": "Truly understanding container",
-          "href": "https://event.openinfradays.kr/2018/session1/track_1_3",
+          "href": "https://event.openinfradays.kr/2019/session1/track_1_3",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "POOQ의 마이크로 서비스 적용 사례",
-          "href": "https://event.openinfradays.kr/2018/session1/track_2_3",
+          "href": "https://event.openinfradays.kr/2019/session1/track_2_3",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "ceph 클러스터의 서비스 수준 99.9999% 운영",
-          "href": "https://event.openinfradays.kr/2018/session1/track_3_3",
+          "href": "https://event.openinfradays.kr/2019/session1/track_3_3",
           "speakers": []
         },
         {
           "colSpan": 1,
           "title": "Kubernetes를 활용하여 효율적인 Machine Learning Pipeline 만들기",
-          "href": "https://event.openinfradays.kr/2018/session1/track_4_3",
+          "href": "https://event.openinfradays.kr/2019/session1/track_4_3",
           "speakers": []
         }
       ]
@@ -288,7 +288,7 @@
         {
           "colSpan": 7,
           "title": "경품 추첨 & 정리",
-          "href": "https://event.openinfradays.kr/2018/session1/99_closing",
+          "href": "https://event.openinfradays.kr/2019/session1/99_closing",
           "speakers": []
         }
       ]

@@ -7,7 +7,7 @@ import { Box } from '@rebass/grid'
 
 const Wrapper = styled.div`
   text-align: center;
-  background: url('/backgrounds/Rectangle.png') no-repeat center center;
+  background: url('/backgrounds/seoul.png') no-repeat center center;
   background-size: cover;
   padding-top: 62px;
   padding-bottom: 200px;
@@ -141,13 +141,13 @@ const OrganizerLogos = styled.img`
 const LandingSection: FC = () => (
   <Wrapper>
     <Logo src={OpenInfraDayLogo} />
-    <Title>Open Infra Days Korea 2018</Title>
+    <Title>Open Infra Days Korea 2019</Title>
     <SubTitle>
-      June 28-29, 2018. 9:00AM - 6:00PM
+      July 18-19, 2019. 9:00AM - 6:00PM
       <br />
-      Coex 3층 Conference Hall E.
+      페럼타워, 삼화타워, T타워 (을지로입구)
     </SubTitle>
-    {/* <Countdown date="28 June 2018 09:00:00" renderer={EventCountDown} /> */}
+    {/* <Countdown date="28 June 2019 09:00:00" renderer={EventCountDown} /> */}
     <Organizers>
       <OrganizerLabel>- Hosted By -</OrganizerLabel>
       <Box width={1}>

@@ -55,7 +55,7 @@ const FooterSection: FC = () => (
       </a>
       .
       <br />
-      Copyright (c) 2018 OpenStack Korea User Group and Festa.io All Rights
+      Copyright (c) 2019 OpenStack Korea User Group and Festa.io All Rights
       Reserved.
     </Disclaimer>
   </StyledContainer>
