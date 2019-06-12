@@ -96,9 +96,10 @@ const SponsorsSection: FC = () => {
     <StyledContainer>
       <InnerContainer>
         <Header white={true}>Sponsors</Header>
+
         <Row>
-          <Label shadowColor="lightblue">Platinum</Label>
-          {renderImageGrid(sponsorsData.platinum)}
+          <Label shadowColor="lightblue">Diamond</Label>
+          {renderImageGrid(sponsorsData.diamond)}
         </Row>
 
         <Row>
@@ -109,16 +110,6 @@ const SponsorsSection: FC = () => {
         <Row>
           <Label shadowColor="silver">Silver</Label>
           {renderImageGrid(sponsorsData.silver)}
-        </Row>
-
-        <Row>
-          <Label shadowColor="black">후원</Label>
-          {renderImageGrid(sponsorsData.general)}
-        </Row>
-
-        <Row>
-          <Label shadowColor="black">미디어 후원</Label>
-          {renderImageGrid(sponsorsData.media)}
         </Row>
       </InnerContainer>
     </StyledContainer>

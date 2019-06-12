@@ -25,12 +25,14 @@ const DayButtonRow = styled.div`
 `
 
 const DayButton = styled.button<{ active: boolean }>`
-  padding: 10px 60px;
+  padding: 10px 60px 20px 60px;
   font-size: 24px;
   font-weight: bold;
   border: none;
   outline: none;
   transition: all 0.2s ease;
+  color: #fff;
+  background: none;
 
   &:last-of-type {
     margin-left: 20px;
@@ -39,8 +41,7 @@ const DayButton = styled.button<{ active: boolean }>`
   ${p =>
     p.active &&
     css`
-      background: url('/icons/carrot.svg') no-repeat left;
-      background-size: 30px;
+      border-bottom: 8px double #fff;
     `};
 
   ${p =>
@@ -76,6 +77,7 @@ const Table = styled.table`
 
   @media ${ON_MOBILE} {
     font-size: 13px;
+    table-layout: auto;
   }
 `
 
@@ -106,7 +108,7 @@ const TData = styled.td`
   }
 
   @media ${ON_MOBILE} {
-    padding: 5px;
+    padding: 10px;
   }
 `
 
@@ -120,6 +122,7 @@ const Title = styled.div`
 const Speaker = styled.div`
   color: #fff;
   font-size: 13px;
+  margin-bottom: 5px;
 `
 
 const TableLabel = styled.div`
@@ -192,64 +195,6 @@ class ScheduleSection extends PureComponent {
     ))
   }
 
-  renderDay1Table = () => {
-    return (
-      <TableWrapper>
-        <Table>
-          <thead>
-            <TRow>
-              <THeader />
-              <THeader>Track 1</THeader>
-              <THeader>Track 2</THeader>
-              <THeader>Track 3</THeader>
-              <THeader>Track 4</THeader>
-              <THeader>Track 5</THeader>
-              <THeader>Track 6</THeader>
-              <THeader>Track 7</THeader>
-            </TRow>
-          </thead>
-          <tbody>{this.renderTableRows(scheduleDay1Data.rows)}</tbody>
-        </Table>
-      </TableWrapper>
-    )
-  }
-
-  renderDay2Table = () => {
-    return (
-      <Fragment>
-        <TableWrapper>
-          <TableLabel>Kubernetes Workshop & Sessions</TableLabel>
-          <Table>
-            <thead>
-              <TRow>
-                <THeader />
-                <THeader>Room E5</THeader>
-                <THeader>Room E6</THeader>
-              </TRow>
-            </thead>
-            <tbody>{this.renderTableRows(scheduleDay2Data.workshop1)}</tbody>
-          </Table>
-        </TableWrapper>
-        <TableWrapper>
-          <TableLabel>Workshop / Deep Dive Sessions</TableLabel>
-          <Table>
-            <thead>
-              <TRow>
-                <THeader />
-                <THeader>Room E1</THeader>
-                <THeader>Room E2</THeader>
-                <THeader>Room E3</THeader>
-                <THeader>Room E4</THeader>
-                <THeader>Room E7</THeader>
-              </TRow>
-            </thead>
-            <tbody>{this.renderTableRows(scheduleDay2Data.workshop2)}</tbody>
-          </Table>
-        </TableWrapper>
-      </Fragment>
-    )
-  }
-
   render() {
     return (
       <StyledContainer>
@@ -271,9 +216,29 @@ class ScheduleSection extends PureComponent {
               day 2
             </DayButton>
           </DayButtonRow>
-          {this.state.day === 'day1'
-            ? this.renderDay1Table()
-            : this.renderDay2Table()}
+          <TableWrapper>
+            <Table>
+              <thead>
+                <TRow>
+                  <THeader />
+                  <THeader>Track 1</THeader>
+                  <THeader>Track 2</THeader>
+                  <THeader>Track 3</THeader>
+                  <THeader>Track 4</THeader>
+                  <THeader>Track 5</THeader>
+                  <THeader>Track 6</THeader>
+                  <THeader>Track 7</THeader>
+                </TRow>
+              </thead>
+              <tbody>
+                {this.renderTableRows(
+                  this.state.day === 'day1'
+                    ? scheduleDay1Data.rows
+                    : scheduleDay2Data.rows,
+                )}
+              </tbody>
+            </Table>
+          </TableWrapper>
         </InnerContainer>
       </StyledContainer>
     )
