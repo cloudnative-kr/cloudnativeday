@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import styled from 'styled-components/macro'
-import { ON_MOBILE } from 'constants/responsive'
+import { ON_MOBILE, ON_TABLET } from 'constants/responsive'
 import { CloseO } from 'styled-icons/evil/CloseO'
 import { Flex, Box } from '@rebass/grid'
 import SampleImg from 'speakers/cho.jpg'
@@ -15,7 +15,7 @@ const ModalWrapper = styled.div`
 
   @media ${ON_MOBILE} {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     min-height: 500px;
     min-width: 310px;
   }
@@ -28,10 +28,11 @@ const ContentWrapper = styled.div`
   margin: auto;
   line-height: 1.3;
   letter-spacing: -0.5px;
-  padding: 50px 0 50px 0;
+  padding: 50px 0 60px 0;
 
-  @media ${ON_MOBILE} {
+  @media ${ON_TABLET} {
     min-width: 310px;
+    padding: 50px 15px;
   }
 `
 
@@ -39,17 +40,28 @@ const CloseButton = styled(CloseO)`
   cursor: pointer;
   position: absolute;
   display: block;
-  height: 40px;
+  height: 60px;
   line-height: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
   right: 0px;
   top: 0px;
+  @media ${ON_TABLET} {
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  &:hover,
+  &:focus {
+    color: lightblue;
+  }
 `
 
 const SectionRow = styled.div`
   display: flex;
   width: 100%;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 `
 
 const Title = styled.div`
@@ -121,12 +133,31 @@ const TrackInfoRow = styled.div`
 `
 
 const Track = styled.div`
-  padding: 0 4px;
+  padding: 0 6px;
   border-radius: 1px;
+  font-weight: bold;
   font-size: 17px;
   background: rgb(244, 160, 122);
-  margin-right: 5px;
+  margin-right: 7px;
   color: #2f323e;
+  @media ${ON_MOBILE} {
+    font-size: 13px;
+  }
+`
+
+const SpeakerDeck = styled.div`
+  margin-left: auto;
+  padding: 0 7px;
+  font-weight: bold;
+  border-radius: 2px;
+  font-size: 17px;
+  color: white;
+  background: #f74c4f;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
   @media ${ON_MOBILE} {
     font-size: 13px;
   }
@@ -167,6 +198,7 @@ const ScheduleModal: FC<ScheduleModalProps> = ({ close }) => (
             <TrackInfoRow>
               <Track>4:00 pm</Track>
               <Track>Track 1</Track>
+              <SpeakerDeck>발표자료</SpeakerDeck>
             </TrackInfoRow>
             <TrackDescription>
               고가용성, 저비용, 유연하게 확장 가능한 인프라 그리고 빠른 서비스
@@ -180,6 +212,23 @@ const ScheduleModal: FC<ScheduleModalProps> = ({ close }) => (
           <SectionRow>
             <Title>Speaker</Title>
           </SectionRow>
+          <SpeakerBox width={[1, 1, 1 / 2]}>
+            <SpeakerRow>
+              <SpeakerImage src="speakers/cho.jpg" />
+              <SpeakerInfoRow>
+                <SpeakerName>김정수</SpeakerName>
+                <SpeakerAffiliation>
+                  OpenStack Korea User Group
+                </SpeakerAffiliation>
+              </SpeakerInfoRow>
+            </SpeakerRow>
+            <SpeakerDescription>
+              2007년부터 개발, 보안, 시스템 엔지니어링 등의 분야에서 경험을 쌓아
+              왔으며, 2015년도에 SUSE Korea에 입사하여 Technical Specialist로서
+              High Available하고 Scalable한 인프라를 소개 및 구축 하는 일을
+              담당하고 있습니다.
+            </SpeakerDescription>
+          </SpeakerBox>
           <SpeakerBox width={[1, 1, 1 / 2]}>
             <SpeakerRow>
               <SpeakerImage src="speakers/cho.jpg" />

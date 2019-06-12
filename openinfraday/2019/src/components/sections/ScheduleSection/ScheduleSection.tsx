@@ -117,6 +117,11 @@ const Title = styled.div`
   margin-bottom: 10px;
   text-decoration: none;
   color: rgb(244, 160, 122);
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    background: #2f323e;
+  }
 `
 
 const Speaker = styled.div`
