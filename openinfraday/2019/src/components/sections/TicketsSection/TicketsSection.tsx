@@ -32,6 +32,12 @@ const Buy = styled(Button)`
   &:active {
     background-color: ${lighten(0.2, BUTTON_COLOR)};
   }
+
+  @media ${ON_MOBILE} {
+    font-size: 22px !important;
+    width: 200px;
+    height: 80px;
+  }
 `
 
 const TicketHeader = styled(Header)`
@@ -98,8 +104,10 @@ const Card = styled.div`
   background-color: #fff;
   width: 100%;
   max-width: 1300px;
+  margin: auto;
   margin-bottom: 70px;
   /* box-shadow: 0 4px 8px 0 rgba(194, 194, 194, 0.5); */
+
   @media ${ON_MOBILE} {
     margin-bottom: 40px;
   }
@@ -111,6 +119,7 @@ const TicketTitle = styled.div`
   font-size: 48px;
   color: black;
   margin-bottom: -5px;
+  white-space: pre-line;
   @media ${ON_MOBILE} {
     font-size: 30px;
   }
@@ -183,37 +192,6 @@ const TicketItem: FC<TicketItemProps> = ({ title, contents, price }) => (
   </Card>
 )
 
-const Ticket = {
-  title: 'Day 1 티켓',
-  contents: [
-    '6월 28일 하루 등록권 입니다.',
-    '당일 현장 등록 선착순 300명에게 무료 점심식사가 제공 됩니다.',
-  ],
-  price: '15,000',
-}
-
-const Ticket2 = {
-  title: 'Day 2 티켓',
-  contents: [
-    '6월 29일 하루 등록권 입니다.',
-    '워크샵을 무료로 등록하실 수 있습니다.',
-    '당일 현장 등록 선착순 300명에게 무료 점심식사가 제공 됩니다.',
-  ],
-  price: '15,000',
-}
-
-const Ticket3 = {
-  title: 'Day1 + 2 (양일)',
-  contents: [
-    '28,29일 양일 등록권 입니다.',
-    '워크샵을 무료로 등록하실 수 있습니다.',
-    '양일 현장 등록 선착순 300명에게 무료 점심식사가 제공 됩니다.',
-  ],
-  price: '20,000',
-}
-
-const tickets = [Ticket, Ticket2, Ticket3]
-
 interface TicketsSectionProps {
   handleTicketBuy: () => void
 }
@@ -223,11 +201,13 @@ const TicketsSection: FC<TicketsSectionProps> = ({ handleTicketBuy }) => (
     <InnerContainer>
       <TicketHeader>Tickets</TicketHeader>
     </InnerContainer>
-    {tickets.map(t => (
-      <TicketItem key={t.title} {...t} />
-    ))}
+    <TicketItem
+      title={`양일 티켓 \n(Day1 + 2)`}
+      contents={['17, 18일 참가권입니다.', '워크샵을 신청하실 수 있습니다.']}
+      price={'30,000'}
+    />
     <Flex justifyContent="center" alignItems="center">
-      <Box py={50}>
+      <Box py={[50, 20]}>
         <Buy
           onClick={handleTicketBuy}
           width={'320px'}
