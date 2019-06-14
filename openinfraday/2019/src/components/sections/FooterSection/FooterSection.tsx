@@ -1,12 +1,16 @@
 import React, { FC } from 'react'
-import styled from 'styled-components'
+import styled from 'styled-components/macro'
 import Container from '../../atoms/Container/Container'
 import { ON_MOBILE } from '../../../constants/responsive'
 
 const StyledContainer = styled(Container)`
   background: rgb(26, 27, 30);
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 10px;
+
+  @media ${ON_MOBILE} {
+    padding-top: 30px;
+  }
 `
 
 const BrandBox = styled.div`
@@ -27,10 +31,14 @@ const BrandBox = styled.div`
 `
 
 const Disclaimer = styled.div`
-  margin-top: 100px;
+  margin-top: 50px;
   font-family: Spoqa Han Sans;
   font-size: 13px;
   color: white;
+
+  @media ${ON_MOBILE} {
+    margin-top: 30px;
+  }
 `
 
 const FooterSection: FC = () => (
@@ -39,12 +47,12 @@ const FooterSection: FC = () => (
       {/* <FestaLogo size={100} /> */}
       {/* <XIcon size={50} /> */}
       {/* <img src={OpenStackLogo} width="100px" /> */}
-      <img src="/icons/festa_openstack_collabo.svg" width="100%" />
+      {/* <img src="/icons/festa_openstack_collabo.svg" width="100%" /> */}
     </BrandBox>
     <Disclaimer>
-      Designed and built by Kevin Jin and Jihoon Kim at Festa.io
-      <br />
-      Homepage hosting is supported by{' '}
+      {/* Designed and built by Kevin Jin and Jihoon Kim at Festa.io
+      <br /> */}
+      {/* Homepage hosting is supported by{' '}
       <a href="https://d2.naver.com/home">
         <img
           src="/sponsors/naver-d2.png"
@@ -54,7 +62,7 @@ const FooterSection: FC = () => (
         />
       </a>
       .
-      <br />
+      <br /> */}
       Copyright (c) 2019 OpenStack Korea User Group and Festa.io All Rights
       Reserved.
     </Disclaimer>
