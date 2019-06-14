@@ -14,6 +14,10 @@ const Row = styled.div`
 
 const TopRow = styled(Row)`
   margin-top: 120px;
+
+  @media ${ON_MOBILE} {
+    margin-top: 80px;
+  }
 `
 
 const Label = styled.div`
@@ -61,13 +65,10 @@ const InfoSection: FC = () => {
   return (
     <StyledContainer>
       <InnerContainer>
-        <Header white={true}>
-          Open Infrastructure & <br />
-          Cloud Native Days Korea 2019
-        </Header>
+        <Header white={true}>Information</Header>
         <TopRow>
-          <Label>주제</Label>
-          <Para>Bring All Together: Open and Intelligent Infrastructure</Para>
+          <Label>부제</Label>
+          <Para>Open & Intelligent Infrastructure</Para>
         </TopRow>
         <Row>
           <Label>주최</Label>
