@@ -131,6 +131,8 @@ const TicketTitle = styled.div`
 const TicketContent = styled.div`
   font-size: 20px;
   margin-bottom: 10px;
+  word-break: keep-all;
+
   @media ${ON_MOBILE} {
     font-size: 15px;
   }
