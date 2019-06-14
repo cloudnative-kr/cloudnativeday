@@ -196,7 +196,7 @@ class NavigationBar extends Component<NavigationBarProps> {
               <FestaLogo size={50} />
             </FestaLogoAdjuster>
             <CollaborationX size={15} /> */}
-            <ExternalLogo src={OpenInfraDayLogo} size={35} />
+            {/* <ExternalLogo src={OpenInfraDayLogo} size={35} /> */}
           </LogoBox>
           <Menu>
             <MenuLink
