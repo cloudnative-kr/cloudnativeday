@@ -109,6 +109,7 @@ const TData = styled.td`
 
   @media ${ON_MOBILE} {
     padding: 10px;
+    min-width: 120px;
   }
 `
 
@@ -117,6 +118,9 @@ const Title = styled.div`
   margin-bottom: 10px;
   text-decoration: none;
   color: rgb(244, 160, 122);
+  white-space: pre-wrap;
+  word-break: keep-all;
+
   &:hover,
   &:focus {
     cursor: pointer;
@@ -128,15 +132,6 @@ const Speaker = styled.div`
   color: #fff;
   font-size: 13px;
   margin-bottom: 5px;
-`
-
-const TableLabel = styled.div`
-  text-align: right;
-  font-size: 24px;
-
-  @media ${ON_MOBILE} {
-    font-size: 18px;
-  }
 `
 
 interface Schedule {

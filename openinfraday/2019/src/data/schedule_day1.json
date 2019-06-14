@@ -138,7 +138,7 @@
         {
           "colSpan": 1,
           "rowSpan": 6,
-          "title": "Windows와 Linux 컨테이너를 동시에 지원하는 Kubernetes 클러스터 만들기 - 13:00~15:10    컨테이너 어렵게 배우기(Container The Hard Way) - 15:30~17:40",
+          "title": "Windows와 Linux 컨테이너를 동시에 지원하는 Kubernetes 클러스터 만들기 - 13:00~15:10  \n\n컨테이너 어렵게 배우기(Container The Hard Way) - 15:30~17:40",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
           "speakers": [""]
         },
