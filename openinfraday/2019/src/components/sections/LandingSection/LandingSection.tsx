@@ -7,21 +7,21 @@ import { Box } from '@rebass/grid'
 
 const Wrapper = styled.div`
   text-align: center;
-  background: url('/backgrounds/seoul.png') no-repeat center center;
+  background: url('/backgrounds/background.jpg') no-repeat center center;
   background-size: cover;
   padding-top: 62px;
   padding-bottom: 200px;
   background-color: rgba(0, 0, 0, 0.5);
 `
 
-const Logo = styled.img`
-  margin-top: 100px;
-  width: 125px;
-`
+// const Logo = styled.img`
+//   margin-top: 100px;
+//   width: 125px;
+// `
 
 const Title = styled.h1`
   max-width: 730px;
-  margin-top: 40px;
+  margin-top: 140px;
   margin-left: auto;
   margin-right: auto;
   /* border: 3px solid white; */
@@ -35,7 +35,7 @@ const Title = styled.h1`
   @media ${ON_MOBILE} {
     border: none;
     padding: 0;
-    font-size: 45px;
+    font-size: 40px;
   }
 `
 
@@ -140,8 +140,8 @@ const OrganizerLogos = styled.img`
 
 const LandingSection: FC = () => (
   <Wrapper>
-    <Logo src={OpenInfraDayLogo} />
-    <Title>Open Infra Days Korea 2019</Title>
+    {/* <Logo src={OpenInfraDayLogo} /> */}
+    <Title>Open Infrastructure & Cloud Native Days Korea 2019</Title>
     <SubTitle>
       July 18-19, 2019. 9:00AM - 6:00PM
       <br />
