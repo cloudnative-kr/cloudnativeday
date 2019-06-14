@@ -12,7 +12,7 @@ import LandingSection from './components/sections/LandingSection/LandingSection'
 import IntroSection from './components/sections/IntroSection/IntroSection'
 import InfoSection from './components/sections/InfoSection/InfoSection'
 import ScheduleSection from './components/sections/ScheduleSection/ScheduleSection'
-import SpeakersSection from './components/sections/SpeakersSection/SpeakersSection'
+// import SpeakersSection from './components/sections/SpeakersSection/SpeakersSection'
 import TicketsSection from './components/sections/TicketsSection/TicketsSection'
 import SponsorsSection from './components/sections/SponsorsSection/SponsorsSection'
 import FAQSection from './components/sections/FAQSection/FAQSection'
@@ -56,9 +56,9 @@ class App extends Component {
         <Element name="schedule" className="element">
           <ScheduleSection />
         </Element>
-        <Element name="speakers" className="element">
+        {/* <Element name="speakers" className="element">
           <SpeakersSection />
-        </Element>
+        </Element> */}
         <Element name="tickets" className="element">
           <TicketsSection handleTicketBuy={this.handleTicketBuy} />
         </Element>
