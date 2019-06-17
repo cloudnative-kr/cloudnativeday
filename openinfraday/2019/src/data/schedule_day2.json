@@ -84,9 +84,9 @@
         },
         {
           "colSpan": 1,
-          "title": "카카오는 Kubernetes 클러스터 500개를 어떻게 운영하고 있을까?",
+          "title": "KOCOON – KAKAO Automatic K8S Monitoring",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_0",
-          "speakers": []
+          "speakers": ["KAKAO"]
         },
         {
           "colSpan": 1,
@@ -142,9 +142,9 @@
         },
         {
           "colSpan": 1,
-          "title": "멀티 k8s 클러스터 환경에서의 데이터 Mobility 구현",
+          "title": "KOCOON – KAKAO Automatic K8S Monitoring",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_1",
-          "speakers": ["NetApp"]
+          "speakers": ["KAKAO"]
         },
         {
           "colSpan": 1,
@@ -189,15 +189,15 @@
       "cols": [
         {
           "colSpan": 1,
-          "title": "",
+          "title": "멀티 k8s 클러스터 환경에서의 데이터 Mobility 구현",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_2",
-          "speakers": ["(스폰서)"]
+          "speakers": ["NetApp"]
         },
         {
           "colSpan": 1,
           "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_2",
-          "speakers": ["(스폰서)"]
+          "speakers": ["(Edgecore)"]
         },
         {
           "colSpan": 1,
