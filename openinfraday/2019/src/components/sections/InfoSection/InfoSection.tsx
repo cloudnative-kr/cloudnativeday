@@ -73,21 +73,15 @@ const InfoSection: FC = () => {
         <Row>
           <Label>주최</Label>
           <Para>
-            OpenStack 한국 커뮤니티
+            국내 인프라 관련 커뮤니티 (OpenStack, Kubernetes, Ceph, OCP Korea)
             <br />
             OpenStack Foundation
-            <br />
-            CNCF 한국 커뮤니티
-            <br />
-            Ceph 한국커뮤니티
           </Para>
         </Row>
         <Row>
           <Label>주관</Label>
           <Para>
-            OpenStack 한국 커뮤니티
-            <br />
-            CNCF 한국 커뮤니티
+            국내 인프라 관련 커뮤니티 (OpenStack, Kubernetes, Ceph, OCP Korea)
             <br />
             OpenStack Foundation
             <br />
