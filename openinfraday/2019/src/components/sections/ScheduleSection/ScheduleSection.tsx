@@ -87,6 +87,7 @@ const THeader = styled.th`
   padding: 8px;
   border: 1px solid #a4a4a4;
   min-width: 100px;
+  word-break: keep-all;
 
   @media ${ON_MOBILE} {
     padding: 4px;
