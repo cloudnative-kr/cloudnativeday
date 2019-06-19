@@ -165,13 +165,14 @@ class ScheduleSection extends PureComponent {
         <THeader>{row.time}</THeader>
         {row.cols.map((col, i) => (
           <TData key={i} colSpan={col.colSpan} rowSpan={col.rowSpan || 1}>
-            <Popup
+            {/* <Popup
               trigger={<Title>{col.title}</Title>}
               modal={true}
               closeOnDocumentClick={true}
             >
               {close => <ScheduleModal close={close} />}
-            </Popup>
+            </Popup> */}
+            <Title>{col.title}</Title>
             {col.speakers.map(s => (
               <Speaker key={s}>{s}</Speaker>
             ))}
