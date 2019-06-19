@@ -152,7 +152,7 @@ const LandingSection: FC = () => (
       <OrganizerLabel>- Hosted By -</OrganizerLabel>
       <Box width={1}>
         <OrganizerLogos src="logos/KoreaUserGroup.png" />
-        <OrganizerLogos src="logos/Openstack.png" />
+        {/* <OrganizerLogos src="logos/Openstack.png" /> */}
         <OrganizerLogos src="logos/CNCK.png" />
       </Box>
     </Organizers>
