@@ -208,6 +208,14 @@ const TicketsSection: FC<TicketsSectionProps> = ({ handleTicketBuy }) => (
       contents={['17, 18일 참가권입니다.', '워크샵을 신청하실 수 있습니다.']}
       price={'30,000'}
     />
+    <TicketItem
+      title={`학생 티켓`}
+      contents={[
+        '17, 18일 참가권입니다.',
+        '학생 신분을 증명할 수 있는 서류를 사무국 메일(event@plan9.co.kr)로 전달해 주셔야 합니다.',
+      ]}
+      price={'20,000'}
+    />
     <Flex justifyContent="center" alignItems="center">
       <Box py={[50, 20]}>
         <Buy
