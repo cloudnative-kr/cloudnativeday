@@ -70,6 +70,16 @@ const OrganizerLabel = styled.div`
   font-family: Spoqa Han Sans;
 `
 
+const TextLogo = styled.div`
+  height: 150px;
+  width: 200px;
+  font-size: 50px;
+  color: white;
+  letter-spacing: -5px;
+  font-weight: bolder;
+  line-height: 1.1;
+`
+
 const OrganizerLogos = styled.img`
   /* max-width: 100%;
   height: 100px; */
@@ -151,6 +161,7 @@ const LandingSection: FC = () => (
     <Organizers>
       <OrganizerLabel>- Hosted By -</OrganizerLabel>
       <Box width={1}>
+        <TextLogo>국내 오픈소스 커뮤니티</TextLogo>
         <OrganizerLogos src="logos/KoreaUserGroup.png" />
         {/* <OrganizerLogos src="logos/Openstack.png" /> */}
         <OrganizerLogos src="logos/CNCK.png" />
