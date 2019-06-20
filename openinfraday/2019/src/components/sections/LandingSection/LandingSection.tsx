@@ -71,13 +71,16 @@ const OrganizerLabel = styled.div`
 `
 
 const TextLogo = styled.div`
-  height: 150px;
+  display: inline-block;
   width: 200px;
-  font-size: 50px;
+  font-size: 20px;
   color: white;
-  letter-spacing: -5px;
+  letter-spacing: -2px;
   font-weight: bolder;
   line-height: 1.1;
+  word-break: keep-all;
+  margin: 2em 3em 3em 3em;
+  vertical-align: top;
 `
 
 const OrganizerLogos = styled.img`
@@ -161,7 +164,9 @@ const LandingSection: FC = () => (
     <Organizers>
       <OrganizerLabel>- Hosted By -</OrganizerLabel>
       <Box width={1}>
-        <TextLogo>국내 오픈소스 커뮤니티</TextLogo>
+        <TextLogo>
+          국내 오픈소스 커뮤니티 (OpenStack, Kubernetes, Ceph, OCP)
+        </TextLogo>
         <OrganizerLogos src="logos/KoreaUserGroup.png" />
         {/* <OrganizerLogos src="logos/Openstack.png" /> */}
         <OrganizerLogos src="logos/CNCK.png" />
