@@ -57,6 +57,11 @@
   ],
   "gold": [
     {
+      "alt": "OpenStack",
+      "href": "https://www.openstack.org",
+      "src": "/sponsors/openstack.png"
+    },
+    {
       "alt": "Mantech",
       "href": "http://www.mantech.co.kr",
       "src": "/sponsors/mantech.png"
