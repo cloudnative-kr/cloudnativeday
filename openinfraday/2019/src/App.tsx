@@ -33,8 +33,8 @@ class App extends Component {
   }
 
   handleTicketBuy = () => {
-    // window.open('https://festa.io/events/41', '_blank')
-    alert('6월 21일 오픈 예정')
+    window.open('https://festa.io/events/352', '_blank')
+    // alert('6월 21일 오픈 예정')
   }
 
   scrollTo = (element: any) => {

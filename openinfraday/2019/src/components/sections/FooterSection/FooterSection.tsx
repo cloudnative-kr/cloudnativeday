@@ -41,6 +41,15 @@ const Disclaimer = styled.div`
   }
 `
 
+const TextSponser = styled.a`
+  text-decoration: none;
+  font-family: Spoqa Han Sans;
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+  padding-left: 5px;
+`
+
 const FooterSection: FC = () => (
   <StyledContainer>
     <BrandBox>
@@ -52,19 +61,10 @@ const FooterSection: FC = () => (
     <Disclaimer>
       {/* Designed and built by Kevin Jin and Jihoon Kim at Festa.io
       <br /> */}
-      {/* Homepage hosting is supported by{' '}
-      <a href="https://d2.naver.com/home">
-        <img
-          src="/sponsors/naver-d2.png"
-          width="64"
-          height="auto"
-          alt="Naver D2"
-        />
-      </a>
+      Homepage hosting is supported by{'  '}
+      <TextSponser href="https://toast.com">NHN TOAST</TextSponser>
       .
-      <br /> */}
-      Copyright (c) 2019 OpenStack Korea User Group and Festa.io All Rights
-      Reserved.
+      <br /> */} Copyright (c) 2019 국내 오픈소스 커뮤니티 연합 and Festa.io
     </Disclaimer>
   </StyledContainer>
 )
