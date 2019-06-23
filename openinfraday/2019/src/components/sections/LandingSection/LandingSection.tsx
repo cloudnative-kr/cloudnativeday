@@ -80,7 +80,7 @@ const TextLogo = styled.div`
   line-height: 1.1;
   word-break: keep-all;
   margin: 2em 3em 3em 3em;
-  vertical-align: top;
+  vertical-align: bottom;
 `
 
 const OrganizerLogos = styled.img`
@@ -90,6 +90,7 @@ const OrganizerLogos = styled.img`
   max-height: 100%;
   width: 10em;
   margin: 2em 3em 3em 3em;
+  vertical-align: middle;
 `
 
 // const CountdownWrapper = styled.div`
@@ -167,15 +168,18 @@ const LandingSection: FC = () => (
         <TextLogo>
           국내 오픈소스 커뮤니티 (OpenStack, Kubernetes, Ceph, OCP)
         </TextLogo>
-        <OrganizerLogos src="logos/KoreaUserGroup.png" />
+        {/* <OrganizerLogos src="logos/KoreaUserGroup.png" /> */}
         {/* <OrganizerLogos src="logos/Openstack.png" /> */}
-        <OrganizerLogos src="logos/CNCK.png" />
+        {/* <OrganizerLogos src="logos/CNCK.png" /> */}
       </Box>
     </Organizers>
     <Organizers>
       <OrganizerLabel>-Organized By-</OrganizerLabel>
       <Box width={1}>
-        <OrganizerLogos src="logos/KoreaUserGroup.png" />
+        <TextLogo>
+          국내 오픈소스 커뮤니티 (OpenStack, Kubernetes, Ceph, OCP)
+        </TextLogo>
+        {/* <OrganizerLogos src="logos/KoreaUserGroup.png" /> */}
         <OrganizerLogos src="logos/Openstack.png" />
         <OrganizerLogos src="logos/NIPA.png" />
       </Box>
