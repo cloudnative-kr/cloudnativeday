@@ -64,7 +64,7 @@ const FooterSection: FC = () => (
       Homepage hosting is supported by{'  '}
       <TextSponser href="https://toast.com">NHN TOAST</TextSponser>
       .
-      <br /> */} Copyright (c) 2019 국내 오픈소스 커뮤니티 연합 and Festa.io
+      <br /> Copyright (c) 2019 국내 오픈소스 커뮤니티 연합 and Festa.io
     </Disclaimer>
   </StyledContainer>
 )
