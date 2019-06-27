@@ -187,7 +187,7 @@ interface ISpeaker {
   name: string
   affiliation: string
   description: string
-  imageUrl: string
+  imageUrl?: string
 }
 
 interface ScheduleSession {
@@ -198,6 +198,20 @@ interface ScheduleSession {
   videoUrl?: string
   description: string
   speakers: ISpeaker[]
+}
+
+function chooseRandProfilePic() {
+  const value = Math.floor(Math.random() * 3)
+  switch (value) {
+    case 0:
+      return '1.jpg'
+    case 1:
+      return '2.png'
+    case 2:
+      return '3.jpg'
+    default:
+      return '1.jpg'
+  }
 }
 
 interface ScheduleModalProps {
@@ -238,7 +252,9 @@ const NewScheduleModal: FC<ScheduleModalProps> = ({
           speakers.map(speaker => (
             <SpeakerBox width={[1, 1, 1 / 2]}>
               <SpeakerRow>
-                <SpeakerImage src={speaker.imageUrl} />
+                <SpeakerImage
+                  src={speaker.imageUrl || chooseRandProfilePic()}
+                />
                 <SpeakerInfoRow>
                   <SpeakerName>{speaker.name}</SpeakerName>
                   <SpeakerAffiliation>{speaker.affiliation}</SpeakerAffiliation>
