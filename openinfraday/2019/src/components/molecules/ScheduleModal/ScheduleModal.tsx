@@ -65,7 +65,7 @@ const SectionRow = styled.div`
 `
 
 const Title = styled.div`
-  max-width: 500px;
+  max-width: 700px;
   font-size: 30px;
   font-weight: bold;
 `
@@ -186,7 +186,7 @@ const SpeakerBox = styled(Box)`
 interface ISpeaker {
   name: string
   affiliation: string
-  description: string
+  bio: string
   imageUrl?: string
 }
 
@@ -197,7 +197,7 @@ interface ScheduleSession {
   deckUrl?: string
   videoUrl?: string
   description: string
-  speakers: ISpeaker[]
+  speakerDetails?: ISpeaker[]
 }
 
 function chooseRandProfilePic() {
@@ -219,8 +219,16 @@ interface ScheduleModalProps {
   session: ScheduleSession
 }
 
-const NewScheduleModal: FC<ScheduleModalProps> = ({
-  session: { title, time, tracks, deckUrl, videoUrl, description, speakers },
+const ScheduleModal: FC<ScheduleModalProps> = ({
+  session: {
+    title,
+    time,
+    tracks,
+    deckUrl,
+    videoUrl,
+    description,
+    speakerDetails,
+  },
   close,
 }) => (
   <ModalWrapper>
@@ -231,7 +239,9 @@ const NewScheduleModal: FC<ScheduleModalProps> = ({
           <Title>{title}</Title>
           <TrackInfoRow>
             <Track>{time}</Track>
-            {tracks.length > 0 && tracks.map(track => <Track>{track}</Track>)}
+            {tracks &&
+              tracks.length > 0 &&
+              tracks.map(track => <Track>{track}</Track>)}
             {deckUrl && (
               <SpeakerDeck href={deckUrl} target="_blank">
                 발표자료
@@ -246,21 +256,22 @@ const NewScheduleModal: FC<ScheduleModalProps> = ({
           <TrackDescription>{description}</TrackDescription>
         </SectionRow>
         <SectionRow>
-          <Title>Speaker</Title>
+          <Title>Speakers</Title>
         </SectionRow>
-        {speakers.length > 0 &&
-          speakers.map(speaker => (
+        {speakerDetails &&
+          speakerDetails.length > 0 &&
+          speakerDetails.map(speaker => (
             <SpeakerBox width={[1, 1, 1 / 2]}>
               <SpeakerRow>
                 <SpeakerImage
-                  src={speaker.imageUrl || chooseRandProfilePic()}
+                  src={speaker.imageUrl || `random/${chooseRandProfilePic()}`}
                 />
                 <SpeakerInfoRow>
                   <SpeakerName>{speaker.name}</SpeakerName>
                   <SpeakerAffiliation>{speaker.affiliation}</SpeakerAffiliation>
                 </SpeakerInfoRow>
               </SpeakerRow>
-              <SpeakerDescription>{speaker.description}</SpeakerDescription>
+              <SpeakerDescription>{speaker.bio}</SpeakerDescription>
             </SpeakerBox>
           ))}
       </Flex>
@@ -268,70 +279,70 @@ const NewScheduleModal: FC<ScheduleModalProps> = ({
   </ModalWrapper>
 )
 
-const ScheduleModal = ({ close }: { close: any }) => (
-  <>
-    <ModalWrapper>
-      <CloseButton onClick={close} />
-      <ContentWrapper>
-        {/* <CloseButton /> */}
-        <Flex flexWrap="wrap">
-          <SectionRow>
-            <Title>Opening & OpenInfra Days Korea 2019 프로그램 소개</Title>
-            <TrackInfoRow>
-              <Track>4:00 pm</Track>
-              <Track>Track 1</Track>
-              <SpeakerDeck>발표자료</SpeakerDeck>
-            </TrackInfoRow>
-            <TrackDescription>
-              고가용성, 저비용, 유연하게 확장 가능한 인프라 그리고 빠른 서비스
-              딜리버리를 가능하게하기 위한 인프라의 중요성은 갈수록 증가 하고
-              있습니다. IaaS, PaaS, CaaS, SDS 영역에서 SUSE에서 서포트하는
-              프로젝트인 OpenStack, Cloud Foundry, Kubernetes, Ceph 등의
-              오픈소스 프로젝트를 활용한 SUSE의 인프라 구축/운영 전략, 사용하는
-              기술스택, 사례 그리고 HPE와의 파트너쉽을 소개 합니다.
-            </TrackDescription>
-          </SectionRow>
-          <SectionRow>
-            <Title>Speaker</Title>
-          </SectionRow>
-          <SpeakerBox width={[1, 1, 1 / 2]}>
-            <SpeakerRow>
-              <SpeakerImage src="speakers/cho.jpg" />
-              <SpeakerInfoRow>
-                <SpeakerName>김정수</SpeakerName>
-                <SpeakerAffiliation>
-                  OpenStack Korea User Group
-                </SpeakerAffiliation>
-              </SpeakerInfoRow>
-            </SpeakerRow>
-            <SpeakerDescription>
-              2007년부터 개발, 보안, 시스템 엔지니어링 등의 분야에서 경험을 쌓아
-              왔으며, 2015년도에 SUSE Korea에 입사하여 Technical Specialist로서
-              High Available하고 Scalable한 인프라를 소개 및 구축 하는 일을
-              담당하고 있습니다.
-            </SpeakerDescription>
-          </SpeakerBox>
-          <SpeakerBox width={[1, 1, 1 / 2]}>
-            <SpeakerRow>
-              <SpeakerImage src="speakers/cho.jpg" />
-              <SpeakerInfoRow>
-                <SpeakerName>김정수</SpeakerName>
-                <SpeakerAffiliation>
-                  OpenStack Korea User Group
-                </SpeakerAffiliation>
-              </SpeakerInfoRow>
-            </SpeakerRow>
-            <SpeakerDescription>
-              2007년부터 개발, 보안, 시스템 엔지니어링 등의 분야에서 경험을 쌓아
-              왔으며, 2015년도에 SUSE Korea에 입사하여 Technical Specialist로서
-              High Available하고 Scalable한 인프라를 소개 및 구축 하는 일을
-              담당하고 있습니다.
-            </SpeakerDescription>
-          </SpeakerBox>
-        </Flex>
-      </ContentWrapper>
-    </ModalWrapper>
-  </>
-)
+// const ScheduleModal = ({ close }: { close: any }) => (
+//   <>
+//     <ModalWrapper>
+//       <CloseButton onClick={close} />
+//       <ContentWrapper>
+//         {/* <CloseButton /> */}
+//         <Flex flexWrap="wrap">
+//           <SectionRow>
+//             <Title>Opening & OpenInfra Days Korea 2019 프로그램 소개</Title>
+//             <TrackInfoRow>
+//               <Track>4:00 pm</Track>
+//               <Track>Track 1</Track>
+//               <SpeakerDeck>발표자료</SpeakerDeck>
+//             </TrackInfoRow>
+//             <TrackDescription>
+//               고가용성, 저비용, 유연하게 확장 가능한 인프라 그리고 빠른 서비스
+//               딜리버리를 가능하게하기 위한 인프라의 중요성은 갈수록 증가 하고
+//               있습니다. IaaS, PaaS, CaaS, SDS 영역에서 SUSE에서 서포트하는
+//               프로젝트인 OpenStack, Cloud Foundry, Kubernetes, Ceph 등의
+//               오픈소스 프로젝트를 활용한 SUSE의 인프라 구축/운영 전략, 사용하는
+//               기술스택, 사례 그리고 HPE와의 파트너쉽을 소개 합니다.
+//             </TrackDescription>
+//           </SectionRow>
+//           <SectionRow>
+//             <Title>Speaker</Title>
+//           </SectionRow>
+//           <SpeakerBox width={[1, 1, 1 / 2]}>
+//             <SpeakerRow>
+//               <SpeakerImage src="speakers/cho.jpg" />
+//               <SpeakerInfoRow>
+//                 <SpeakerName>김정수</SpeakerName>
+//                 <SpeakerAffiliation>
+//                   OpenStack Korea User Group
+//                 </SpeakerAffiliation>
+//               </SpeakerInfoRow>
+//             </SpeakerRow>
+//             <SpeakerDescription>
+//               2007년부터 개발, 보안, 시스템 엔지니어링 등의 분야에서 경험을 쌓아
+//               왔으며, 2015년도에 SUSE Korea에 입사하여 Technical Specialist로서
+//               High Available하고 Scalable한 인프라를 소개 및 구축 하는 일을
+//               담당하고 있습니다.
+//             </SpeakerDescription>
+//           </SpeakerBox>
+//           <SpeakerBox width={[1, 1, 1 / 2]}>
+//             <SpeakerRow>
+//               <SpeakerImage src="speakers/cho.jpg" />
+//               <SpeakerInfoRow>
+//                 <SpeakerName>김정수</SpeakerName>
+//                 <SpeakerAffiliation>
+//                   OpenStack Korea User Group
+//                 </SpeakerAffiliation>
+//               </SpeakerInfoRow>
+//             </SpeakerRow>
+//             <SpeakerDescription>
+//               2007년부터 개발, 보안, 시스템 엔지니어링 등의 분야에서 경험을 쌓아
+//               왔으며, 2015년도에 SUSE Korea에 입사하여 Technical Specialist로서
+//               High Available하고 Scalable한 인프라를 소개 및 구축 하는 일을
+//               담당하고 있습니다.
+//             </SpeakerDescription>
+//           </SpeakerBox>
+//         </Flex>
+//       </ContentWrapper>
+//     </ModalWrapper>
+//   </>
+// )
 
 export default ScheduleModal

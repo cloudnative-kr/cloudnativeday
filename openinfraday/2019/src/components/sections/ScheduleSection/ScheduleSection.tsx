@@ -143,6 +143,16 @@ interface Schedule {
   speakers: string[]
   video?: string
   material?: string
+  tracks: string[]
+  deckUrl?: string
+  videoUrl?: string
+  description: string
+  speakerDetails?: {
+    name: string
+    affiliation: string
+    bio: string
+    imageUrl?: string
+  }[]
 }
 
 interface ScheduleRow {
@@ -165,14 +175,22 @@ class ScheduleSection extends PureComponent {
         <THeader>{row.time}</THeader>
         {row.cols.map((col, i) => (
           <TData key={i} colSpan={col.colSpan} rowSpan={col.rowSpan || 1}>
-            {/* <Popup
+            <Popup
               trigger={<Title>{col.title}</Title>}
               modal={true}
               closeOnDocumentClick={true}
             >
-              {close => <ScheduleModal close={close} />}
-            </Popup> */}
-            <Title>{col.title}</Title>
+              {close => (
+                <ScheduleModal
+                  session={{
+                    time: row.time,
+                    ...col,
+                  }}
+                  close={close}
+                />
+              )}
+            </Popup>
+            {/* <Title>{col.title}</Title> */}
             {col.speakers.map(s => (
               <Speaker key={s}>{s}</Speaker>
             ))}
@@ -236,7 +254,7 @@ class ScheduleSection extends PureComponent {
                 {this.renderTableRows(
                   this.state.day === 'day1'
                     ? scheduleDay1Data.rows
-                    : scheduleDay2Data.rows,
+                    : (scheduleDay2Data.rows as any),
                 )}
               </tbody>
             </Table>
