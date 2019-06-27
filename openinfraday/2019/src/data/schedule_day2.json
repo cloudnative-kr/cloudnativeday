@@ -28,18 +28,18 @@
       "cols": [
         {
           "colSpan": 3,
-          "title": "Keynote 1",
+          "title": "Keynote 1\n Community Invited Talk",
           "href": "https://event.openinfradays.kr/2019/session1/01_opening",
-          "speakers": ["Community Invited Talk"],
-          "tracks": [],
+          "speakers": ["Kamesh Sampath, Principal Software Engineer, Red Hat "],
+          "tracks": ["Keynote 1"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
+              "name": "Kamesh Sampath",
+              "affiliation": "Red Hat",
+              "bio": "GitHub: https://github.com/kameshsampath \n Kamesh is a Principal Software Engineer at Red Hat, as part of his additional role as Director of Developer Experience at Red Hat — he actively educates on Kubernetes/OpenShift, Servicemesh, and Serverless technologies --. With a career spanning close to two decades, most of Kamesh’s career was with services industry helping various enterprise customers build Java-based solutions. Kamesh has been a contributor to Open Source projects for more than a decade and he now actively contributes to projects like Knative, Minishift, Eclipse Che, fabric8 etc., As part of his developer philosophy he strongly believes in LEARN MORE, DO MORE and SHARE MORE!",
               "imageUrl": null
             }
           ]
@@ -72,7 +72,7 @@
           "title": "Keynote 2",
           "href": "https://event.openinfradays.kr/2019/session1/11_keynote1",
           "speakers": ["Cloud Native Computing Foundation"],
-          "tracks": [],
+          "tracks": ["Keynote 2"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
@@ -95,7 +95,7 @@
           "title": "Keynote 3",
           "href": "https://event.openinfradays.kr/2019/session1/11_keynote3",
           "speakers": ["Open Compute Project"],
-          "tracks": [],
+          "tracks": ["Keynote 3"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
@@ -118,7 +118,7 @@
           "title": "Keynote 4\nOpen Innovation in Cloud Native Telco Infrastructure",
           "href": "https://event.openinfradays.kr/2019/session1/11_keynote4",
           "speakers": ["SKT"],
-          "tracks": [],
+          "tracks": ["Keynote 4"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
@@ -165,10 +165,10 @@
           "title": "Let's work together: SKT의 오픈소스프로젝트 로드맵",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_0",
           "speakers": ["SKT"],
-          "tracks": [],
+          "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "현재 중국은 알리바바와 위챗 등을 중심으로 인터넷, 모바일 서비스 등에서 세계에서 가장 빠르게 변하고, 적용해나가고 있는 나라입니다. 6000km 이상의 거리와 14억 인구의, 위챗 사용자만 10억 가까운 시장에서 서비스를 만들고 운영하는 것은 한국에서의 개발과는 전혀 다른 경험이었습니다. 이런 시장 환경에서 서비스를 만들면서 겪었던 모바일 환경이나 개발자, 팀에 대한 경험, 기술적인 부분에서는 마이크로 서비스 아키텍처와 k8s를 어떻게 적용해서 사용하고 있는지에 대해 소개하려고 합니다.\n\n- 중국 모바일 서비스의 환경 및 특징\n- 기존 레거시를 어떻게 클라우드, k8s, 마이크로 서비스 환경으로 변화\n- 마이크로 서비스를 실제 구현하는데 있어 기술적으로 어떻게 했는지, k8s는 어떻게 사용되고 있나.",
           "speakerDetails": [
             {
               "name": "",
@@ -182,8 +182,26 @@
           "colSpan": 1,
           "title": "카카오는 Kubernetes 클러스터 500개를 어떻게 운영하고 있을까?",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_0",
-          "speakers": ["KAKAO"],
-          "tracks": [],
+          "speakers": ["KAKAO 홍석용"],
+          "tracks": ["Track 2"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "카카오 공동체 서비스용 KaaS(k8s as a service) 소개,  쿠버네티스 멀티 클러스터 운영 사례 및 도구 소개, 카카오톡 또는 카카오택시, 멜론과 같은 대국민 서비스 쿠버네티스 적용 사례 공유",
+          "speakerDetails": [
+            {
+              "name": "홍석용",
+              "affiliation": "KAKAO",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
+        },
+        {
+          "colSpan": 1,
+          "title": "OCP Community Session",
+          "href": "https://event.openinfradays.kr/2019/session1/track_3_0",
+          "speakers": [],
+          "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
@@ -200,14 +218,14 @@
           "colSpan": 1,
           "title": "쿠버네티스를 이용한 기능 브랜치별 테스트 서버 만들기",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_0",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["김충섭"],
+          "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "김충섭",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -218,14 +236,14 @@
           "colSpan": 1,
           "title": "넘치지도, 부족하지도 않는 kubernetes 다루기",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["손준호"],
+          "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "기존에 2대의 테스트서버를 가지고 테스트를 진행하면서 겪은 여러가지 문제점(동시에 2개의 테스트만 진행가능, 어떤 서버에 어떤 테스트가 진행중인지 알기 어려움, 테스트가 없어도 서버 유지)을 쿠버네티스를 이용하여 해결한 방법에 대해 이야기 합니다. 쿠버네티스의 오토 스케일링 기능과 인그레스 컨트롤러를 이용하여 기능 브랜치별로 테스트 서버를 생성하여 동시에 테스트 가능한 개수 제한을 없애고 필요한만큼 자원을 유연하게 사용할 수 있습니다.",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "손준호",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -240,21 +258,7 @@
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
-          "speakerDetails": [
-            {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
-            }
-          ]
-        },
-        {
-          "colSpan": 1,
-          "title": "워크샵 준비",
-          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
-          "speakers": []
+          "description": ""
         },
         {
           "colSpan": 1,
@@ -264,15 +268,7 @@
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
-          "speakerDetails": [
-            {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
-            }
-          ]
+          "description": ""
         }
       ]
     },
@@ -307,7 +303,7 @@
           "title": "대륙의 서비스 개발 삽질기",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_1",
           "speakers": ["Kubernetes", "마이크로서비스"],
-          "tracks": [],
+          "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
@@ -324,16 +320,16 @@
           "colSpan": 1,
           "title": "KOCOON – KAKAO Automatic K8S Monitoring",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_1",
-          "speakers": ["KAKAO"],
-          "tracks": [],
+          "speakers": ["KAKAO 임성국 셀장"],
+          "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "- 기존 모니터링 시스템(KEMI)에서 KOCOON을 진행한 이유\n- 대용량 K8S Cluster 모니터링 자동화를 진행하면서 겪었던 내용들에 대해 공유\n(#kocoon #k8s #prometheus #helm #chart #OOM )",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
+              "name": "임성국",
+              "affiliation": "KAKAO",
+              "bio": "웹공학 석사 @KAIST\n공통플랫폼 개발 @ETRI\nOpen API GW 개발 @KT\nKAKAO Monitoring Cloud 개발 @KAKAO",
               "imageUrl": null
             }
           ]
@@ -342,14 +338,14 @@
           "colSpan": 1,
           "title": "Open-Channel Solid Date Drives: Update and Future Steps",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["Javier Gonzalez"],
+          "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "Open-Channel Solid State Drives (OCSSDs) are already commonplace in data centers. Initiatives such as Project Denali are helping to unify the different flavours of OCSSDs into a common standard, reducing fragmentation and thus helping vendors and hyperscalers to have a common view on how this new type of SSDs fit in the data center. In this talk, we will give an overview of the OCSSD specification landscape, including the features included in Project Denali. More importantly, we will use experimental data from a production Denali OCSSD to argue for this technology to solve challenges intrinsic to decentralized, multi-tenant storage environments such as the \"noisy neighbour\". Finally, we will provide a status on support in the Linux Kernel for OCSSDs as well as incoming features on pblk, the OCSSD FTL in the Linux Kernel.",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "Javier Gonzalez",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -358,10 +354,10 @@
         },
         {
           "colSpan": 1,
-          "title": "Game metrics monitoring on Kubernetes",
-          "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
+          "title": "",
+          "href": "",
           "speakers": [],
-          "tracks": [],
+          "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
@@ -379,15 +375,15 @@
           "rowSpan": 1,
           "title": "Hard Multi-Tenancy in Kubernetes",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["Linecorp 이승"],
+          "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
+              "name": "이승",
+              "affiliation": "Linecorp",
               "bio": "",
               "imageUrl": null
             }
@@ -396,13 +392,13 @@
         {
           "colSpan": 1,
           "rowSpan": 5,
-          "title": "taco/k8s cluster api Hands-on Workshop",
+          "title": "TACO/k8s cluster api Hands-on Workshop",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
           "speakers": [
             "BM, Ceph, Kubernetes, OpenStack, LMA",
             "Kubernetes on OpenStack (Cluster-API OpenStack Provider)"
           ],
-          "tracks": [],
+          "tracks": ["Track 6"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
@@ -420,14 +416,14 @@
           "rowSpan": 5,
           "title": "How to scale your ML job with Kubernetes",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["유홍근"],
+          "tracks": ["Track 7"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "올해 AWS Summit Seoul 2019에서 발표한 'Amazon EKS를 활용한 기계학습 서버 확장하기'\"'에 대한 핸즈온 워크샵을 진행해 보고 싶습니다. 해당 발표에서는 쿠버네티스에 대한 간략한 소개와 쿠버네티스를 이용한 기계학습의 장점에 대해서 발표하였고 간단한 데모를 진행하였습니다.이번 핸즈온 워크샵에서는 처음부터 차근차근 어떻게 클러스터를 구축하는지, 어떤 패키지들을 설치하고 어떤 방식으로 기계학습을 하는지 직접 핸즈온으로 진행해 보고 싶습니다. 쿠버네티스에 대해 모든 것을 완벽하게 알지는 못하지만 제가 경험한 내용을 공유하고 싶습니다. \n\n발표 관련 자료\n* https://www.slideshare.net/awskorea/amazon-eks-lg-aws-summit-seoul-2019\n* https://www.youtube.com/watch?v=egv2TlfLL1Y&feature=youtu.be \n\n* 사용할 Cloud Platform: AWS\n- EKS, ECR, Autoscaling group, EFS, 간단한 role 설정 등 \n\n* 사용 패키지\n- metrics-server\n- cluster-autoscaler\n- argo workflow engine\n- efs-provisioner",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "유홍근",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -443,16 +439,16 @@
           "colSpan": 1,
           "title": "멀티 k8s 클러스터 환경에서의 데이터 Mobility 구현",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_2",
-          "speakers": ["NetApp"],
-          "tracks": [],
+          "speakers": ["NetApp 김진학 부장"],
+          "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "Container가 각광 받는 가장 큰 이유 중의 하나는, OS의 dependency 를 제거하여 어떤 환경에서나 손쉽고 빠르게 배포가 가능 하다는 데 있습니다. 또한 배포된 container는 하나의 클러스터 내에서 다른 클러스터로 쉽게 재배포 할 수 있는 기능을 제공합니다. 하지만, container 와는 달리 container에서 사용하는 persistent volume 내의 데이터는 그 이동성에서 큰 제약을 받으며, 특히, Legacy 어플리케이션을 컨테이너화 된 어플리케이션으로 전환시에도 무거운 데이터는 항상 큰 걸림돌이 됩니다. 이번 세션을 통해, Legacy의 전환 또는 멀티 Kubernetes 환경에서 이러한 문제를 해결하기 위한 해법을 제시해 드리고자 합니다.",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
+              "name": "김진학",
+              "affiliation": "NetApp",
+              "bio": "김진학 부장은 한국 NetApp에서 클라우드 비즈니스에 대한 컨설팅 및 Pre-Sales를 지원하고 있으며, 특히 APAC 내 여러 지역을 대상으로 OpenStack 및 Kubernetes 관련 Skill-set 을 기반으로 다양한 기술 지원을 하고 있습니다. 엔터프라이즈 기업들이 Open Source 플랫폼 도입을 고려 할 때 마주하는 다양한 데이터관리 이슈들을 해결하기 위한 최적의 해법을 제공하고, 효율적인 시스템을 적용 할 수 있도록 돕고 있습니다.",
               "imageUrl": null
             }
           ]
@@ -462,7 +458,7 @@
           "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_2",
           "speakers": ["(Edgecore)"],
-          "tracks": [],
+          "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
@@ -479,14 +475,14 @@
           "colSpan": 1,
           "title": "High Density Rack Power Cooling",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_2",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["류근호"],
+          "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "Cloud 가속화 됨에 따라서 대용량 High Density Data Center 또는 Server room 구축을 진행하고 있습니다. 그러나 에너지를 적게 사용하면서 대용량 Cooling 솔루션  필요성이 존재합니다. 물론,유지관리 비용적인 관점에서도 많은 관심이 따르고 있습니다. 이에 따라서 그동안 연구하고 적용하고 개발한 대안을 제시하고자 합니다.",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "류근호",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -497,14 +493,14 @@
           "colSpan": 1,
           "title": "Efficient Job Scheduling for Machine Learning Workloads in Kubernetes Environments",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_2",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["서동은"],
+          "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "최근 Kubernetes 기반의 클라우드 환경에서 GPU 자원을 요구하는 Machine Learning Job을 효율적으로 스케쥴링하기 위한 연구/개발이 진행중에 있다. ML Job은 다른 고유한 스케쥴링 요구사항이 존재하기 때문에, 효율적인 스케쥴링을 위해서는  ML Job의 특성을 고려한 Scheduler의 설계가 중요하다. \n최적의 GPU 자원을 할당해 주는 것이 매우 중요하다. 본 발표에서는 Kubernetes 환경에서 Machine Learning Job을 위한 오픈소스 Scheduler인 kube-batch에 대해 소개한다. 또한 Machine Learning Job을 위한 스케쥴링 최적화 방안방안에 대해 알아본다.",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "서동은",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -515,7 +511,19 @@
           "colSpan": 1,
           "title": "Seamless Ingress Controller for zero downtime service",
           "href": "",
-          "speakers": []
+          "speakers": ["엄재철"],
+          "tracks": ["Track 5"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "엄재철",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
@@ -549,14 +557,14 @@
           "colSpan": 1,
           "title": "Deep Dive into Kubernetes internal",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_2",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["강인호"],
+          "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "Kubernetes의 내부 구조와 구동 메커니즘에 대해 설명한다. Master Node와 Worker Node의 Component에 대한 주요한 기능을 설명하며, 간단한 예제(Deployment yaml)가 적용되는 흐름을 Component 의 연관관계(Sequence)를 설명하고,  Custom Controller의 예제 시연을 통해 Control loop와 SharedInfomer에 대해 설명한다. 마지막으로 kube-proxy통해 iptable를 이용한 추상화된 Service 개념을 설명한다.",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "강인호",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -567,14 +575,14 @@
           "colSpan": 1,
           "title": "대규모 GPU 기반 K8S Cluster를 활용한  ML Training Troubleshooting",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_2",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["조규남"],
+          "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "ML Framework이 다양해 지고, Public Cloud 등을 이용한 ML Training이 많아 지면서 유연한 환경을 제공하기 위해서 Container를 활용한 ML Training 기법이 많이 사용되고 있습니다. 또한 이를 위한 Orchestration으로 K8S 또한 많이 사용되고 있습니다. 하지만 Enterprise service에 최적화되어 있는 K8S에서 ML Training Task를 수행하면서 만날 수 있는 여러가지 문제점들이 무엇인지 살펴 보고 이를 위한 해결책이 무엇인지 알아 봅니다.",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "조규남",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -585,14 +593,14 @@
           "colSpan": 1,
           "title": "Ceph 성능 최적화를 위한 White-box 접근",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_2",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["변일수"],
+          "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "Ceph의 ObjectStore 중의 하나인 BlueStore는 메타 데이터 저장을 위해 RocksDB를 사용하고 있다. 특히 Small IO의 경우 RocksDB의 성능 특성이 Ceph 전체 성능에 결정적인 영향을 끼칠 수 있다. 이를 위해 IO 처리를 제어하는 다양한 옵션들이 존재하는데 이러한 옵션들은 내부 동작 구조에 대한 이해 없이 제대로 된 영향을 평가하기는 힘들다. 본 세션을 통해 Ceph에서 발생했던 성능 문제를 해결해 가는 과정과 관련된 내부 구조 및 설정들에 대한 소개를 통해 Ceph 최적화를 위해서는 내부 동작에 대한 이해가 필수 불가결함에 대해 설명한다.",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "변일수",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -604,7 +612,7 @@
           "title": "Video understanding on KubeFlow: KubeFlow 위에서 \"도둑\"자바요",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_2",
           "speakers": [],
-          "tracks": [],
+          "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
@@ -621,8 +629,8 @@
           "colSpan": 1,
           "title": "knative 기반으로 구현한 Cloud Function Service(AWS Lambda like service)는 어떤 모습일까?",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_2",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["송동수", "권세택"],
+          "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
@@ -644,14 +652,14 @@
           "colSpan": 1,
           "title": "Truly understanding container",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_3",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["이어형"],
+          "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "컨테이너 기술은 많은 발전을 통해 산업이나 개인환경에서 다양하게 사용되고 있습니다. 이런 컨테이너를 사용하는데 여러 한계들이 언급되고 있으나 과연 이것이 진정한 한계인지 다시 생각해 볼 수 있도록 컨테이너의 정의와 이를 통한 한계들을 극복하는 방법을 이야기 합니다.또한 앞으로의 발전방향과 이를 대체할 수 있는 다른 가능성들에 대해 이야기하고자 합니다.",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "이어형",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -662,14 +670,14 @@
           "colSpan": 1,
           "title": "POOQ의 마이크로 서비스 적용 사례",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_3",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["박명순"],
+          "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "제가 발표하려는 내용은, 콘텐츠연합플랫폼(주)에서 서비스 하고있는 OTT 서비스인 POOQ의  마이크로 서비스의 적용 사례입니다.\n\n마이크로 서비스 개념이나 기술에 대한 깊은 내용보다는, 저희 회사에서 마이크로 서비스 도입을 위해 검토하고 진행 했던 내용들 위주로 발표 하려 합니다.\n\n저희 구성원은, 마이크로 서비스 경험이 전혀 없는 상태에서, 서비스 준비를 시작 했기때문에, 발표 내용이 저희처럼 마이크로 서비스 도입을  처음 준비하고 계신분들에게 도움이 될 것으로 기대합니다.\n\n 발표순서는 POOQ에 대한 간단한 소개 후, 마이크로 서비스 도입 이전 상황, 도입 준비 과정, 도입 이후 진행사항, 그리고 향후 계획 순서로 생각하고 있습니다.\n\n 현재 POOQ은 AWS 환경에서 Kops 기반 Kubernetes 와 EKS 기반 Kubernetes 를 운영하고 있으며, API Gateway로 Kong을, Git 저장소와 CI/CD로 Gitlab을 사용하고 있습니다. 또한 현재 서비스 개선 및 비용절감을 위해서 Istio 및 Spot Instance 사용을 준비 중에있습니다.",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "박명순",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -680,14 +688,14 @@
           "colSpan": 1,
           "title": "ceph 클러스터의 서비스 수준 99.9999% 운영",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_3",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["송동수"],
+          "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "글로벌 서비스를 위한 ceph cluster를 다양한 목적으로 제공하고 운영하는데 있어서 서비스 수준 99.9999% 달성을 위한 노우하우\n1. object storage(S3 서비스), block storage  구성\n2. 백포트, 버그 패치 \n3. dev, stage, real 환경 배포 자동화\n4. 장비 장애 대응 (디스크, 서버 등)\n5. 모니터링, 알람\n6. TODO",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "송동수",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -698,11 +706,11 @@
           "colSpan": 1,
           "title": "Kubernetes를 활용하여 효율적인 Machine Learning Pipeline 만들기",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_3",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["안재만", "이용선"],
+          "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "Kubernetes를 활용하여 시간/비용 효율적인 Machine Learning Pipeline을 만든 과정에 대해 소개합니다. 이를 통해 연구자는 GPU 리소스와 인프라 구성에 대한 고민 없이 자유롭게 GPU를 획득하여 연구를 수행할 수 있고, 만들어진 모델을 실제 서비스까지 deploy 할 수 있도록 합니다.\n\n* 이 세션은 GTC Silicon Valley 2019에서 저희가 발표한 내용의 연장선 상에서 구성되었습니다. 관련 슬라이드는 https://on-demand.gputechconf.com/gtc/2019/presentation/_/s9264-how-to-build-efficient-ml-pipelines-from-the-startup-perspective.pdf 에서 보실 수 있습니다.",
           "speakerDetails": [
             {
               "name": "",
@@ -716,8 +724,8 @@
           "colSpan": 1,
           "title": "Kubernetes 잘 활용하기\n\n1) Connect services securely across multi-cloud environments (Egress)\n\n2) Kubernetes는 데이터베이스 운영에 적합할까? Elasticsearch on Kubernetes 1년 후…",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_3",
-          "speakers": [],
-          "tracks": [],
+          "speakers": ["이정복", "한수호"],
+          "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",

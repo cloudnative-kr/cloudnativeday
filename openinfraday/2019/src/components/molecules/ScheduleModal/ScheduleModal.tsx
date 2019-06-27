@@ -121,6 +121,7 @@ const SpeakerDescription = styled.div`
   font-size: 15px;
   margin-top: 10px;
   letter-spacing: 0.2px;
+  white-space: pre-line;
 
   @media ${ON_MOBILE} {
     font-size: 13px;
@@ -171,6 +172,7 @@ const TrackDescription = styled.div`
   border-top: 4px solid white;
   padding-top: 10px;
   letter-spacing: 0.2px;
+  white-space: pre-line;
 
   @media ${ON_MOBILE} {
     font-size: 13px;
