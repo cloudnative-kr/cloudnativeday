@@ -18,7 +18,19 @@
           "colSpan": 1,
           "title": "Opening",
           "href": "https://event.openinfradays.kr/2019/session1/01_opening",
-          "speakers": ["안승규 - Kubernetes User Group"]
+          "speakers": ["안승규 - Kubernetes User Group"],
+          "tracks": [],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
@@ -30,7 +42,19 @@
           "colSpan": 5,
           "rowSpan": 6,
           "title": "Broadcasting",
-          "speakers": []
+          "tracks": [],
+          "speakers": [],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
@@ -41,7 +65,11 @@
           "colSpan": 2,
           "title": "Thank you all Sponsors on Cloud Native Day Korea & 프로그램 소개 Community Report",
           "href": "https://event.openinfradays.kr/2019/session1/11_keynote1",
-          "speakers": ["OpenStack", "Kubernetes", "Ceph", "OCP 커뮤니티"]
+          "speakers": ["OpenStack", "Kubernetes", "Ceph", "OCP 커뮤니티"],
+          "tracks": [],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": ""
         }
       ]
     },
@@ -50,9 +78,13 @@
       "cols": [
         {
           "colSpan": 2,
-          "title": "Kenote 1",
+          "title": "Keynote 1",
           "href": "https://event.openinfradays.kr/2019/session1/11_keynote2",
-          "speakers": ["OpenStack Foundation"]
+          "speakers": ["OpenStack Foundation"],
+          "tracks": ["Keynote 1"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": ""
         }
       ]
     },
@@ -63,7 +95,19 @@
           "colSpan": 2,
           "title": "Keynote 2",
           "href": "https://event.openinfradays.kr/2019/session1/11_keynote3",
-          "speakers": ["NIPA"]
+          "speakers": ["NIPA"],
+          "tracks": ["Keynote 2"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
@@ -74,7 +118,19 @@
           "colSpan": 2,
           "title": "Keynote 3\nCloud, Current Currents and Directions with open powers",
           "href": "https://event.openinfradays.kr/2019/session1/11_keynote4",
-          "speakers": ["KAKAO"]
+          "speakers": ["KAKAO 공용준 Cloud Part Lead"],
+          "tracks": ["Keynote 3"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "클라우드의 현재 쟁점 이슈들에 대해서 설명하고 이것들이 어떤 의미를 가지는 지에 대해서 이야기한다. 그리고 앞으로의  클라우드가 진화 방향에 있어서 오픈소스와 오픈 인프라가 어떻게 도움을 주는지에 대해서 이야기 한다. 그리고 카카오 이런 오픈소스 흐름을 어떻게 이용해서 클라우드를 만드는지에 대해서도 이야기한다.",
+          "speakerDetails": [
+            {
+              "name": "공용준",
+              "affiliation": "KAKAO",
+              "bio": "공용준(Andrew)은 카카오에서 클라우드 컴퓨팅 파트에서 클라우드 기술 리딩을 맡고 있으며, 프라이빗/퍼블릭 클라우드 서비스와 그에 필요한 기술들을 연구, 개발해서 실제 서비스에 적용하고 있다. 중소기업 발전을 위해 한국정보화진흥원에서 중소기업 기술 자문위원, 한국 데이터베이스 진흥원 자문위원으로도 활동하고 있다. 2011년에 정통부 산하의 클라우드 정책 연구단 기술고문을 역임했으며, 주요 저서로는 『카프카: 테이터 플랫폼의 최강자』(책만,2018),『클라우드 API를 활용한 빅데이터분석』(에이콘,2015), 『실전 클라우드 인프라 구축기술(한빛, 2014)』이 있다.",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
@@ -85,7 +141,19 @@
           "colSpan": 2,
           "title": "Keynote 4\nData centric world and Storage System Architecture",
           "href": "https://event.openinfradays.kr/2019/session1/15_keynote_sponsors",
-          "speakers": ["삼성전자"]
+          "speakers": ["삼성전자 송용호 전무"],
+          "tracks": ["Keynote 4"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "1. Data and Storage Mega-trend\n2. Strategy of Samsung's Storage System Architecture solutions\n- iBoF Motivation and Architecture\n- New Host-SSD Interface for Error Prediction\n- OCSSD Open source activity\n3. Direction and Activity plan for Open Source Community",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "서울대학교, 컴퓨터공학과, 학사, 석사\n University of Southern California, Electrical Engineering, Ph.D.\n한양대학교 공과대학 융합전자공학부, 교수\n삼성전자 메모리사업부 상품기획실, 전무",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
@@ -96,7 +164,19 @@
           "colSpan": 7,
           "title": "점심식사 & 부스 둘러보기",
           "href": "https://event.openinfradays.kr/2019/session1/20_lunch",
-          "speakers": []
+          "speakers": [],
+          "tracks": [],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
@@ -107,47 +187,131 @@
           "colSpan": 1,
           "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_0",
-          "speakers": ["삼성전자"]
+          "speakers": ["삼성전자 박성준"],
+          "tracks": ["Track 1"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "박성준",
+              "affiliation": "삼성전자",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "원클릭으로 쿠버네티스 사용하기",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_0",
-          "speakers": ["뉴타닉스"]
+          "speakers": ["뉴타닉스 양성태 차장"],
+          "tracks": ["Track 2"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "쿠버네티스를 통해서 사용자 서비스 워크로드는 인프라스트럭처에 영향 받지 않는 유연함을 가지게 되었습니다. 하지만 우리 데이터센터에 쿠버네티스를 구성하는 것이 간단한 일은 아닙니다. 서버에 대한 설정, 스토리지/네트워크 구성, 버전 관리 등 고려해야 할 사항들이 많습니다. 이번 세션에서는 원클릭으로 쿠버네티스에 필요한 구성들을 배포하고 사용하는 방법을 소개합니다.",
+          "speakerDetails": [
+            {
+              "name": "양성태",
+              "affiliation": "뉴타닉스",
+              "bio": "개발, 리눅스, 가상화, 시스템 엔지니어링 등의 분야에서 경험을 쌓아 왔으며, 현재 뉴타닉스 코리아 시스템즈 엔지니어링 팀에서 기술지원을 담당하고 있습니다.",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "Accelerating neutron DVR data plane using DPDK",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_0",
-          "speakers": [""]
+          "speakers": ["박성우"],
+          "tracks": ["Track 3"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "Ceph의 ObjectStore 중의 하나인 BlueStore는 메타 데이터 저장을 위해 RocksDB를 사용하고 있다. 특히 Small IO의 경우 RocksDB의 성능 특성이 Ceph 전체 성능에 결정적인 영향을 끼칠 수 있다. 이를 위해 IO 처리를 제어하는 다양한 옵션들이 존재하는데 이러한 옵션들은 내부 동작 구조에 대한 이해 없이 제대로 된 영향을 평가하기는 힘들다. 본 세션을 통해 Ceph에서 발생했던 성능 문제를 해결해 가는 과정과 관련된 내부 구조 및 설정들에 대한 소개를 통해 Ceph 최적화를 위해서는 내부 동작에 대한 이해가 필수 불가결함에 대해 설명한다.",
+          "speakerDetails": [
+            {
+              "name": "박성우",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "rowSpan": 3,
           "title": "Ceph Community Hands-On Workshop",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
-          "speakers": [""]
+          "speakers": [""],
+          "tracks": ["Track 4"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "rowSpan": 6,
           "title": "Hands-on Kubernetes and Service Monitoring with Prometheus",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
-          "speakers": ["맨텍"]
+          "speakers": ["감종욱"],
+          "tracks": ["Track 5"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "Kubernetes (쿠버네티스) 사용법과 프로메테우스 (Promethus)를 활용한 모니터링 서비스에 대해 다루고자 함.\n\n- Setup Promethus Monitoring on Kubernetes Cluster \n- Horizontal Pod Autoscale with Custom Promethus Metrics\n- Slack Notifications & Alertmanager",
+          "speakerDetails": [
+            {
+              "name": "감종욱",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
+        },
+        {
+          "colSpan": 1,
+          "rowSpan": 2,
+          "title": "Windows와 Linux 컨테이너를 동시에 지원하는 Kubernetes 클러스터 만들기",
+          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
+          "speakers": ["남정현"],
+          "tracks": ["Track 6"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "이 핸즈온 워크샵 세션에서는 Windows와 Linux 컨테이너를 동시에 구동할 수 있는 Custom Kubernetes 클러스터를 오픈 소스 기반의 Azure AKS Engine으로 만들어봅니다. 그리고 Windows 컨테이너와 Linux 컨테이너가 서로 상호작용하는 샘플 애플리케이션을 배포한 후, Worker Node가 어떻게 실행되는지 자세히 살펴보면서 상세 원리를 알아보도록 합니다.",
+          "speakerDetails": [
+            {
+              "name": "남정현",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "rowSpan": 6,
-          "title": "Windows와 Linux 컨테이너를 동시에 지원하는 Kubernetes 클러스터 만들기 - 13:00~15:10  \n\n컨테이너 어렵게 배우기(Container The Hard Way) - 15:30~17:40",
+          "title": "Kubernetes 101 Workshop II Kubeadm을 이용해 고가용성 Kubernetes 클러스터 구축하기 & Kubernetes the Hard Way 가이드",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
-          "speakers": [""]
-        },
-        {
-          "colSpan": 1,
-          "rowSpan": 6,
-          "title": "Kubernetes the Hard Way 가이드 / 13:00~15:10\n\nKubeadm 을 이용해 고가용성 Kubernetes 클러스터 구축하기 / 15:30~17:40",
-          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
-          "speakers": [""]
+          "speakers": ["임찬식"],
+          "tracks": ["Track 7"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "VM 환경에서 kubeadm 을 이용해 고가용성 Kubernetes 클러스터를 구축하는 실습을 진행합니다. kubeadm 을 이용하면 Baremetal 서버 환경에서 Kubernetes 클러스터를 쉽게 구축하여 사용하는 것이 가능합니다. 이 세션에서는 kubeadm 을 이용한 Kubernetes 클러스터 관리 방법을 VM 환경에서 실습하고 이후에 실제 클러스터에 적용하는 것을 목표로 합니다. kubeadm 을 이용해 이미 사용하고 있는 Single Master Kubernetes 클러스터를 관리하고, 고가용성 클러스터로 변경하는 실습을 진행합니다.",
+          "speakerDetails": [
+            {
+              "name": "임찬식",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
@@ -158,19 +322,61 @@
           "colSpan": 1,
           "title": "Kubernetes ingress controller에 대해 알아보자",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_1",
-          "speakers": ["F5Networks"]
+          "speakers": ["F5Networks 권중철 부장"],
+          "tracks": ["Track 1"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "다양한 Kubernetes ingress controller를 소개하고 서비스에 적합한 controller를 함께 고민해본다.",
+          "speakerDetails": [
+            {
+              "name": "권중철",
+              "affiliation": "F5Networks",
+              "bio": "오랫 동안 네트워크 엔지니어로 일하다가 몇 해전부터 클라우드쪽으로 전업해서 현재는 F5Networks에서 클라우드 엔지니어로 일하고 있습니다.",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "Multi-Cluster Service Mesh",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_1",
-          "speakers": ["SK C&C"]
+          "speakers": ["SK C&C 송민영", "나정호"],
+          "tracks": ["Track 2"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "송민영",
+              "affiliation": "SK C&C",
+              "bio": "SK 주식회사 C&C에 재직 중(2011~)\n- Cloud Native Platform Service R&D\n- k8s, istio, Elasticsearch, Fluentd",
+              "imageUrl": null
+            },
+            {
+              "name": "나정호",
+              "affiliation": "SK C&C",
+              "bio": "SK주식회사 C&C에서 Cloud Native Platform Engineer로 재직중이며, 컨테이너 서비스 제공을 위한 Kubernetes 기반 플랫폼 구축 및 설계를 담당하고 있으며, Multi-Cloud 관련 비즈니스 성장에 따라, 관련 기술에 대한 검증 및 서비스화를 선도해가고 있습니다",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "앤서블을 통한 오픈네트워크의 관리 자동화 ",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
-          "speakers": [""]
+          "speakers": ["Infra Engineer Group 조훈"],
+          "tracks": ["Track 3"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "대표적인 구성/관리 자동화 도구인 앤서블(Ansible)을 통해서 일반적으로 사용하는 범용운영체제(Windows,Linux)를 넘어, 오픈 네트워크를 자동으로 구성 관리하는 방법을 알아봅시다. 주요하게 다룰 내용은 다음과 같습니다.\n 1) 앤서블과 Cumulus에 대한 아주 간단한 소개\n 2) 앤서블로 한방에 A그룹과 B그룹 간에 분리된 네트워크 구성을 만들기\n 3) 앤서블로 한방에 A그룹과 B그룹 사이에 OSPF를 구성하기\n\n*네트워크 자체를 깊게 설명하지는 않을 예정이니, 부담 없이 와서 감상하는 모드로 들으시면 됩니다. :)",
+          "speakerDetails": [
+            {
+              "name": "조훈",
+              "affiliation": "Infra Engineer Group",
+              "bio": "시스템/네트워크 자동화 전문가. IBM과 Cisco 그리고 Dell EMC에서의 근무 경험을 통해 시스템/네트워크에 대한 균형적인 시각을 가지고 있다. 또한, 인프런/유데미에서 인프라 자동화를 위한 앤서블에 대한 강의를 진행하고 있으며, 파이썬 및 앤서블 코리아 유저 그룹에서 활동 중이다. 그리고, 페이스북에서 ‘IT 인프라 엔지니어 그룹’을 운영하고 있다. 집필한 책으로는 『시스템/네트워크 관리자를 위한 파이썬 실무 프로그래밍』(공저, 위키북스)』과 『우아하게 앤서블』(공저, 비제이퍼블릭) 등이 있다.",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
@@ -181,19 +387,55 @@
           "colSpan": 1,
           "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_1",
-          "speakers": ["Red Hat"]
+          "speakers": ["Red Hat 김현수 Associate Principal Solution Architect"],
+          "tracks": ["Track 1"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "김현수",
+              "affiliation": "Red Hat",
+              "bio": "한국레드햇 어소시에이트 프린스펄 솔루션 아키텍트인 김현수 이사는 오픈시프트 컨테이너 및 미들웨어 분야를 담당하는 Red Hat AppDev Team의 리더이며, Red Hat Certified Architect 이다. 현재, 컨테이너, DevOps 및 마이크로서비스 아키텍처 등의 최신 기술을 전파하는 역할을 담당하고 있다. 레드햇에 합류하기 전 BEA Systems, HP, Oracle에서 시니어 컨설턴트 및 수석 세일즈 컨설턴트로 활동하며, 개발배포 프로세스 자동화를 통해서 대형 은행사의 멀티 채널 통합 프로젝트, 대형 통신사의 엔터프라이즈 포털 프로젝트를 성공적으로 완료하였다.",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "Move faster with Kubernetes Monitoring",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_1",
-          "speakers": ["뉴렐릭"]
+          "speakers": ["뉴렐릭 김형석 Solution Consultant"],
+          "tracks": ["Track 2"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "김형석",
+              "affiliation": "뉴렐릭",
+              "bio": "김형석 컨설턴트는 지난 수년간 On-Premises 와 SaaS 기반의 모니터링 솔루션을 경험해 왔으며 호주를 기반으로 아시아 시장에서 Pre-sales engineer로 활동을 하였고 지난 1년동안 New Relic의 한국 기술지원 담당자로 인프라부터 APM 및 Front-end의 Full-stack 모니터링 분야에서 적극적으로 활동하고 있습니다.",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "kubernetes scheduler deep dive",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
-          "speakers": [""]
+          "speakers": ["김동진"],
+          "tracks": ["Track 3"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "Kubernetes scheduler component의 동작방식 및 algorithm에 대해 알아보고 multiple scheduler와 performance tuning에 대해 알아봅니다.",
+          "speakerDetails": [
+            {
+              "name": "김동진",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
@@ -204,7 +446,38 @@
           "colSpan": 4,
           "title": "커피 브레이크",
           "href": "https://event.openinfradays.kr/2019/session1/90-break1",
-          "speakers": []
+          "speakers": [],
+          "tracks": [],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
+        },
+        {
+          "colSpan": 1,
+          "rowSpan": 3,
+          "title": "컨테이너 어렵게 배우기(Container The Hard Way)",
+          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
+          "speakers": ["김대권", "김승호"],
+          "tracks": ["Track 6"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "클라우드 위에서 컨테이너로 애플리케이션을 배포하는 일은 이제 자연스러운 일이 되었습니다. 이 때 사용하는 컨테이너 엔진들은 컨테이너 기술을 추상화하는 역할을 담당합니다. 따라서 실제로 컨테이너가 무엇이고, 어떻게 동작하는 지는 잘 보이지 않습니다. 이 워크숍에서는 리눅스 컨테이너가 동작하는 원리에 대해서 알아보고 이를 기반으로 컨테이너를 정의합니다. 그리고 도커와 같은 컨테이너 엔진들을 사용하지 않고, pivot_root, Linux Namespace, Cgroups, Union File System과 같은 리눅스 커널의 기능등을 사용해서 직접 컨테이너를 만드는 방법을 알아봅니다.",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
@@ -215,25 +488,73 @@
           "colSpan": 1,
           "title": "Community OpenStack & Ceph 기반 서비스 구축 사례 및  운영 장애 극복기",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_2",
-          "speakers": ["OSCI"]
+          "speakers": ["오픈소스컨설팅 김호진, 윤재열"],
+          "tracks": ["Track 1"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "오픈소스 기반의 프라이빗 클라우드로도 비즈니스 환경에 민첩하게 대응하고 보안성을 확보할 수 있습니다. 이번 발표에서는 커뮤니티 버전의 OpenStack 과 ceph를 활용하여 실제 인프라를 구축한 사례를 공유합니다. 유연성을 확보한 기업용 클라우드 서비스 구축 사례와 높은 수준의 보안을 요구하는 거래소 서비스를 구축, 운영한 전략을 소개합니다. 또한 이 프로젝트에 사용된 기술 스택 및 구축 용량 산정에 관한 내용을 발표합니다.",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "Lession Learned from Running OpenStack on Baremetal Kubernetes Clusters in Telco NFV Production",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_2",
-          "speakers": ["SKT"]
+          "speakers": ["SKT"],
+          "tracks": ["Track 2"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "Kubernetes에서 Kafka 와 Flink 를 사용하여 실시간 데이터 스트리밍 파이프라인 구현하기",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_2",
-          "speakers": [""]
+          "speakers": ["독고혁, 신윤용"],
+          "tracks": ["Track 3"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "AWS 에서 KOPS 로 kubernetes 클러스터를 쉽게 구성하고 관리할수 있었던 점과 실시간 데이터 처리를 위해서는 어떠한 스택이 필요하며 우리가 사용한  kafka + flink 스택을 사용해 실시간 데이터 처리 파이프라인을 k8s 클러스터위에 구성했던 경험을 공유합니다 또한 이들을 모니터링 하기 위해 필요했던 prometheus + grafana 와 기타 스택에 대해 공유합니다 ",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "Meeting with Thierry",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_2",
-          "speakers": ["OSF"]
+          "speakers": ["OpenStack Foundation"],
+          "tracks": ["Track 4"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
@@ -244,25 +565,73 @@
           "colSpan": 1,
           "title": "엔씨소프트에서 Kubernetes 운영하기",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_3",
-          "speakers": ["NC Soft"]
+          "speakers": ["엔시소프트 오태경, 엔시소프트 강정식"],
+          "tracks": ["Track 1"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "엔씨소프트에서는 국내에서는 비교적 빠르게 2015년 CNCF 가입과 함께 쿠버네티스를 통한 컨테이너 인프라를 대외 서비스에 사용하고 있습니다. 1.0.3 릴리즈를 kube-up.sh 스크립트로 클러스터를 만들어 운영하던 시기부터 하이브리드/GPU 클러스터, 3천여개의 컨테이너인 지금에 이르기까지, 지난 4년 간 쿠버네티스를 운영하면서 진행했던 많은 Jira 업무 기록이 있습니다. 대외 서비스를 제공하며 주요 하였던 며가지 업무 기록을 통하여 클러스터 운영 시 겪을 수 있는 문제점들을 여러 분께 공유 하려고 합니다. 쿠버네티스 클러스터로 대외 서비스 제공을 시작하려는 분들꼐 유용한 시간이 될 것으로 기대합니다.\n- 100 미니언 Not Ready 만들기\n- IDC 정전에 클러스터 리셋하기\n- ETCD HDD 로 구성하기\n- Job 으로, ETCD Unhealthy 만들기\n- 마이너버전 6단계 업그레이드 하기\n- TBD",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "라인에서 Kubernetes를 쓰는 방법과 그 동안 배운 것들",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_3",
-          "speakers": ["Line"]
+          "speakers": ["최정대"],
+          "tracks": ["Track 2"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "라인에서 Kubernetes를 이용해서 서비스 및 플랫폼 개발에 사용하는 다양한 케이스를 소개하며 이를 개발하면서 고민했던 내용들 그리고 운영하면서 배운 여러가지 경험을 공유합니다.\n- Kubernetes를 이용한 플랫폼 개발\n- Helm을 이용한 software category service\n- Custom Resource Definition과 Custom Controller를 개발할 때 유의점",
+          "speakerDetails": [
+            {
+              "name": "최정대",
+              "affiliation": "LINE",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "Source to URL without Dockerfile",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_3",
-          "speakers": [""]
+          "speakers": ["정원천"],
+          "tracks": ["Track 3"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "buildpack.io을 이용해서 dockerfile이 없는 소스를 분석해서 컨테이너 이미지를 빌드합니다. 빌드된 이미지를 knative를 이용해서 kubernetes상에서 실행해 보는 방법을 알아봅니다.",
+          "speakerDetails": [
+            {
+              "name": "정원천",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "colSpan": 1,
           "title": "Kubernetes Community Session",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_3",
-          "speakers": [""]
+          "speakers": [""],
+          "tracks": ["Track 4"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         }
       ]
     },
