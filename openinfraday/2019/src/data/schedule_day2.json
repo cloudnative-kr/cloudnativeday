@@ -40,7 +40,7 @@
               "name": "Kamesh Sampath",
               "affiliation": "Red Hat",
               "bio": "GitHub: https://github.com/kameshsampath \n Kamesh is a Principal Software Engineer at Red Hat, as part of his additional role as Director of Developer Experience at Red Hat — he actively educates on Kubernetes/OpenShift, Servicemesh, and Serverless technologies --. With a career spanning close to two decades, most of Kamesh’s career was with services industry helping various enterprise customers build Java-based solutions. Kamesh has been a contributor to Open Source projects for more than a decade and he now actively contributes to projects like Knative, Minishift, Eclipse Che, fabric8 etc., As part of his developer philosophy he strongly believes in LEARN MORE, DO MORE and SHARE MORE!",
-              "imageUrl": null
+              "imageUrl": "/speakers/day2/keynote/레드햇_Kamesh.png"
             }
           ]
         },
@@ -330,7 +330,7 @@
               "name": "임성국",
               "affiliation": "KAKAO",
               "bio": "웹공학 석사 @KAIST\n공통플랫폼 개발 @ETRI\nOpen API GW 개발 @KT\nKAKAO Monitoring Cloud 개발 @KAKAO",
-              "imageUrl": null
+              "imageUrl": "/speakers/day2/track2/카카오 _임성국.png"
             }
           ]
         },
@@ -449,7 +449,7 @@
               "name": "김진학",
               "affiliation": "NetApp",
               "bio": "김진학 부장은 한국 NetApp에서 클라우드 비즈니스에 대한 컨설팅 및 Pre-Sales를 지원하고 있으며, 특히 APAC 내 여러 지역을 대상으로 OpenStack 및 Kubernetes 관련 Skill-set 을 기반으로 다양한 기술 지원을 하고 있습니다. 엔터프라이즈 기업들이 Open Source 플랫폼 도입을 고려 할 때 마주하는 다양한 데이터관리 이슈들을 해결하기 위한 최적의 해법을 제공하고, 효율적인 시스템을 적용 할 수 있도록 돕고 있습니다.",
-              "imageUrl": null
+              "imageUrl": "/speakers/day2/track1/넷앱_김진학.jpg"
             }
           ]
         },

@@ -94,16 +94,22 @@ const SpeakerName = styled.div`
   }
 `
 
-const SpeakerImage = styled.img`
-  width: 110px;
+const SpeakerImage = styled.div<{ src: string }>`
+   width: 110px;
   height: 110px;
   border-radius: 50%;
   margin-right: 20px;
+
+  background: url('${p => p.src}') no-repeat center center;
+  background-size: cover;
+
   @media ${ON_MOBILE} {
     width: 70px;
     height: 70px;
     margin-right: 10px;
   }
+
+
 `
 
 const SpeakerAffiliation = styled.div`

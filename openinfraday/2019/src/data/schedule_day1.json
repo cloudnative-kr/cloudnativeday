@@ -15,10 +15,13 @@
       "time": "09:20 ~ 09:30",
       "cols": [
         {
-          "colSpan": 1,
+          "colSpan": 2,
           "title": "Opening",
           "href": "https://event.openinfradays.kr/2019/session1/01_opening",
-          "speakers": ["안승규 - Kubernetes User Group"],
+          "speakers": [
+            "Kubernetes User Group 안승규",
+            "OpenStack Korea User Group 조성수"
+          ],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -28,15 +31,15 @@
               "name": "",
               "affiliation": "",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/keynote/Kubernetes User Group_안승규.jpg"
+            },
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": "/speakers/day1/keynote/OpenStack Korea User Group_조성수.jpg"
             }
           ]
-        },
-        {
-          "colSpan": 1,
-          "title": "Opening",
-          "href": "https://event.openinfradays.kr/2019/session1/01_opening",
-          "speakers": ["조성수 - OpenStack Korea User Group"]
         },
         {
           "colSpan": 5,
@@ -128,7 +131,7 @@
               "name": "공용준",
               "affiliation": "KAKAO",
               "bio": "공용준(Andrew)은 카카오에서 클라우드 컴퓨팅 파트에서 클라우드 기술 리딩을 맡고 있으며, 프라이빗/퍼블릭 클라우드 서비스와 그에 필요한 기술들을 연구, 개발해서 실제 서비스에 적용하고 있다. 중소기업 발전을 위해 한국정보화진흥원에서 중소기업 기술 자문위원, 한국 데이터베이스 진흥원 자문위원으로도 활동하고 있다. 2011년에 정통부 산하의 클라우드 정책 연구단 기술고문을 역임했으며, 주요 저서로는 『카프카: 테이터 플랫폼의 최강자』(책만,2018),『클라우드 API를 활용한 빅데이터분석』(에이콘,2015), 『실전 클라우드 인프라 구축기술(한빛, 2014)』이 있다.",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/keynote/카카오 _공용준.jpg"
             }
           ]
         }
@@ -151,7 +154,7 @@
               "name": "",
               "affiliation": "",
               "bio": "서울대학교, 컴퓨터공학과, 학사, 석사\n University of Southern California, Electrical Engineering, Ph.D.\n한양대학교 공과대학 융합전자공학부, 교수\n삼성전자 메모리사업부 상품기획실, 전무",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/keynote/삼성전자 _송용호.jpg"
             }
           ]
         }
@@ -197,7 +200,7 @@
               "name": "박성준",
               "affiliation": "삼성전자",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/track1/삼성전자_박성준.jpg"
             }
           ]
         },
@@ -215,7 +218,7 @@
               "name": "양성태",
               "affiliation": "뉴타닉스",
               "bio": "개발, 리눅스, 가상화, 시스템 엔지니어링 등의 분야에서 경험을 쌓아 왔으며, 현재 뉴타닉스 코리아 시스템즈 엔지니어링 팀에서 기술지원을 담당하고 있습니다.",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/track2/뉴타닉스_양성태.jpeg"
             }
           ]
         },
@@ -233,7 +236,7 @@
               "name": "박성우",
               "affiliation": "",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/track3/박성우.png"
             }
           ]
         },
@@ -332,7 +335,7 @@
               "name": "권중철",
               "affiliation": "F5Networks",
               "bio": "오랫 동안 네트워크 엔지니어로 일하다가 몇 해전부터 클라우드쪽으로 전업해서 현재는 F5Networks에서 클라우드 엔지니어로 일하고 있습니다.",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/track1/F5_권중철.jpg"
             }
           ]
         },
@@ -374,7 +377,7 @@
               "name": "조훈",
               "affiliation": "Infra Engineer Group",
               "bio": "시스템/네트워크 자동화 전문가. IBM과 Cisco 그리고 Dell EMC에서의 근무 경험을 통해 시스템/네트워크에 대한 균형적인 시각을 가지고 있다. 또한, 인프런/유데미에서 인프라 자동화를 위한 앤서블에 대한 강의를 진행하고 있으며, 파이썬 및 앤서블 코리아 유저 그룹에서 활동 중이다. 그리고, 페이스북에서 ‘IT 인프라 엔지니어 그룹’을 운영하고 있다. 집필한 책으로는 『시스템/네트워크 관리자를 위한 파이썬 실무 프로그래밍』(공저, 위키북스)』과 『우아하게 앤서블』(공저, 비제이퍼블릭) 등이 있다.",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/track3/Infra Engineer Group_조훈.png"
             }
           ]
         }
@@ -415,7 +418,7 @@
               "name": "김형석",
               "affiliation": "뉴렐릭",
               "bio": "김형석 컨설턴트는 지난 수년간 On-Premises 와 SaaS 기반의 모니터링 솔루션을 경험해 왔으며 호주를 기반으로 아시아 시장에서 Pre-sales engineer로 활동을 하였고 지난 1년동안 New Relic의 한국 기술지원 담당자로 인프라부터 APM 및 Front-end의 Full-stack 모니터링 분야에서 적극적으로 활동하고 있습니다.",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/track2/뉴렐릭_김형석.jpg"
             }
           ]
         },
@@ -534,7 +537,7 @@
               "name": "",
               "affiliation": "",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/track3/독고혁.jpeg"
             }
           ]
         },
@@ -611,7 +614,7 @@
               "name": "정원천",
               "affiliation": "",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/track3/정원천.jpg"
             }
           ]
         },
