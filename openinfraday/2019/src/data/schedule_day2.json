@@ -28,7 +28,7 @@
       "cols": [
         {
           "colSpan": 3,
-          "title": "Keynote 1\n Community Invited Talk",
+          "title": "Keynote 1\nCommunity Invited Talk \nIf Effective DevOps? : (Pipelines | ServiceMesh | Serverless) & Kubernetes ",
           "href": "https://event.openinfradays.kr/2019/session1/01_opening",
           "speakers": ["Kamesh Sampath, Principal Software Engineer, Red Hat "],
           "tracks": ["Keynote 1"],
@@ -300,18 +300,24 @@
       "cols": [
         {
           "colSpan": 1,
-          "title": "대륙의 서비스 개발 삽질기",
+          "title": "MSA, K8S를 이용한 대륙의 서비스 개발 사례",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_1",
-          "speakers": ["Kubernetes", "마이크로서비스"],
+          "speakers": ["김형준 CTO", "王志刚(왕쯔강) 经理"],
           "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "현재 중국은 알리바바와 위챗 등을 중심으로 인터넷, 모바일 서비스 등에서 세계에서 가장 빠르게 변하고, 적용해 나가고 있는 나라입니다. 6000km 이상의 거리와 14억 인구, 위챗 사용자만 10억 가까운 시장에서 서비스를 만들고 운영하는 것은 한국에서의 개발과는 전혀 다른 경험이었습니다. 이런 경험을 바탕으로 이번 발표에서는 다음 주제를 다루려고 합니다.\n- 중국 모바일 환경 및 특징\n- 마이크로 서비스 아키텍처\n- Windows, SQLServer, .NET, C/S 기반의 기술만 가지고 있는 조직이 어떻게 Linux, Cloud, 모바일/웹, 도커, 마이크로 서비스 아키텍처 환경으로 전환할 수 있었는지와 그 과정 ",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "김형준",
               "affiliation": "",
-              "bio": "",
+              "bio": "삼성SDS, Naver, JobPlanet에서 근무하면서.최근 10년 동안은 Hadoop, Tajo 등과 같은 빅데이터 플랫폼 관련 업무를 하였으며 2017년 이후 중국 북경에서 오프라인 커머스 사업자를 위한 클라우드 기반의 유통 ERP를 개발하여 SaaS 형태의 서비스를 제공하는 비즈니스를 추진하고 있다.\n\"클라우드 컴퓨팅 구현 기술\" 등 여러 권의 책을 집필하였으며 현재는 개발자를 위한 블로그 서비스인 https://www.popit.kr 서비스도 같이 운영하고 있다.",
+              "imageUrl": null
+            },
+            {
+              "name": "王志刚",
+              "affiliation": "",
+              "bio": "북경의념과기발전유한회사에서 소프트웨어 개발 및 architecture 유지보수 담당을 하다가 최근 3년 동안에는 클라우드 인프라 업무를 시작하였고 docker 운영환경 구축과 k8s Cluster 설치 및 유지보수 등 인프라 업무를 담당하고 있다.",
               "imageUrl": null
             }
           ]
