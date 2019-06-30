@@ -28,14 +28,14 @@
           "description": "",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
+              "name": "안승규",
+              "affiliation": "Kubernetes User Group",
               "bio": "",
               "imageUrl": "/speakers/day1/keynote/Kubernetes User Group_안승규.jpg"
             },
             {
-              "name": "",
-              "affiliation": "",
+              "name": "조성수",
+              "affiliation": "OpenStack Korea User Group",
               "bio": "",
               "imageUrl": "/speakers/day1/keynote/OpenStack Korea User Group_조성수.jpg"
             }
