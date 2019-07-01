@@ -180,7 +180,7 @@
         },
         {
           "colSpan": 1,
-          "title": "카카오는 Kubernetes 클러스터 500개를 어떻게 운영하고 있을까?",
+          "title": "카카오 T 택시 사례를 통해 살펴보는 카카오 클라우드의 Kubernetes as a Service",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_0",
           "speakers": ["KAKAO 홍석용"],
           "tracks": ["Track 2"],
