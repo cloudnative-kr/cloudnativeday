@@ -5,9 +5,9 @@
       "cols": [
         {
           "colSpan": 7,
-          "title": "Registration & 전시부스 관람",
+          "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/00_registration",
-          "speakers": [],
+          "speakers": ["(Registration & 전시부스 관람)"],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -47,8 +47,8 @@
         {
           "colSpan": 4,
           "rowSpan": 5,
-          "title": "Broadcasting",
-          "speakers": [],
+          "title": "",
+          "speakers": ["(Broadcasting)"],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -138,9 +138,9 @@
       "cols": [
         {
           "colSpan": 3,
-          "title": "Break & 이동",
+          "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/15_keynote_sponsors",
-          "speakers": [],
+          "speakers": ["(Break & 트랙 이동)"],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -252,9 +252,9 @@
         },
         {
           "colSpan": 1,
-          "title": "워크샵 준비",
+          "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
-          "speakers": [],
+          "speakers": ["(워크샵 준비)"],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -262,9 +262,9 @@
         },
         {
           "colSpan": 1,
-          "title": "워크샵 준비",
+          "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
-          "speakers": [],
+          "speakers": ["(워크샵 준비)"],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -277,9 +277,9 @@
       "cols": [
         {
           "colSpan": 7,
-          "title": "점심식사 & 부스 둘러보기",
+          "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_1",
-          "speakers": [],
+          "speakers": ["(점심식사 & 부스 둘러보기)"],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -398,7 +398,7 @@
         {
           "colSpan": 1,
           "rowSpan": 5,
-          "title": "TACO/k8s cluster api Hands-on Workshop",
+          "title": "TACO/K8s cluster api Hands-on Workshop",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
           "speakers": [
             "BM, Ceph, Kubernetes, OpenStack, LMA",
@@ -410,10 +410,22 @@
           "description": "",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
+              "name": "김대성",
+              "affiliation": "SK Telecom",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day2/track3/김대성.png"
+            },
+            {
+              "name": "엄주관",
+              "affiliation": "SK Telecom",
+              "bio": "",
+              "imageUrl": "/speakers/day2/track3/엄주관.jpeg"
+            },
+            {
+              "name": "최태일",
+              "affiliation": "SK Telecom",
+              "bio": "",
+              "imageUrl": "/speakers/day2/track3/최태일.png"
             }
           ]
         },
@@ -538,9 +550,9 @@
       "cols": [
         {
           "colSpan": 4,
-          "title": "커피/다과 브레이크",
+          "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/90-break1",
-          "speakers": [],
+          "speakers": ["(커피/다과 브레이크)"],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -751,9 +763,9 @@
       "cols": [
         {
           "colSpan": 7,
-          "title": "경품 추첨 & 정리",
+          "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/99_closing",
-          "speakers": [],
+          "speakers": ["(경품 추첨 & 정리)"],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,

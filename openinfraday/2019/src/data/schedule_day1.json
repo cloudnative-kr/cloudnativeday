@@ -5,9 +5,9 @@
       "cols": [
         {
           "colSpan": 7,
-          "title": "Registration & 전시부스 관람",
+          "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/00_registration",
-          "speakers": []
+          "speakers": ["(Registration & 전시부스 관람)"]
         }
       ]
     },
@@ -31,7 +31,7 @@
               "name": "안승규",
               "affiliation": "Kubernetes User Group",
               "bio": "",
-              "imageUrl": "/speakers/day1/keynote/Kubernetes User Group_안승규.jpg"
+              "imageUrl": "/speakers/day1/keynote/Kubernetes User Group_안승규.jpg"
             },
             {
               "name": "조성수",
@@ -44,9 +44,9 @@
         {
           "colSpan": 5,
           "rowSpan": 6,
-          "title": "Broadcasting",
+          "title": "",
           "tracks": [],
-          "speakers": [],
+          "speakers": ["(Broadcasting)"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
@@ -66,9 +66,9 @@
       "cols": [
         {
           "colSpan": 2,
-          "title": "Thank you all Sponsors on Cloud Native Days Korea & 프로그램 소개 Community Report",
+          "title": "Thank you all Sponsors on Open Infrastructure & Cloud Native Days Korea 및 프로그램 소개 & Community Report",
           "href": "https://event.openinfradays.kr/2019/session1/11_keynote1",
-          "speakers": ["OpenStack", "Kubernetes", "Ceph", "OCP 커뮤니티"],
+          "speakers": ["커뮤니티 일동 - OpenStack, Kubernetes, Ceph, OCP Korea"],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -87,7 +87,21 @@
           "tracks": ["Keynote 1"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": ""
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "Jonathan Bryce",
+              "affiliation": "Executive Director, OpenStack Foundation",
+              "bio": "Jonathan Bryce, who has spent his career building the cloud, is Executive Director of the OpenStack Foundation. Previously he was a founder of The Rackspace Cloud. He started his career working as a web developer for Rackspace, and during his tenure, he and co-worker Todd Morey had a vision to build a sophisticated web hosting environment where users and businesses alike could turn to design, develop and deploy their ideal web site – all without being responsible for procuring the technology, installing it or making sure it is built to be always available. This vision became The Rackspace Cloud. Since then he has been a major driver of OpenStack, the open source cloud software initiative.",
+              "imageUrl": "/speakers/day1/keynote/OSF-Jonathan.jpg"
+            },
+            {
+              "name": "Thierry Carrez",
+              "affiliation": "Vice President of Engineering, OpenStack Foundation",
+              "bio": "Thierry Carrez is the Vice-President of Engineering at the OpenStack Foundation, in charge of the long-term health of the open source projects under the Foundation. A long-time elected member of the OpenStack Technical Committee, he has been a Release Manager for the OpenStack project since its inception, coordinating the effort and facilitating collaboration between contributors. Thierry spoke about OpenStack, open innovation and open source project management at various conferences around the world, including OSCON, LinuxCon, and FOSDEM. A Python Software Foundation fellow, he was previously the Technical lead for Ubuntu Server at Canonical, an operational manager for the Gentoo Linux Security Team, and an IT manager in various companies.",
+              "imageUrl": "/speakers/day1/keynote/OSF-Thierry.jpg"
+            }
+          ]
         }
       ]
     },
@@ -165,9 +179,9 @@
       "cols": [
         {
           "colSpan": 7,
-          "title": "점심식사 & 부스 둘러보기",
+          "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/20_lunch",
-          "speakers": [],
+          "speakers": ["(점심식사 & 부스 둘러보기)"],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -252,10 +266,10 @@
           "description": "",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "John Studarus",
               "affiliation": "",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/track4/Ceph-John_Studarus.jpg"
             }
           ]
         },
@@ -293,7 +307,7 @@
               "name": "남정현",
               "affiliation": "",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/track6/남정현.jpg"
             }
           ]
         },
@@ -447,9 +461,9 @@
       "cols": [
         {
           "colSpan": 4,
-          "title": "커피 브레이크",
+          "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/90-break1",
-          "speakers": [],
+          "speakers": ["(커피 브레이크)"],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -543,7 +557,7 @@
         },
         {
           "colSpan": 1,
-          "title": "Meeting with Thierry\nOpenly developing open infrastructure",
+          "title": "Meeting with Thierry\n: Openly developing open infrastructure",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_2",
           "speakers": ["OpenStack Foundation"],
           "tracks": ["Track 4"],
@@ -552,10 +566,10 @@
           "description": "Over the past year the mission of the OpenStack Foundation evolved, from supporting the production of OpenStack software, to supporting the open development of open infrastructure solutions. In this talk, Thierry Carrez, VP of Engineering at the OpenStack Foundation, will look back at this transition. We’ll explain what we mean by open development, and what we mean by open infrastructure.",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "name": "Thierry Carrez",
+              "affiliation": "Vice President of Engineering, OpenStack Foundation",
+              "bio": "Thierry Carrez is the Vice-President of Engineering at the OpenStack Foundation, in charge of the long-term health of the open source projects under the Foundation. A long-time elected member of the OpenStack Technical Committee, he has been a Release Manager for the OpenStack project since its inception, coordinating the effort and facilitating collaboration between contributors. Thierry spoke about OpenStack, open innovation and open source project management at various conferences around the world, including OSCON, LinuxCon, and FOSDEM. A Python Software Foundation fellow, he was previously the Technical lead for Ubuntu Server at Canonical, an operational manager for the Gentoo Linux Security Team, and an IT manager in various companies.",
+              "imageUrl": "/speakers/day1/keynote/OSF-Thierry.jpg"
             }
           ]
         }
@@ -568,7 +582,7 @@
           "colSpan": 1,
           "title": "엔씨소프트에서 Kubernetes 운영하기",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_3",
-          "speakers": ["엔시소프트 오태경, 엔시소프트 강정식"],
+          "speakers": ["엔씨소프트 오태경, 엔씨소프트 강정식"],
           "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
@@ -643,9 +657,9 @@
       "cols": [
         {
           "colSpan": 7,
-          "title": "경품 추첨 & 정리",
+          "title": "",
           "href": "https://event.openinfradays.kr/2019/session1/99_closing",
-          "speakers": []
+          "speakers": ["(경품 추첨 & 정리)"]
         }
       ]
     }
