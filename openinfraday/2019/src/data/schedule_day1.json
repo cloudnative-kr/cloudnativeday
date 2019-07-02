@@ -31,7 +31,7 @@
               "name": "안승규",
               "affiliation": "Kubernetes User Group",
               "bio": "",
-              "imageUrl": "/speakers/day1/keynote/Kubernetes User Group_안승규.jpg"
+              "imageUrl": "/speakers/day1/keynote/안승규.png"
             },
             {
               "name": "조성수",
@@ -68,7 +68,9 @@
           "colSpan": 2,
           "title": "Thank you all Sponsors on Open Infrastructure & Cloud Native Days Korea 및 프로그램 소개 & Community Report",
           "href": "https://event.openinfradays.kr/2019/session1/11_keynote1",
-          "speakers": ["커뮤니티 일동 - OpenStack, Kubernetes, Ceph, OCP Korea"],
+          "speakers": [
+            "커뮤니티 일동 - OpenStack, Kubernetes, Ceph, OCP Korea"
+          ],
           "tracks": [],
           "deckUrl": null,
           "videoUrl": null,
@@ -83,7 +85,9 @@
           "colSpan": 2,
           "title": "Keynote 1",
           "href": "https://event.openinfradays.kr/2019/session1/11_keynote2",
-          "speakers": ["OpenStack Foundation"],
+          "speakers": [
+            "Jonathan Bryce, Executive Director, OpenStack Foundation"
+          ],
           "tracks": ["Keynote 1"],
           "deckUrl": null,
           "videoUrl": null,
@@ -93,7 +97,7 @@
               "name": "Jonathan Bryce",
               "affiliation": "Executive Director, OpenStack Foundation",
               "bio": "Jonathan Bryce, who has spent his career building the cloud, is Executive Director of the OpenStack Foundation. Previously he was a founder of The Rackspace Cloud. He started his career working as a web developer for Rackspace, and during his tenure, he and co-worker Todd Morey had a vision to build a sophisticated web hosting environment where users and businesses alike could turn to design, develop and deploy their ideal web site – all without being responsible for procuring the technology, installing it or making sure it is built to be always available. This vision became The Rackspace Cloud. Since then he has been a major driver of OpenStack, the open source cloud software initiative.",
-              "imageUrl": "/speakers/day1/keynote/OSF-Jonathan.jpg"
+              "imageUrl": "/speakers/day1/keynote/OSF-Jonathan.png"
             },
             {
               "name": "Thierry Carrez",
@@ -249,7 +253,7 @@
             {
               "name": "박성우",
               "affiliation": "NHN 수석연구원",
-              "bio": "NHN TOAST에서 가상 네트워크를 개발",
+              "bio": "NHN TOAST에서 가상 네트워크를 개발하고 있습니다.",
               "imageUrl": "/speakers/day1/track3/박성우.png"
             }
           ]
@@ -259,7 +263,7 @@
           "rowSpan": 3,
           "title": "Ceph Community Hands-On Workshop",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
-          "speakers": [""],
+          "speakers": ["John Studarus (JHL Consulting), SK텔레콤 한승진"],
           "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
@@ -267,9 +271,15 @@
           "speakerDetails": [
             {
               "name": "John Studarus",
-              "affiliation": "",
-              "bio": "",
+              "affiliation": "JHL Consulting",
+              "bio": " For the last twenty years, John has been providing technical management services building and evaluating complex distributed systems across the telecommunications, pharmaceutical, and financial services industries. He's a graduate of the University of California, San Diego and Carnegie Mellon University.\nRecently John has been developing the software ecosystem to support applications running at tower based edge locations. This has revolved around testing and modifying cloud and container-based open source software, such as Kubernetes and OpenStack, to easily deploy and utilize the bare metal compute, network, and wireless infrastructure across these edges.\nJohn runs a number of CNCF and Open Infrastructure meetup groups across Southern California, volunteers as an Ambassador for the OpenStack Foundation and serves on the Carnegie Mellon Information Networking Institute (INI) alumni board.",
               "imageUrl": "/speakers/day1/track4/Ceph-John_Studarus.jpg"
+            },
+            {
+              "name": "한승진",
+              "affiliation": "SK텔레콤",
+              "bio": "Seungjin Han has been working for SK telecom in Korea. He has 9 years of experience with virtualization and cloud implementation.He currently develops TACO(Containerized OpenStack on Kubernetes) and baremetal provisioning with IRONIC. He experienced operating CEPH Storage in Datacenter Scale of Game Company. Now, he is leading Korea Ceph User Group.",
+              "imageUrl": "/speakers/day1/track4/한승진.jpg"
             }
           ]
         },
@@ -288,7 +298,7 @@
               "name": "감종욱",
               "affiliation": "",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/track5/감종욱.jpg"
             }
           ]
         },
@@ -548,9 +558,9 @@
           "description": "AWS 에서 KOPS 로 kubernetes 클러스터를 쉽게 구성하고 관리할수 있었던 점과 실시간 데이터 처리를 위해서는 어떠한 스택이 필요하며 우리가 사용한  kafka + flink 스택을 사용해 실시간 데이터 처리 파이프라인을 k8s 클러스터위에 구성했던 경험을 공유합니다 또한 이들을 모니터링 하기 위해 필요했던 prometheus + grafana 와 기타 스택에 대해 공유합니다 ",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "독고혁",
               "affiliation": "",
-              "bio": "",
+              "bio": "해외 대기업의 엔지니어로 시작하여 지난 몇년 간은 In-Memory Computing Platform 의 확산을 위해서 Meet-up 과 여러 행사에서 발표자로 활동했습니다. 최근에는 Kubernetes 관련 밋업 활동과 발표자로도 활동하고 있습니다.\n\n 현재는, 빅인사이트에서 Solution Architect로 근무하며 SaaS 플랫폼의 서비스를 Kubernetes 에서 운영하고 있으며 실시간 빅데이터 처리에 필요한 스택들을 쌓아가고 있습니다.",
               "imageUrl": "/speakers/day1/track3/독고혁.jpeg"
             }
           ]

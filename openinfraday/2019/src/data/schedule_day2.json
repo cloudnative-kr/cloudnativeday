@@ -182,17 +182,23 @@
           "colSpan": 1,
           "title": "카카오 T 택시 사례를 통해 살펴보는 카카오 클라우드의 Kubernetes as a Service",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_0",
-          "speakers": ["KAKAO 홍석용"],
+          "speakers": ["KAKAO 홍석용, 카카오 박광열"],
           "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "카카오 공동체 서비스용 KaaS(k8s as a service) 소개,  쿠버네티스 멀티 클러스터 운영 사례 및 도구 소개, 카카오톡 또는 카카오택시, 멜론과 같은 대국민 서비스 쿠버네티스 적용 사례 공유",
+          "description": "카카오의 프라이빗 클라우드 환경에서 KaaS(Kubernetes as a service) 를 개발/운영하며 겪어온 시행착오와 아키텍처 개선 작업들, 수 백 개의 쿠버네티스 클러스터 들을 서비스로서 제공하기 위해 개발한 유용한 기능들을 소개합니다. 그리고 ‘카카오 T 택시’ 에 적용된 쿠버네티스 기반 서비스 사례를 통해 실제 서비스에서의 적용 과정과 운영은 어떻게 되고 있는지 공유합니다.",
           "speakerDetails": [
             {
               "name": "홍석용",
               "affiliation": "KAKAO",
-              "bio": "",
-              "imageUrl": null
+              "bio": "Works\n- OpenStack 기반 LG전자 및 LG 그룹사 Private Cloud 구축/운영\n- OpenStack Ironic(bare Metal) 구축 및 Inhouse Driver 개발\n- 카카오 클라우드 Mesos as a service, DKOSv2 운영\n- 카카오 클라우드 Kubernetes as a service, DKOSv3 개발/운영\n\nCommunity Activity\n- 2017 OpenStack Day: 하이브리드 클라우드를 위한 Horizon AWS Plugin\n- 2018 OpenInfra Day: Mesos to Kubernetes, Cloud Native 서비스를 위한 여정\n- 쿠버네티스 코믹스 한글화: https://goo.gl/5mTvtm",
+              "imageUrl": "/speakers/day2/track2/카카오홍석용.jpeg"
+            },
+            {
+              "name": "박광열",
+              "affiliation": "KAKAO",
+              "bio": "Works\n- 티몬 물류 시스템 개발/운영\n- 카카오 T for business 플랫폼 개발/운영\n- 카카오 T 택시 서버 개발/운영",
+              "imageUrl": "/speakers/day2/track2/카카오박광열.jpeg"
             }
           ]
         },
@@ -312,13 +318,13 @@
               "name": "김형준",
               "affiliation": "",
               "bio": "삼성SDS, Naver, JobPlanet에서 근무하면서.최근 10년 동안은 Hadoop, Tajo 등과 같은 빅데이터 플랫폼 관련 업무를 하였으며 2017년 이후 중국 북경에서 오프라인 커머스 사업자를 위한 클라우드 기반의 유통 ERP를 개발하여 SaaS 형태의 서비스를 제공하는 비즈니스를 추진하고 있다.\n\"클라우드 컴퓨팅 구현 기술\" 등 여러 권의 책을 집필하였으며 현재는 개발자를 위한 블로그 서비스인 https://www.popit.kr 서비스도 같이 운영하고 있다.",
-              "imageUrl": null
+              "imageUrl": "/speakers/day2/track1/김형준.png"
             },
             {
               "name": "王志刚",
               "affiliation": "",
               "bio": "북경의념과기발전유한회사에서 소프트웨어 개발 및 architecture 유지보수 담당을 하다가 최근 3년 동안에는 클라우드 인프라 업무를 시작하였고 docker 운영환경 구축과 k8s Cluster 설치 및 유지보수 등 인프라 업무를 담당하고 있다.",
-              "imageUrl": null
+              "imageUrl": "/speakers/day2/track1/wang.jpeg"
             }
           ]
         },
@@ -336,7 +342,7 @@
               "name": "임성국",
               "affiliation": "KAKAO",
               "bio": "웹공학 석사 @KAIST\n공통플랫폼 개발 @ETRI\nOpen API GW 개발 @KT\nKAKAO Monitoring Cloud 개발 @KAKAO",
-              "imageUrl": "/speakers/day2/track2/카카오 _임성국.png"
+              "imageUrl": "/speakers/day2/track2/카카오_임성국.png"
             }
           ]
         },
@@ -527,7 +533,7 @@
         },
         {
           "colSpan": 1,
-          "title": "Seamless Ingress Controller for zero downtime service",
+          "title": "K8s Network Environment for zero downtime service",
           "href": "",
           "speakers": ["엄재철"],
           "tracks": ["Track 5"],
@@ -593,17 +599,17 @@
           "colSpan": 1,
           "title": "대규모 GPU 기반 K8S Cluster를 활용한  ML Training Troubleshooting",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_2",
-          "speakers": ["조규남"],
+          "speakers": ["삼성전자 조규남 Principal Engineer"],
           "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "ML Framework이 다양해 지고, Public Cloud 등을 이용한 ML Training이 많아 지면서 유연한 환경을 제공하기 위해서 Container를 활용한 ML Training 기법이 많이 사용되고 있습니다. 또한 이를 위한 Orchestration으로 K8S 또한 많이 사용되고 있습니다. 하지만 Enterprise service에 최적화되어 있는 K8S에서 ML Training Task를 수행하면서 만날 수 있는 여러가지 문제점들이 무엇인지 살펴 보고 이를 위한 해결책이 무엇인지 알아 봅니다.",
+          "description": "Machine Learning을 위한 대규모 Training Platform의 정의에 대해서 살펴보고, Kubernetes 및 Container를 활용한 다양한 Platform 예제를 살펴본다. 이를 통해서 Container 기반의 학습 시스템의 장단점을 확인한다. 마지막으로 수백대 이상의 GPGPU를 활용한 대규모 Training Platform을 구축하면서 발생한 다양한 문제점들의 원인과 해결 방법을 알아 본다.",
           "speakerDetails": [
             {
               "name": "조규남",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "affiliation": "삼성전자",
+              "bio": "삼성전자 소프트웨어 멤버십 9기 (1999)\n고려대학교 전기전자 공학부 컴퓨터 전공 석사 (2016)\n삼성전자 Principal Engineer 및 Software Architect (현재)\n\n수상) 2009년 IR52 장영실상\n2015년 한국슈퍼컴퓨팅 경진대회 우수상",
+              "imageUrl": "/speakers/day2/track2/조규남.jpg"
             }
           ]
         },
@@ -688,17 +694,17 @@
           "colSpan": 1,
           "title": "POOQ의 마이크로 서비스 적용 사례",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_3",
-          "speakers": ["박명순"],
+          "speakers": ["콘텐츠연합플랫폼 박명순 부장"],
           "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "제가 발표하려는 내용은, 콘텐츠연합플랫폼(주)에서 서비스 하고있는 OTT 서비스인 POOQ의  마이크로 서비스의 적용 사례입니다.\n\n마이크로 서비스 개념이나 기술에 대한 깊은 내용보다는, 저희 회사에서 마이크로 서비스 도입을 위해 검토하고 진행 했던 내용들 위주로 발표 하려 합니다.\n\n저희 구성원은, 마이크로 서비스 경험이 전혀 없는 상태에서, 서비스 준비를 시작 했기때문에, 발표 내용이 저희처럼 마이크로 서비스 도입을  처음 준비하고 계신분들에게 도움이 될 것으로 기대합니다.\n\n 발표순서는 POOQ에 대한 간단한 소개 후, 마이크로 서비스 도입 이전 상황, 도입 준비 과정, 도입 이후 진행사항, 그리고 향후 계획 순서로 생각하고 있습니다.\n\n 현재 POOQ은 AWS 환경에서 Kops 기반 Kubernetes 와 EKS 기반 Kubernetes 를 운영하고 있으며, API Gateway로 Kong을, Git 저장소와 CI/CD로 Gitlab을 사용하고 있습니다. 또한 현재 서비스 개선 및 비용절감을 위해서 Istio 및 Spot Instance 사용을 준비 중에있습니다.",
+          "description": "콘텐츠연합플랫폼은 POOQ 서비스의 전체 플랫폼과 스트리밍 헤드엔드 시스템을 클라우드 기반으로 운영하고 있으며, 2018년 4월 POOQ 3.0 서비스 개편에 Kubernetes 기반의 마이크로서비스 아키텍처를 적용하였습니다. 이번 발표에서는 POOQ 3.0 서비스에 적용된 마이크로서비스의 도입과정 및 운영상에서 경험한 내용에 대해서 소개해 드리고자 합니다.",
           "speakerDetails": [
             {
               "name": "박명순",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "affiliation": "콘텐츠연합플랫폼",
+              "bio": "박명순 부장은 콘텐츠연합플랫폼 플랫폼기술본부 미디어기술운영부에서 스트리밍 헤드엔드 와 OTT 플랫폼에 대한 DevOps 엔지니어를 하고 있으며, POOQ 서비스의 품질향상 및 안정적인 서비스를 제공하기 위해 노력하고 있습니다.",
+              "imageUrl": "/speakers/day2/track2/박명순.jpg"
             }
           ]
         },
