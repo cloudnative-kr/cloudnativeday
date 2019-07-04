@@ -224,17 +224,17 @@
           "colSpan": 1,
           "title": "쿠버네티스를 이용한 기능 브랜치별 테스트 서버 만들기",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_0",
-          "speakers": ["김충섭"],
+          "speakers": ["퍼플웍스 김충섭 과장"],
           "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "쿠버네티스를 이용하여 동적으로 테스트 서버를 구성하고 브랜치 이름을 도메인과 연결하여 QA 프로세스를 개선한 과정을 이야기 합니다. CI/CD에 대해 고민한 내용과 AWS의 EKS, 쿠버네티스의 오토스케일링, 인그레스 서비스를 다룹니다. ",
           "speakerDetails": [
             {
               "name": "김충섭",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "affiliation": "퍼플웍스 과장",
+              "bio": "퍼플웍스에서 소프트웨어 엔지니어로 서버관리부터 프론트 개발까지 여러가지 일을 하고 있습니다. 개발자를 편하게 해주는 자동화 기술과 효율적인 개발 프로세스에 관심이 많습니다. 도커와 kubernetes에 관심이 많고 ruby on rails와 go언어를 좋아합니다. subicura.com 블로그를 운영하고 있습니다.",
+              "imageUrl": "/speakers/day2/김충섭.jpg"
             }
           ]
         },
@@ -385,18 +385,18 @@
         {
           "colSpan": 1,
           "rowSpan": 1,
-          "title": "Hard Multi-Tenancy in Kubernetes",
+          "title": "Hard Multetenancy in Kubernetes",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
-          "speakers": ["Linecorp 이승"],
+          "speakers": ["라인플러스 이승"],
           "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "Kubernetes에서의 Hard Multitenancy지원 현황과 관련 기술 및 라인에서의 Multitenancy대응 방법론에 대해서 소개합니다.",
           "speakerDetails": [
             {
               "name": "이승",
-              "affiliation": "Linecorp",
-              "bio": "",
+              "affiliation": "라인플러스",
+              "bio": "라인에서 Kubernetes기반 서비스를 개발하고 있습니다.",
               "imageUrl": null
             }
           ]
@@ -479,18 +479,18 @@
         },
         {
           "colSpan": 1,
-          "title": "",
+          "title": "Open Communities and Cross Pollination",
           "href": "https://event.openinfradays.kr/2019/session1/track_2_2",
-          "speakers": ["(Edgecore)"],
+          "speakers": ["PoWen Tsai, Director, Edgecore Networks Corporation "],
           "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "The adoption of 5G, AI, and Edge Computing will drive new expectations for an always-on, high quality network and services, which will lead to operational efficiency (OPEX reduction) and boost ultra-low latency and intelligent applications. To honor the promise with the right CAPEX, it is vital to have the proper compute infrastructure in place, aligned to the right strategy, like, Openness, Whitebox, Dis-aggregation, Automation, Cloud Native.",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
+              "name": "PoWen Tsai",
+              "affiliation": "Director, Edgecore Networks Corporation",
+              "bio": "Join Edgecore Networks for 6 years and experienced in Open Networking adoption in both cloud data center network and telco network; participating in ONF, OCP and TIP and work with the community to explore and innovate open technologies. ",
               "imageUrl": null
             }
           ]
@@ -527,7 +527,7 @@
               "name": "서동은",
               "affiliation": "",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day2/서동은.jpg"
             }
           ]
         },
@@ -579,19 +579,19 @@
       "cols": [
         {
           "colSpan": 1,
-          "title": "Deep Dive into Kubernetes internal",
+          "title": "Dive into Kubernetes Internal",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_2",
-          "speakers": ["강인호"],
+          "speakers": ["한국 오라클 강인호 부장"],
           "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "Kubernetes의 내부 구조와 구동 메커니즘에 대해 설명한다. Master Node와 Worker Node의 Component에 대한 주요한 기능을 설명하며, 간단한 예제(Deployment yaml)가 적용되는 흐름을 Component 의 연관관계(Sequence)를 설명하고,  Custom Controller의 예제 시연을 통해 Control loop와 SharedInfomer에 대해 설명한다. 마지막으로 kube-proxy통해 iptable를 이용한 추상화된 Service 개념을 설명한다.",
+          "description": "이 세션에서는 쿠버네티스의 내부 구조와 구동 메커니즘에 대해서 설명합니다. \nMaster Node와 Worker Node의 Component에 대한 주요한 기능을 설명하며, 간단한 Deployment 예제을 적용해 보고, 이때 각 내부 Component의 연관관계(Sequence)를 시연을 통해서 설명합니다. 그리고 controller의 주요 기능과 kube-proxy를 통해 iptable을 이용한 추상화된 Service 개념을 설명합니다. ",
           "speakerDetails": [
             {
               "name": "강인호",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "affiliation": "한국 오라클 부장",
+              "bio": "(주) 엔소아 컨설팅 책임 컨설턴트\n(주) 티맥스 소프트, 컨설팅 사업부, 수석보\n(유) 한국 오라클, Cloud Platform Team, Principal Solution Engineer\n- Kubernetes korea group \n-역서 : 코틀린 마이크로서비스 개발",
+              "imageUrl": "/speakers/day2/강인호.png"
             }
           ]
         },
@@ -730,17 +730,23 @@
           "colSpan": 1,
           "title": "Kubernetes를 활용하여 효율적인 Machine Learning Pipeline 만들기",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_3",
-          "speakers": ["안재만", "이용선"],
+          "speakers": ["AITRICS 안재만", "이용선 Software Engineer"],
           "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "Kubernetes를 활용하여 시간/비용 효율적인 Machine Learning Pipeline을 만든 과정에 대해 소개합니다. 이를 통해 연구자는 GPU 리소스와 인프라 구성에 대한 고민 없이 자유롭게 GPU를 획득하여 연구를 수행할 수 있고, 만들어진 모델을 실제 서비스까지 deploy 할 수 있도록 합니다.\n\n* 이 세션은 GTC Silicon Valley 2019에서 저희가 발표한 내용의 연장선 상에서 구성되었습니다. 관련 슬라이드는 https://on-demand.gputechconf.com/gtc/2019/presentation/_/s9264-how-to-build-efficient-ml-pipelines-from-the-startup-perspective.pdf 에서 보실 수 있습니다.",
+          "description": "Kubernetes를 활용하여 시간/비용 효율적인 Machine Learning Pipeline을 만드는 방법을 소개합니다. 이를 통해 연구자는 GPU 리소스와 인프라 구성에 대한 고민 없이 자유롭게 GPU를 획득하여 연구를 수행할 수 있고, 만들어진 모델을 실제 서비스까지 deploy 할 수 있도록 합니다.\n* 이 세션은 GTC Silicon Valley 2019에서 저희가 발표한 내용의 연장선 상에서 구성되었습니다. 관련 슬라이드는 https://on-demand.gputechconf.com/gtc/2019/presentation/_/s9264-how-to-build-efficient-ml-pipelines-from-the-startup-perspective.pdf 에서 보실 수 있습니다.",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
+              "name": "안재만",
+              "affiliation": "AITRICS Lead Software Engineer",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day2/안재만.png"
+            },
+            {
+              "name": "이용선",
+              "affiliation": "AITRICS Software Engineer",
+              "bio": "",
+              "imageUrl": "/speakers/day2/이용선.jpg"
             }
           ]
         },

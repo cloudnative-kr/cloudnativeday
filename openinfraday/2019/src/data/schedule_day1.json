@@ -323,20 +323,20 @@
         },
         {
           "colSpan": 1,
-          "rowSpan": 6,
-          "title": "Kubernetes 101 Workshop II Kubeadm을 이용해 고가용성 Kubernetes 클러스터 구축하기 & Kubernetes the Hard Way 가이드",
+          "rowSpan": 2,
+          "title": "13:00 ~ 15:10\n\nKubernetes The Hard Way",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
-          "speakers": ["임찬식"],
+          "speakers": ["삼성SDS 명제상"],
           "tracks": ["Track 7"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "VM 환경에서 kubeadm 을 이용해 고가용성 Kubernetes 클러스터를 구축하는 실습을 진행합니다. kubeadm 을 이용하면 Baremetal 서버 환경에서 Kubernetes 클러스터를 쉽게 구축하여 사용하는 것이 가능합니다. 이 세션에서는 kubeadm 을 이용한 Kubernetes 클러스터 관리 방법을 VM 환경에서 실습하고 이후에 실제 클러스터에 적용하는 것을 목표로 합니다. kubeadm 을 이용해 이미 사용하고 있는 Single Master Kubernetes 클러스터를 관리하고, 고가용성 클러스터로 변경하는 실습을 진행합니다.",
+          "description": "쿠버네티스 클러스터를 수작업으로 직접 구성해 봅니다. (no auto-script, no GKE, no EKS)",
           "speakerDetails": [
             {
               "name": "임찬식",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "affiliation": "삼성SDS",
+              "bio": "금융 프로젝트 SA 수행중\n\n- K8s와 관련된 이력\n\n  * K8s-sigs의 cluster-api를 이용해 다양한 환경에서 쿠버네티스 클러스터를 프로비저닝하는 프로젝트 참여\n\n  * 쿠버네티스 웹사이트 (kubernetes.io/ko) 문서 한글화 멤버\n\n  * CKA 보유",
+              "imageUrl": "/speakers/day1/명제상.jpg"
             }
           ]
         }
@@ -377,13 +377,13 @@
               "name": "송민영",
               "affiliation": "SK C&C",
               "bio": "SK 주식회사 C&C에 재직 중(2011~)\n- Cloud Native Platform Service R&D\n- k8s, istio, Elasticsearch, Fluentd",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/송민영.jpg"
             },
             {
               "name": "나정호",
               "affiliation": "SK C&C",
               "bio": "SK주식회사 C&C에서 Cloud Native Platform Engineer로 재직중이며, 컨테이너 서비스 제공을 위한 Kubernetes 기반 플랫폼 구축 및 설계를 담당하고 있으며, Multi-Cloud 관련 비즈니스 성장에 따라, 관련 기술에 대한 검증 및 서비스화를 선도해가고 있습니다",
-              "imageUrl": null
+              "imageUrl": "/speakers/day1/나정호.jpeg"
             }
           ]
         },
@@ -412,9 +412,9 @@
       "cols": [
         {
           "colSpan": 1,
-          "title": "",
+          "title": "보다 쉽고 안전한 컨테이너 기반 만들기",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_1",
-          "speakers": ["Red Hat 김현수 Associate Principal Solution Architect"],
+          "speakers": ["Red Hat 김현수 이사"],
           "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
@@ -458,6 +458,37 @@
           "speakerDetails": [
             {
               "name": "김동진",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
+        },
+        {
+          "colSpan": 1,
+          "rowSpan": 1,
+          "title": "",
+          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
+          "speakers": [""],
+          "tracks": ["Track 6"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": []
+        },
+        {
+          "colSpan": 1,
+          "rowSpan": 4,
+          "title": "Kubernetes 101 Workshop II Kubeadm을 이용해 고가용성 Kubernetes 클러스터 구축하기 & Kubernetes the Hard Way 가이드",
+          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
+          "speakers": ["임찬식"],
+          "tracks": ["Track 7"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "VM 환경에서 kubeadm 을 이용해 고가용성 Kubernetes 클러스터를 구축하는 실습을 진행합니다. kubeadm 을 이용하면 Baremetal 서버 환경에서 Kubernetes 클러스터를 쉽게 구축하여 사용하는 것이 가능합니다. 이 세션에서는 kubeadm 을 이용한 Kubernetes 클러스터 관리 방법을 VM 환경에서 실습하고 이후에 실제 클러스터에 적용하는 것을 목표로 합니다. kubeadm 을 이용해 이미 사용하고 있는 Single Master Kubernetes 클러스터를 관리하고, 고가용성 클러스터로 변경하는 실습을 진행합니다.",
+          "speakerDetails": [
+            {
+              "name": "임찬식",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -513,19 +544,25 @@
       "cols": [
         {
           "colSpan": 1,
-          "title": "Community OpenStack & Ceph 기반 서비스 구축 사례 및  운영 장애 극복기",
+          "title": "Community OpenStack & Ceph 기반 서비스 구축 사례 및 운영 장애 해결 방안",
           "href": "https://event.openinfradays.kr/2019/session1/track_1_2",
-          "speakers": ["오픈소스컨설팅 김호진, 윤재열"],
+          "speakers": ["오픈소스컨설팅 김호진 이사", "이영주 차장"],
           "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "오픈소스 기반의 프라이빗 클라우드로도 비즈니스 환경에 민첩하게 대응하고 보안성을 확보할 수 있습니다. 이번 발표에서는 커뮤니티 버전의 OpenStack 과 ceph를 활용하여 실제 인프라를 구축한 사례를 공유합니다. 유연성을 확보한 기업용 클라우드 서비스 구축 사례와 높은 수준의 보안을 요구하는 거래소 서비스를 구축, 운영한 전략을 소개합니다. 또한 이 프로젝트에 사용된 기술 스택 및 구축 용량 산정에 관한 내용을 발표합니다.",
+          "description": "이번 발표에서는 커뮤니티 버전의 OpenStack 과 ceph를 활용하여 대 고객서비스를  구축한 사례를 공유합니다. 유연성을 확보한 기업용 클라우드 서비스 구축 사례와 높은 수준의 보안을 요구하는 거래소 서비스를 구축, 운영한 사례를 소개합니다. 또한 이 프로젝트에 사용된 기술 스택 및 장애 해결사례와 최적화 방안 등을 발표합니다.\n오픈소스컨설팅은 고객사 환경에 최적화된 오픈스택을 패키징하여 공급하고 있으며, 안정적인 클라우드 운영을 위한 기술지원 서비스를 제공합니다.",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "name": "김호진",
+              "affiliation": "오픈소스컨설팅 이사",
+              "bio": "(현)오픈소스컨설팅 근무\n(전) 한국 IBM ITSpecialist\n(공저) IBM powerVC introduction and configuration",
+              "imageUrl": "/speakers/day1/김호진.png"
+            },
+            {
+              "name": "이영주",
+              "affiliation": "오픈소스컨설팅 차장",
+              "bio": "(현) 오픈소스컨설팅 근무 \n(전) 락플레이스 근무 ",
+              "imageUrl": "/speakers/day1/이영주.jpg"
             }
           ]
         },
