@@ -251,11 +251,11 @@
           "colSpan": 1,
           "rowSpan": 3,
           "title": "Ceph Community Hands-On Workshop",
-          "speakers": ["John Studarus (JHL Consulting), SK텔레콤 한승진"],
+          "speakers": ["John Studarus, JHL Consulting", "SK텔레콤 한승진"],
           "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "Abstract:\n\nSetting up storage for clouds and container clusters has historically been difficult and error prone. Rook, an open source Kubernetes operator, automates the tasks of a storage administrator: deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management.  This workshop covers deploying and using Rook across a bare metal cloud, such as Ironic, to provision the underlying physical storage in a number of different configurations including Ceph, CockroachDB and RadiosGW (Swift). Day two operations tasks, such as growing the storage by adding additional physical storage servers, deploying and integrating Prometheus & Grafana monitoring, handling failures, utilizing the Ceph toolbox and rolling upgrades of the underlying Ceph components will also be covered.\n\nWhat will attendees learn:\n\nAttendees will learn how Rook can be used to manage their cloud and cluster storage workloads with step by step, instructor led, on real physical hardware. Attendees will be provided with (remote) physical infrastructure for this workshop eliminating the need to install anything locally. Packet, a bare metal cloud provider, has supported this lab with physical infrastructure.\nWhile basic Linux CLI experience is expected, no Kubernetes or Ceph experience is required of the attendees. All off the basic commands are available in the tutorial to be cut in paste with only the last exercise being more advanced requiring out of the box thinking by attendees. \nAttendees will gain experience deploying a number of different storage stacks including Ceph, CockroachDB, and a full application stack utilizing the deployed storage. They'll then learn how Rook and Ceph handle failures and how to perform rolling upgrades.\n",
           "speakerDetails": [
             {
               "name": "John Studarus",
@@ -354,7 +354,7 @@
           "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "SK주식회사 C&C는 Kubernetes 및 Istio를 이용해서 Multi-Cluster 기반 Service Mesh를 구성, 제공하고 있습니다.\n\nIstio를 이용하여 Multi-Cluster간 Service Mesh 연결 및 배포를 구현하여 실제 GitOps 기반의 자동화된 배포/설정 관리 및 Istio Traffic 관리 방식을 지원하면서 Multi-Cluster를 Monitoring 및 Logging하는 방법을 구현했습니다.\n\n이번 발표에서는 아래와 같은 내용 위주로 전달 드리고자 합니다.\n\n1.     Multi-Cluster Service Mesh 개념 및 연결 소개\n2.     Multi-Cluster Service Mesh 대상 GitOps 기반 배포/설정 소개\n3.     Multi-Cluster Service Mesh Traffic Mgmt. 활용 방안 소개\n4.     Multi-Cluster Service Mesh Telemetry Logging 소개",
           "speakerDetails": [
             {
               "name": "송민영",
@@ -429,7 +429,7 @@
         {
           "colSpan": 1,
           "title": "kubernetes scheduler deep dive",
-          "speakers": ["김동진"],
+          "speakers": ["카카오뱅크 김동진"],
           "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
@@ -437,7 +437,7 @@
           "speakerDetails": [
             {
               "name": "김동진",
-              "affiliation": "",
+              "affiliation": "카카오뱅크",
               "bio": "",
               "imageUrl": "/speakers/day1/김동진.jpg"
             }
@@ -560,7 +560,7 @@
         {
           "colSpan": 1,
           "title": "Kubernetes에서 Kafka 와 Flink 를 사용하여 실시간 데이터 스트리밍 파이프라인 구현하기",
-          "speakers": ["독고혁, 신윤용"],
+          "speakers": ["빅인사이트 독고혁"],
           "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
@@ -568,7 +568,7 @@
           "speakerDetails": [
             {
               "name": "독고혁",
-              "affiliation": "",
+              "affiliation": "빅인사이트",
               "bio": "해외 대기업의 엔지니어로 시작하여 지난 몇년 간은 In-Memory Computing Platform 의 확산을 위해서 Meet-up 과 여러 행사에서 발표자로 활동했습니다. 최근에는 Kubernetes 관련 밋업 활동과 발표자로도 활동하고 있습니다.\n\n 현재는, 빅인사이트에서 Solution Architect로 근무하며 SaaS 플랫폼의 서비스를 Kubernetes 에서 운영하고 있으며 실시간 빅데이터 처리에 필요한 스택들을 쌓아가고 있습니다.",
               "imageUrl": "/speakers/day1/track3/독고혁.jpeg"
             }

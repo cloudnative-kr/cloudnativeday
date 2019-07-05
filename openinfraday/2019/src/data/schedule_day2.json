@@ -231,16 +231,16 @@
         {
           "colSpan": 1,
           "title": "넘치지도, 부족하지도 않는 kubernetes 다루기",
-          "speakers": ["손준호"],
+          "speakers": ["LINE 손준호"],
           "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "기존에 2대의 테스트서버를 가지고 테스트를 진행하면서 겪은 여러가지 문제점(동시에 2개의 테스트만 진행가능, 어떤 서버에 어떤 테스트가 진행중인지 알기 어려움, 테스트가 없어도 서버 유지)을 쿠버네티스를 이용하여 해결한 방법에 대해 이야기 합니다. 쿠버네티스의 오토 스케일링 기능과 인그레스 컨트롤러를 이용하여 기능 브랜치별로 테스트 서버를 생성하여 동시에 테스트 가능한 개수 제한을 없애고 필요한만큼 자원을 유연하게 사용할 수 있습니다.",
+          "description": "Kubernetes 클러스터에서 서비스를 운영하다보면 다양한 상황을 만나게 됩니다. kubernetes를 다루다보면 누구나 한번쯤 꼭 겪게되는 장애들, 그런 장애 포인트에 대한 이야기와 kubernetes 최적의 default를 찾기위한 고민을 이야기 하려고 합니다. 당신이 알면 성공하고 모르면 망하는 쿠버네티스의 비밀! 저와 함께 열어보시겠습니까?\n- Kubernetes 장애 lesson and learn\n- kubernetes cluster tunings",
           "speakerDetails": [
             {
               "name": "손준호",
-              "affiliation": "",
-              "bio": "",
+              "affiliation": "LINE",
+              "bio": "LINE Cloud Native팀에서 Nucleo service devops를 맡고 있는 손준호라고 합니다. 이것저것 가리지 않고 다양한 관점으로 세상을 보려고 노력중입니다. ",
               "imageUrl": "/speakers/day2/손준호.jpg"
             }
           ]
@@ -388,12 +388,13 @@
           "title": "TACO/K8s cluster api Hands-on Workshop",
           "speakers": [
             "BM, Ceph, Kubernetes, OpenStack, LMA",
-            "Kubernetes on OpenStack (Cluster-API OpenStack Provider)"
+            "Kubernetes on OpenStack (Cluster-API OpenStack Provider)",
+            "/ 김대성, 엄주관, 최태일"
           ],
           "tracks": ["Track 6"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "개요\n본 워크샵은 2부로 나눠져 있습니다.\n1부 : all containerized openstack on kubernetes인 TACO를 tacoplay를 이용해서 설치해 봅니다. 이렇게 설치된 openstack이 어떻게 kubernetes에 의해 lifecycle management가 되고 있는지 확인해 봅니다.\n2부 : TACO로 설치된 openstack 위에 kubernetes cluster api openstack provider로 kubernetes를 설치해 봅니다. 이로써 kubernetes cluster-api 동장 방식과 구성을 확인해 봅니다.\n\n대상\nkubernetes, openstack에 대한 기본 지식이 있어야 합니다.\nlaptop이 kind를 이용한 all-in-one k8s 를 구성할 수 있는 사양이 되어야 합니다.",
           "speakerDetails": [
             {
               "name": "김대성",
