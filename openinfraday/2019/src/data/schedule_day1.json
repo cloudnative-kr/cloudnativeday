@@ -275,7 +275,7 @@
           "colSpan": 1,
           "rowSpan": 6,
           "title": "Hands-on Kubernetes and Service Monitoring with Prometheus",
-          "speakers": ["감종욱"],
+          "speakers": ["맨텍 감종욱"],
           "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
@@ -283,8 +283,8 @@
           "speakerDetails": [
             {
               "name": "감종욱",
-              "affiliation": "맨텍 OM사업본부 OSS기술팀\nKubernetes 기반 컨테이너 플랫폼 기술지원",
-              "bio": "",
+              "affiliation": "맨텍",
+              "bio": "맨텍 OM사업본부 OSS기술팀\nKubernetes 기반 컨테이너 플랫폼 기술지원",
               "imageUrl": "/speakers/day1/track5/감종욱.jpg"
             }
           ]

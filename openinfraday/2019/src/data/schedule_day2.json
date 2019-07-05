@@ -326,7 +326,7 @@
               "name": "임성국",
               "affiliation": "KAKAO",
               "bio": "웹공학 석사 @KAIST\n공통플랫폼 개발 @ETRI\nOpen API GW 개발 @KT\nKAKAO Monitoring Cloud 개발 @KAKAO",
-              "imageUrl": "/speakers/day2/track2/카카오_임성국.png"
+              "imageUrl": "/speakers/day2/track2/카카오_임성국.jpg"
             }
           ]
         },
@@ -349,12 +349,12 @@
         },
         {
           "colSpan": 1,
-          "title": "",
+          "title": "Kubernetes Community Session",
           "speakers": ["안승규 Kubernetes Korea Group 대표"],
           "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "Kubernetes Korea Group 에 대한 전반적인 소개와 활동에 대해서 설명합니다. 또한 올해 5월 스페인에서 개최된 KubeCon + CloudNativeCon Europe 2019 에 참석 후기 및 향후 Kubernetes Korea Group 방향에 대해서 설명합니다.",
           "speakerDetails": [
             {
               "name": "안승규",
@@ -509,7 +509,7 @@
         {
           "colSpan": 1,
           "title": "* K8s Network Environment for zero downtime service, * Connect services securely across multi-cloud environments",
-          "speakers": ["이정복", "엄재철"],
+          "speakers": ["LINE 이정복", "LINE 엄재철"],
           "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
@@ -649,7 +649,7 @@
         {
           "colSpan": 1,
           "title": "Truly understanding container",
-          "speakers": ["이어형"],
+          "speakers": ["LINE 이어형"],
           "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
@@ -723,7 +723,7 @@
         {
           "colSpan": 1,
           "title": "Kubernetes 잘 활용하기 - Kubernetes는 데이터베이스 운영에 적합할까? Elasticsearch on Kubernetes 1년 후…",
-          "speakers": ["한수호"],
+          "speakers": ["LINE 한수호"],
           "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
