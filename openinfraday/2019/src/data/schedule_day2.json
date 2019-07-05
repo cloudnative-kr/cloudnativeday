@@ -533,7 +533,7 @@
         },
         {
           "colSpan": 1,
-          "title": "1) K8s Network Environment for zero downtime service / 2) Connect services securely across multi-cloud environments",
+          "title": "* K8s Network Environment for zero downtime service, * Connect services securely across multi-cloud environments",
           "href": "",
           "speakers": ["이정복", "엄재철"],
           "tracks": ["Track 5"],
