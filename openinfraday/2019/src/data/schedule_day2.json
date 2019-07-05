@@ -69,18 +69,18 @@
       "cols": [
         {
           "colSpan": 3,
-          "title": "Keynote 2",
+          "title": "Growth of Kubernetes and Cloud Native",
           "href": "https://event.openinfradays.kr/2019/session1/11_keynote1",
-          "speakers": ["Cloud Native Computing Foundation"],
+          "speakers": ["Dan Kohn, Executive Director"],
           "tracks": ["Keynote 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "An overview of the growth of Kubernetes and Cloud Native ",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "Dan Kohn",
               "affiliation": "",
-              "bio": "",
+              "bio": "Dan is Executive Director of the Cloud Native Computing Foundation, which sustains and integrates open source technologies like Kubernetes and Prometheus. He also helped create the Linux Foundation's Core Infrastructure Initiative as an industry-wide response to the security vulnerabilities demonstrated by Heartbleed. He previously served as CTO of several startups, including Spreemo, a healthcare marketplace, and Shopbeam, a shoppable ads company. Earlier, he was a general partner at Skymoon Ventures, a seed-stage venture capital firm that created startups in semiconductors and telecom infrastructure.  Dan helped manage a number of telecoms firms controlled by Craig McCaw and started his career as founder and CEO of NetMarket, one of the first Internet companies. In 1994, he led the development of the first music store on the web, conducting the first secure commercial transaction after building the first web shopping cart. When not traveling, Dan lives in Manhattan with his wife and two sons.",
               "imageUrl": null
             }
           ]
@@ -440,16 +440,16 @@
           "rowSpan": 5,
           "title": "How to scale your ML job with Kubernetes",
           "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
-          "speakers": ["유홍근"],
+          "speakers": ["유홍근 선임 연구원"],
           "tracks": ["Track 7"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "올해 AWS Summit Seoul 2019에서 발표한 'Amazon EKS를 활용한 기계학습 서버 확장하기'\"'에 대한 핸즈온 워크샵을 진행해 보고 싶습니다. 해당 발표에서는 쿠버네티스에 대한 간략한 소개와 쿠버네티스를 이용한 기계학습의 장점에 대해서 발표하였고 간단한 데모를 진행하였습니다.이번 핸즈온 워크샵에서는 처음부터 차근차근 어떻게 클러스터를 구축하는지, 어떤 패키지들을 설치하고 어떤 방식으로 기계학습을 하는지 직접 핸즈온으로 진행해 보고 싶습니다. 쿠버네티스에 대해 모든 것을 완벽하게 알지는 못하지만 제가 경험한 내용을 공유하고 싶습니다. \n\n발표 관련 자료\n* https://www.slideshare.net/awskorea/amazon-eks-lg-aws-summit-seoul-2019\n* https://www.youtube.com/watch?v=egv2TlfLL1Y&feature=youtu.be \n\n* 사용할 Cloud Platform: AWS\n- EKS, ECR, Autoscaling group, EFS, 간단한 role 설정 등 \n\n* 사용 패키지\n- metrics-server\n- cluster-autoscaler\n- argo workflow engine\n- efs-provisioner",
+          "description": "기계를 학습 시키는 일은 필연적으로 많은 자원을 필요로합니다. 여러가지 가설들을 만들어 보고 그 가설이 맞는지 실험해 봐야하기 때문입니다. 이 때, 한 두개의 모델을 학습 시키는 일은 비교적 간단합니다. 그러나 많은 모델들을 여러 서버에 걸쳐서 모델을 학습 시키는 일은 그리 간단하지 않습니다. 이러한 이유로 뛰어난 기계학습 모델을 얻기 위해선 탄탄한 머신러닝 엔지니어링 스킬이 뒷받침 되어야 합니다. 오늘 저와 함께 쿠버네티스를 활용하여 체계적으로 여러 기계학습 모델들을 효율적으로 학습 시키는 방법에 대해서 알아보겠습니다. 머리 아픈 일은 이제 쿠버네티스에게 맡기고 여러분은 핵심 모델링에 집중하시길 바랍니다.\n\n* AWS Summit Seoul 2019에서 발표한 \"Amazon EKS를 활용한 기계 학습 모델 서버 확장하기\"를 바탕으로 워크샵을 진행합니다. 미리 조금 내용을 보시고 오시면 더욱 도움이 되실 것 같습니다. (필수는 아닙니다.)\n- 슬라이드: https://www.slideshare.net/awskorea/amazon-eks-lg-aws-summit-seoul-2019 \n- 영상: https://www.youtube.com/watch?",
           "speakerDetails": [
             {
               "name": "유홍근",
-              "affiliation": "",
-              "bio": "",
+              "affiliation": "LG전자 스마트데이터실",
+              "bio": "술을 좋아하면 술고래, 커피를 좋아하면 커피고래라는 뜻에서 커피를 즐겨 마시며 클라우드, 컨테이너, 머신러닝 기술에 관심을 가지고 커피고래라는 블로그(https://coffeewhale.com)를 운영하고 있습니다. 현재 LG전자에서 쿠버네티스를 이용하여 대규모 기계학습 플랫폼을 구축하는 일을 담당하고 있습니다.\n\n- LG전자 스마트데이터실 근무\n- 카이스트 석사 졸업\n- 커피고래 블로그 운영",
               "imageUrl": "/speakers/day2/유홍근.jpg"
             }
           ]
@@ -517,7 +517,7 @@
           "colSpan": 1,
           "title": "Efficient Job Scheduling for Machine Learning Workloads in Kubernetes Environments",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_2",
-          "speakers": ["서동은"],
+          "speakers": ["삼성전자 서동은 Engineer"],
           "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
@@ -539,12 +539,12 @@
           "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "Kubernetes상에서 유저 어플리케이션 배포 및 운영 시 끊김 없는 유저 서비스를 위한 플랫폼 환경에 대해 이야기 합니다. 덧붙여 LINE에서 발생한 클라우드 네트워크 이슈 및 해결법을 소개합니다.",
           "speakerDetails": [
             {
               "name": "엄재철",
-              "affiliation": "",
-              "bio": "",
+              "affiliation": "라인플러스",
+              "bio": "라인플러스 CloudNative 개발자",
               "imageUrl": "/speakers/day2/엄재철.jpg"
             }
           ]
@@ -758,12 +758,12 @@
           "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "Kubernetes의 app을 안전하게 Multi Cloud또는 Legacy 시스템과 연동하기 위한 방법을 알아보고, External network를 왜 필요하며 어떻게 구현하여서 서비스를 하는 방법 설명하려 합니다. 또한 Kubernetes를 node를 관리하는 관점에서는 어떻게 사용했는지 이야기합니다.",
           "speakerDetails": [
             {
               "name": "이정복",
-              "affiliation": "",
-              "bio": "",
+              "affiliation": "LINE",
+              "bio": "LINE에서 kubernetes를 이용하고 있는 cloud native service에 필요한 network과 관련된 이것저것 개발들을 하고 있는 이정복입니다.",
               "imageUrl": "/speakers/day2/이정복.jpg"
             },
             {
