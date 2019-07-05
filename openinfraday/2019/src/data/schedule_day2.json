@@ -6,7 +6,6 @@
         {
           "colSpan": 7,
           "title": "",
-          "href": "https://event.openinfradays.kr/2019/session1/00_registration",
           "speakers": ["(Registration & 전시부스 관람)"],
           "tracks": [],
           "deckUrl": null,
@@ -29,7 +28,6 @@
         {
           "colSpan": 3,
           "title": "Keynote 1\nCommunity Invited Talk \nIf Effective DevOps? : (Pipelines | ServiceMesh | Serverless) & Kubernetes ",
-          "href": "https://event.openinfradays.kr/2019/session1/01_opening",
           "speakers": ["Kamesh Sampath, Principal Software Engineer, Red Hat "],
           "tracks": ["Keynote 1"],
           "deckUrl": null,
@@ -70,7 +68,6 @@
         {
           "colSpan": 3,
           "title": "Growth of Kubernetes and Cloud Native",
-          "href": "https://event.openinfradays.kr/2019/session1/11_keynote1",
           "speakers": ["Dan Kohn, Executive Director"],
           "tracks": ["Keynote 2"],
           "deckUrl": null,
@@ -79,9 +76,9 @@
           "speakerDetails": [
             {
               "name": "Dan Kohn",
-              "affiliation": "",
+              "affiliation": "CNCF Executive Director",
               "bio": "Dan is Executive Director of the Cloud Native Computing Foundation, which sustains and integrates open source technologies like Kubernetes and Prometheus. He also helped create the Linux Foundation's Core Infrastructure Initiative as an industry-wide response to the security vulnerabilities demonstrated by Heartbleed. He previously served as CTO of several startups, including Spreemo, a healthcare marketplace, and Shopbeam, a shoppable ads company. Earlier, he was a general partner at Skymoon Ventures, a seed-stage venture capital firm that created startups in semiconductors and telecom infrastructure.  Dan helped manage a number of telecoms firms controlled by Craig McCaw and started his career as founder and CEO of NetMarket, one of the first Internet companies. In 1994, he led the development of the first music store on the web, conducting the first secure commercial transaction after building the first web shopping cart. When not traveling, Dan lives in Manhattan with his wife and two sons.",
-              "imageUrl": null
+              "imageUrl": "/speakers/day2/keynote/CNCF_Dan Kohn.jpg"
             }
           ]
         }
@@ -93,18 +90,17 @@
         {
           "colSpan": 3,
           "title": "Keynote 3",
-          "href": "https://event.openinfradays.kr/2019/session1/11_keynote3",
-          "speakers": ["Open Compute Project"],
+          "speakers": ["Steve Helvie, Open Compute Project"],
           "tracks": ["Keynote 3"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "name": "Steve Helvie",
+              "affiliation": "VP of Channel Development, Open Compute Project",
+              "bio": "Steve is currently the VP of Channel for the Open Compute Project (OCP). In this role he helps to educate organisations on the benefits of open hardware designs and the value of “community-driven” engineering for the data centre. He works closely with Solution Providers and Manufacturers to help organisations adopt Open Compute across all regions and segments of the market.\nSteve spent the last 14 years living and working in Asia holding various Leadership and Channel Development roles for companies like Microsoft (Asia Pacific) and Rackspace (UK). He recently moved to London to focus on building the OCP Channel in EMEA.",
+              "imageUrl": "/speakers/day2/keynote/OCP_Steve_Helvie.png"
             }
           ]
         }
@@ -116,7 +112,6 @@
         {
           "colSpan": 3,
           "title": "Keynote 4\nOpen Innovation in Cloud Native Telco Infrastructure",
-          "href": "https://event.openinfradays.kr/2019/session1/11_keynote4",
           "speakers": ["SKT"],
           "tracks": ["Keynote 4"],
           "deckUrl": null,
@@ -139,7 +134,6 @@
         {
           "colSpan": 3,
           "title": "",
-          "href": "https://event.openinfradays.kr/2019/session1/15_keynote_sponsors",
           "speakers": ["(Break & 트랙 이동)"],
           "tracks": [],
           "deckUrl": null,
@@ -163,7 +157,6 @@
         {
           "colSpan": 1,
           "title": "Let's work together: SKT의 오픈소스프로젝트 로드맵",
-          "href": "https://event.openinfradays.kr/2019/session1/track_1_0",
           "speakers": ["SKT"],
           "tracks": ["Track 1"],
           "deckUrl": null,
@@ -181,8 +174,7 @@
         {
           "colSpan": 1,
           "title": "카카오 T 택시 사례를 통해 살펴보는 카카오 클라우드의 Kubernetes as a Service",
-          "href": "https://event.openinfradays.kr/2019/session1/track_2_0",
-          "speakers": ["KAKAO 홍석용, 카카오 박광열"],
+          "speakers": ["KAKAO 홍석용, KAKAO 박광열"],
           "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
@@ -205,25 +197,23 @@
         {
           "colSpan": 1,
           "title": "OCP Community Session",
-          "href": "https://event.openinfradays.kr/2019/session1/track_3_0",
-          "speakers": [],
+          "speakers": ["Steve Helvie, Open Compute Project"],
           "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "name": "Steve Helvie",
+              "affiliation": "VP of Channel Development, Open Compute Project",
+              "bio": "Steve is currently the VP of Channel for the Open Compute Project (OCP). In this role he helps to educate organisations on the benefits of open hardware designs and the value of “community-driven” engineering for the data centre. He works closely with Solution Providers and Manufacturers to help organisations adopt Open Compute across all regions and segments of the market.\nSteve spent the last 14 years living and working in Asia holding various Leadership and Channel Development roles for companies like Microsoft (Asia Pacific) and Rackspace (UK). He recently moved to London to focus on building the OCP Channel in EMEA.",
+              "imageUrl": "/speakers/day2/keynote/OCP_Steve_Helvie.png"
             }
           ]
         },
         {
           "colSpan": 1,
           "title": "쿠버네티스를 이용한 기능 브랜치별 테스트 서버 만들기",
-          "href": "https://event.openinfradays.kr/2019/session1/track_3_0",
           "speakers": ["퍼플웍스 김충섭 과장"],
           "tracks": ["Track 4"],
           "deckUrl": null,
@@ -241,7 +231,6 @@
         {
           "colSpan": 1,
           "title": "넘치지도, 부족하지도 않는 kubernetes 다루기",
-          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
           "speakers": ["손준호"],
           "tracks": ["Track 5"],
           "deckUrl": null,
@@ -259,7 +248,6 @@
         {
           "colSpan": 1,
           "title": "",
-          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
           "speakers": ["(워크샵 준비)"],
           "tracks": [],
           "deckUrl": null,
@@ -269,7 +257,6 @@
         {
           "colSpan": 1,
           "title": "",
-          "href": "https://event.openinfradays.kr/2019/session1/track_4_0",
           "speakers": ["(워크샵 준비)"],
           "tracks": [],
           "deckUrl": null,
@@ -284,7 +271,6 @@
         {
           "colSpan": 7,
           "title": "",
-          "href": "https://event.openinfradays.kr/2019/session1/track_1_1",
           "speakers": ["(점심식사 & 부스 둘러보기)"],
           "tracks": [],
           "deckUrl": null,
@@ -307,7 +293,6 @@
         {
           "colSpan": 1,
           "title": "MSA, K8S를 이용한 대륙의 서비스 개발 사례",
-          "href": "https://event.openinfradays.kr/2019/session1/track_1_1",
           "speakers": ["김형준 CTO", "王志刚(왕쯔강) 经理"],
           "tracks": ["Track 1"],
           "deckUrl": null,
@@ -331,7 +316,6 @@
         {
           "colSpan": 1,
           "title": "KOCOON – KAKAO Automatic K8S Monitoring",
-          "href": "https://event.openinfradays.kr/2019/session1/track_2_1",
           "speakers": ["KAKAO 임성국 셀장"],
           "tracks": ["Track 2"],
           "deckUrl": null,
@@ -349,7 +333,6 @@
         {
           "colSpan": 1,
           "title": "Open-Channel Solid Date Drives: Update and Future Steps",
-          "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
           "speakers": ["Javier Gonzalez"],
           "tracks": ["Track 3"],
           "deckUrl": null,
@@ -367,18 +350,17 @@
         {
           "colSpan": 1,
           "title": "",
-          "href": "",
-          "speakers": [],
+          "speakers": ["안승규 Kubernetes Korea Group 대표"],
           "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "name": "안승규",
+              "affiliation": "Kubernetes Korea Group 대표",
+              "bio": "2015년 말부터 Kubernetes 를 사용해 왔으며, CNCF Speaker's Bureau 에 등재되어 있는 Software Engineer 입니다.\n현재 SKT에 근무하면서 Kubernetes Korea Group 의 대표로 활동하고 있습니다.",
+              "imageUrl": "/speakers/day2/Kubernetes User Group_안승규.jpg"
             }
           ]
         },
@@ -386,8 +368,7 @@
           "colSpan": 1,
           "rowSpan": 1,
           "title": "Hard Multetenancy in Kubernetes",
-          "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
-          "speakers": ["라인플러스 이승"],
+          "speakers": ["LINE 이승"],
           "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
@@ -395,8 +376,8 @@
           "speakerDetails": [
             {
               "name": "이승",
-              "affiliation": "라인플러스",
-              "bio": "라인에서 Kubernetes기반 서비스를 개발하고 있습니다.",
+              "affiliation": "LINE",
+              "bio": "LINE에서 Kubernetes기반 서비스를 개발하고 있습니다.",
               "imageUrl": "/speakers/day2/이승.jpg"
             }
           ]
@@ -405,7 +386,6 @@
           "colSpan": 1,
           "rowSpan": 5,
           "title": "TACO/K8s cluster api Hands-on Workshop",
-          "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
           "speakers": [
             "BM, Ceph, Kubernetes, OpenStack, LMA",
             "Kubernetes on OpenStack (Cluster-API OpenStack Provider)"
@@ -439,7 +419,6 @@
           "colSpan": 1,
           "rowSpan": 5,
           "title": "How to scale your ML job with Kubernetes",
-          "href": "https://event.openinfradays.kr/2019/session1/track_3_1",
           "speakers": ["유홍근 선임 연구원"],
           "tracks": ["Track 7"],
           "deckUrl": null,
@@ -462,7 +441,6 @@
         {
           "colSpan": 1,
           "title": "멀티 k8s 클러스터 환경에서의 데이터 Mobility 구현",
-          "href": "https://event.openinfradays.kr/2019/session1/track_1_2",
           "speakers": ["NetApp 김진학 이사"],
           "tracks": ["Track 1"],
           "deckUrl": null,
@@ -480,7 +458,6 @@
         {
           "colSpan": 1,
           "title": "Open Communities and Cross Pollination",
-          "href": "https://event.openinfradays.kr/2019/session1/track_2_2",
           "speakers": ["PoWen Tsai, Director, Edgecore Networks Corporation "],
           "tracks": ["Track 2"],
           "deckUrl": null,
@@ -498,7 +475,6 @@
         {
           "colSpan": 1,
           "title": "High Density Rack Power Cooling",
-          "href": "https://event.openinfradays.kr/2019/session1/track_3_2",
           "speakers": ["류근호"],
           "tracks": ["Track 3"],
           "deckUrl": null,
@@ -516,7 +492,6 @@
         {
           "colSpan": 1,
           "title": "Efficient Job Scheduling for Machine Learning Workloads in Kubernetes Environments",
-          "href": "https://event.openinfradays.kr/2019/session1/track_4_2",
           "speakers": ["삼성전자 서동은 Engineer"],
           "tracks": ["Track 4"],
           "deckUrl": null,
@@ -534,7 +509,6 @@
         {
           "colSpan": 1,
           "title": "* K8s Network Environment for zero downtime service, * Connect services securely across multi-cloud environments",
-          "href": "",
           "speakers": ["이정복", "엄재철"],
           "tracks": ["Track 5"],
           "deckUrl": null,
@@ -563,7 +537,6 @@
         {
           "colSpan": 4,
           "title": "",
-          "href": "https://event.openinfradays.kr/2019/session1/90-break1",
           "speakers": ["(커피/다과 브레이크)"],
           "tracks": [],
           "deckUrl": null,
@@ -586,7 +559,6 @@
         {
           "colSpan": 1,
           "title": "Dive into Kubernetes Internal",
-          "href": "https://event.openinfradays.kr/2019/session1/track_1_2",
           "speakers": ["한국 오라클 강인호 부장"],
           "tracks": ["Track 1"],
           "deckUrl": null,
@@ -604,7 +576,6 @@
         {
           "colSpan": 1,
           "title": "대규모 GPU 기반 K8S Cluster를 활용한  ML Training Troubleshooting",
-          "href": "https://event.openinfradays.kr/2019/session1/track_2_2",
           "speakers": ["삼성전자 조규남 Principal Engineer"],
           "tracks": ["Track 2"],
           "deckUrl": null,
@@ -622,7 +593,6 @@
         {
           "colSpan": 1,
           "title": "Ceph 성능 최적화를 위한 White-box 접근",
-          "href": "https://event.openinfradays.kr/2019/session1/track_3_2",
           "speakers": ["변일수"],
           "tracks": ["Track 3"],
           "deckUrl": null,
@@ -640,7 +610,6 @@
         {
           "colSpan": 1,
           "title": "Video understanding on KubeFlow: KubeFlow 위에서 \"도둑\"자바요",
-          "href": "https://event.openinfradays.kr/2019/session1/track_4_2",
           "speakers": [],
           "tracks": ["Track 4"],
           "deckUrl": null,
@@ -658,7 +627,6 @@
         {
           "colSpan": 1,
           "title": "knative 기반으로 구현한 Cloud Function Service(AWS Lambda like service)는 어떤 모습일까?",
-          "href": "https://event.openinfradays.kr/2019/session1/track_4_2",
           "speakers": ["송동수", "권세택"],
           "tracks": ["Track 5"],
           "deckUrl": null,
@@ -681,7 +649,6 @@
         {
           "colSpan": 1,
           "title": "Truly understanding container",
-          "href": "https://event.openinfradays.kr/2019/session1/track_1_3",
           "speakers": ["이어형"],
           "tracks": ["Track 1"],
           "deckUrl": null,
@@ -690,7 +657,7 @@
           "speakerDetails": [
             {
               "name": "이어형",
-              "affiliation": "",
+              "affiliation": "LINE",
               "bio": "",
               "imageUrl": null
             }
@@ -699,7 +666,6 @@
         {
           "colSpan": 1,
           "title": "POOQ의 마이크로 서비스 적용 사례",
-          "href": "https://event.openinfradays.kr/2019/session1/track_2_3",
           "speakers": ["콘텐츠연합플랫폼 박명순 부장"],
           "tracks": ["Track 2"],
           "deckUrl": null,
@@ -717,7 +683,6 @@
         {
           "colSpan": 1,
           "title": "ceph 클러스터의 서비스 수준 99.9999% 운영",
-          "href": "https://event.openinfradays.kr/2019/session1/track_3_3",
           "speakers": ["송동수"],
           "tracks": ["Track 3"],
           "deckUrl": null,
@@ -735,7 +700,6 @@
         {
           "colSpan": 1,
           "title": "Kubernetes를 활용하여 효율적인 Machine Learning Pipeline 만들기",
-          "href": "https://event.openinfradays.kr/2019/session1/track_4_3",
           "speakers": ["AITRICS 안재만", "이용선 Software Engineer"],
           "tracks": ["Track 4"],
           "deckUrl": null,
@@ -759,7 +723,6 @@
         {
           "colSpan": 1,
           "title": "Kubernetes 잘 활용하기 - Kubernetes는 데이터베이스 운영에 적합할까? Elasticsearch on Kubernetes 1년 후…",
-          "href": "https://event.openinfradays.kr/2019/session1/track_4_3",
           "speakers": ["한수호"],
           "tracks": ["Track 5"],
           "deckUrl": null,
@@ -782,7 +745,6 @@
         {
           "colSpan": 7,
           "title": "",
-          "href": "https://event.openinfradays.kr/2019/session1/99_closing",
           "speakers": ["(경품 추첨 & 정리)"],
           "tracks": [],
           "deckUrl": null,
