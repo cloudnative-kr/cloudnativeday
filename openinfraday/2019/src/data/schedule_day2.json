@@ -533,18 +533,24 @@
         },
         {
           "colSpan": 1,
-          "title": "K8s Network Environment for zero downtime service",
+          "title": "1) K8s Network Environment for zero downtime service / 2) Connect services securely across multi-cloud environments",
           "href": "",
-          "speakers": ["엄재철"],
+          "speakers": ["이정복", "엄재철"],
           "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "Kubernetes상에서 유저 어플리케이션 배포 및 운영 시 끊김 없는 유저 서비스를 위한 플랫폼 환경에 대해 이야기 합니다. 덧붙여 LINE에서 발생한 클라우드 네트워크 이슈 및 해결법을 소개합니다.",
+          "description": "1) Kubernetes상에서 유저 어플리케이션 배포 및 운영 시 끊김 없는 유저 서비스를 위한 플랫폼 환경에 대해 이야기 합니다. 덧붙여 LINE에서 발생한 클라우드 네트워크 이슈 및 해결법을 소개합니다.\n\n2)Kubernetes의 app을 안전하게 Multi Cloud또는 Legacy 시스템과 연동하기 위한 방법을 알아보고, External network를 왜 필요하며 어떻게 구현하여서 서비스를 하는 방법 설명하려 합니다. 또한 Kubernetes를 node를 관리하는 관점에서는 어떻게 사용했는지 이야기합니다.",
           "speakerDetails": [
             {
+              "name": "이정복",
+              "affiliation": "LINE",
+              "bio": "LINE에서 kubernetes를 이용하고 있는 cloud native service에 필요한 network과 관련된 이것저것 개발들을 하고 있는 이정복입니다.",
+              "imageUrl": "/speakers/day2/이정복.jpg"
+            },
+            {
               "name": "엄재철",
-              "affiliation": "라인플러스",
-              "bio": "라인플러스 CloudNative 개발자",
+              "affiliation": "LINE",
+              "bio": "LINE Cloud Native 개발자",
               "imageUrl": "/speakers/day2/엄재철.jpg"
             }
           ]
@@ -752,23 +758,17 @@
         },
         {
           "colSpan": 1,
-          "title": "Kubernetes 잘 활용하기\n\n1) Connect services securely across multi-cloud environments (Egress)\n\n2) Kubernetes는 데이터베이스 운영에 적합할까? Elasticsearch on Kubernetes 1년 후…",
+          "title": "Kubernetes 잘 활용하기 - Kubernetes는 데이터베이스 운영에 적합할까? Elasticsearch on Kubernetes 1년 후…",
           "href": "https://event.openinfradays.kr/2019/session1/track_4_3",
-          "speakers": ["이정복", "한수호"],
+          "speakers": ["한수호"],
           "tracks": ["Track 5"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "Kubernetes의 app을 안전하게 Multi Cloud또는 Legacy 시스템과 연동하기 위한 방법을 알아보고, External network를 왜 필요하며 어떻게 구현하여서 서비스를 하는 방법 설명하려 합니다. 또한 Kubernetes를 node를 관리하는 관점에서는 어떻게 사용했는지 이야기합니다.",
+          "description": "",
           "speakerDetails": [
             {
-              "name": "이정복",
-              "affiliation": "LINE",
-              "bio": "LINE에서 kubernetes를 이용하고 있는 cloud native service에 필요한 network과 관련된 이것저것 개발들을 하고 있는 이정복입니다.",
-              "imageUrl": "/speakers/day2/이정복.jpg"
-            },
-            {
               "name": "한수호",
-              "affiliation": "",
+              "affiliation": "LINE",
               "bio": "",
               "imageUrl": null
             }
