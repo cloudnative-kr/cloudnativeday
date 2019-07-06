@@ -457,12 +457,12 @@
         {
           "colSpan": 1,
           "rowSpan": 4,
-          "title": "Kubernetes 101 Workshop II Kubeadm을 이용해 고가용성 Kubernetes 클러스터 구축하기",
+          "title": "Kubeadm을 이용해 고가용성 Kubernetes 클러스터 구축하기",
           "speakers": ["임찬식"],
           "tracks": ["Track 7"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "VM 환경에서 kubeadm 을 이용해 고가용성 Kubernetes 클러스터를 구축하는 실습을 진행합니다. kubeadm 을 이용하면 Baremetal 서버 환경에서 Kubernetes 클러스터를 쉽게 구축하여 사용하는 것이 가능합니다. 이 세션에서는 kubeadm 을 이용한 Kubernetes 클러스터 관리 방법을 VM 환경에서 실습하고 이후에 실제 클러스터에 적용하는 것을 목표로 합니다. kubeadm 을 이용해 이미 사용하고 있는 Single Master Kubernetes 클러스터를 관리하고, 고가용성 클러스터로 변경하는 실습을 진행합니다.",
+          "description": "Kubeadm을 이용하면 Kubernetes 클러스터를 어렵지 않게 구성할 수 있습니다. 하지만, 안정적인 클러스터를 운영하기 위해서는 Master 노드를 이중화하는 것이 반드시 필요합니다.\nKubeadm을 이용해 고가용성 Kubernetes 클러스터 구축하기 Hands-on 에서는 여러 Master 노드로 구성된 클러스터를 VM 환경에서 직접 구축하고 관리하는 방법을 실습해보는 시간을 갖고자 합니다.\n\n* Kubeadm 을 이용해 Kubernetes 클러스터 구축\n* Multi Master 노드를 추가하여 고가용성 확보\n* Etcd 클러스터 노드를 확인하고 관리하는 기초적인 명령어 사용\n\n실습에 참여하기 위해서는 노트북을 지참하여야 하며, VM 환경에서 실습을 진행하기 때문에 충분한 메모리가 필요합니다. (최소 8GB 이상)\n원할한 실습을 위해서 Virtualbox, Vagrant 등을 미리 설치해두는 것을 권장합니다.",
           "speakerDetails": [
             {
               "name": "임찬식",
