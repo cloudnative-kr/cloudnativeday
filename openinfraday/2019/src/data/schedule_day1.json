@@ -438,7 +438,7 @@
             {
               "name": "김동진",
               "affiliation": "카카오뱅크",
-              "bio": "",
+              "bio": "카카오뱅크: DevOps 개발자\nFlitto: 서버개발자\n빙글: Android 개발자",
               "imageUrl": "/speakers/day1/김동진.jpg"
             }
           ]
@@ -620,13 +620,13 @@
           "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "LINE에서 Kubernetes를 이용해서 서비스 및 플랫폼 개발에 사용하는 다양한 케이스를 소개하며 이를 개발하면서 고민했던 내용들 그리고 운영하면서 배운 여러가지 경험을 공유합니다.\n- Kubernetes를 이용한 플랫폼 개발\n- Helm을 이용한 software category service\n- Custom Resource Definition과 Custom Controller를 개발할 때 유의점",
+          "description": "LINE에서 왜 Kubernetes를 사용하는지 이야기하고, 그를 이용해서 어떠한 서비스를 어떻게 개발하고 어떻게 운영하는지를 이야기\n합니다. 그리고 그 동안 배운 Kubernetes 활용 방법에 대해서도 공유합니다.",
           "speakerDetails": [
             {
               "name": "최정대",
               "affiliation": "LINE",
-              "bio": "",
-              "imageUrl": null
+              "bio": "Kakao, LINE을 거치면서 OpenStack, Kubernetes등 클라우드 관련 서비스를 만들고 있습니다.",
+              "imageUrl": "/speakers/day1/최정대.png"
             }
           ]
         },
