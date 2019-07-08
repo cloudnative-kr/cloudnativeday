@@ -162,8 +162,8 @@
           "description": "1. Data and Storage Mega-trend\n2. Strategy of Samsung's Storage System Architecture solutions\n- iBoF Motivation and Architecture\n- New Host-SSD Interface for Error Prediction\n- OCSSD Open source activity\n3. Direction and Activity plan for Open Source Community",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
+              "name": "송용호",
+              "affiliation": "삼성전자",
               "bio": "서울대학교, 컴퓨터공학과, 학사, 석사\n University of Southern California, Electrical Engineering, Ph.D.\n한양대학교 공과대학 융합전자공학부, 교수\n삼성전자 메모리사업부 상품기획실, 전무",
               "imageUrl": "/speakers/day1/keynote/삼성전자 _송용호.jpg"
             }
