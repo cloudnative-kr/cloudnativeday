@@ -10,6 +10,7 @@ const ModalWrapper = styled.div`
   height: 100%;
   min-height: 600px;
   min-width: 1100px;
+  padding: 10px 0;
 
   background-color: #2f323e;
 
@@ -29,6 +30,10 @@ const ContentWrapper = styled.div`
   line-height: 1.3;
   letter-spacing: -0.5px;
   padding: 50px 0 60px 0;
+
+  overflow: auto;
+  max-height: 600px;
+  padding-right: 10px;
 
   @media ${ON_TABLET} {
     min-width: 310px;
@@ -131,6 +136,7 @@ const SpeakerDescription = styled.div`
 
   @media ${ON_MOBILE} {
     font-size: 13px;
+    margin-bottom: 20px;
   }
 `
 
