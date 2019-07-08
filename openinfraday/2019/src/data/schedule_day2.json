@@ -611,17 +611,17 @@
         {
           "colSpan": 1,
           "title": "Video understanding on KubeFlow: KubeFlow 위에서 \"도둑\"자바요",
-          "speakers": [],
+          "speakers": ["(주)두다지 홍석환"],
           "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "(도둑) 자바요는 “영상내 절도 행위 인식” 프로젝트입니다. 자바요팀은 본 연구를 Kubeflow를 활용하여 수행하고 있습니다.\n이 세션에서는 자바요팀이 Kubeflow 0.5를 적용한 경험을 공유하고 아래의 내용을 커버합니다.\n(1) Kubeflow 소개 및 구성\n(2) Katib를 활용한 하이퍼 파라미터 튜닝\n(3) Pipeline 사용법 및 팁\n(4) Kubeflow의 한계 및 로드맵\n이 세션을 듣고 나면, 딥러닝 플랫폼인 Kubeflow의 편리함을 느낄 수 있을 것입니다. 또, Katib와 Pipeline을 더 잘 이해할 수 있을 것입니다.\n",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "name": "홍석환",
+              "affiliation": "(주)두다지 대표",
+              "bio": "더 빨리 좋은 딥러닝 결과를 내는 것에 관심이 많은 엔지니어이며 두다지 회사를 대표하고 있습니다.",
+              "imageUrl": "/speakers/day2/홍석환.jpg"
             }
           ]
         },
