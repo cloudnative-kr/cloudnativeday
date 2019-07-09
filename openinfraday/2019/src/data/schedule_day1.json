@@ -615,18 +615,18 @@
         },
         {
           "colSpan": 1,
-          "title": "LINE에서 Kubernetes를 쓰는 방법과 그 동안 배운 것들",
+          "title": "LINE에서 Kubernetes를 쓰는 방법... 그 동안 배운 것들...",
           "speakers": ["LINE 최정대"],
           "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "LINE에서 왜 Kubernetes를 사용하는지 이야기하고, 그를 이용해서 어떠한 서비스를 어떻게 개발하고 어떻게 운영하는지를 이야기\n합니다. 그리고 그 동안 배운 Kubernetes 활용 방법에 대해서도 공유합니다.",
+          "description": "LINE에서 왜 Kubernetes를 사용하는지 이야기하고, 그를 이용해서 어떠한 서비스를 어떻게 개발하고 어떻게 운영하는지를 이야기합니다. 그리고 그 동안 배운 Kubernetes 활용 방법에 대해서도 공유합니다.",
           "speakerDetails": [
             {
               "name": "최정대",
               "affiliation": "LINE",
               "bio": "Kakao, LINE을 거치면서 OpenStack, Kubernetes등 클라우드 관련 서비스를 만들고 있습니다.",
-              "imageUrl": "/speakers/day1/최정대.png"
+              "imageUrl": "/speakers/day1/최정대.png"
             }
           ]
         },
