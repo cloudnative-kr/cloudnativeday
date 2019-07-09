@@ -108,5 +108,24 @@
       "href": "",
       "src": "/sponsors/edgecore.png"
     }
+  ],
+  "infra": [
+    {
+      "alt": "packet",
+      "href": "",
+      "src": "/sponsors/packet.png"
+    }
+  ],
+  "media": [
+    {
+      "alt": "한빛",
+      "href": "",
+      "src": "/sponsors/hanbit.png"
+    },
+    {
+      "alt": "책만",
+      "href": "",
+      "src": "/sponsors/che.png"
+    }
   ]
 }

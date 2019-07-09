@@ -111,6 +111,16 @@ const SponsorsSection: FC = () => {
           <Label shadowColor="silver">Silver</Label>
           {renderImageGrid(sponsorsData.silver)}
         </Row>
+
+        <Row>
+          <Label shadowColor="silver">Infra</Label>
+          {renderImageGrid(sponsorsData.infra)}
+        </Row>
+
+        <Row>
+          <Label shadowColor="silver">미디어 후원</Label>
+          {renderImageGrid(sponsorsData.media)}
+        </Row>
       </InnerContainer>
     </StyledContainer>
   )
