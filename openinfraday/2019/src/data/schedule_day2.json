@@ -594,16 +594,16 @@
         {
           "colSpan": 1,
           "title": "Ceph 성능 최적화를 위한 White-box 접근",
-          "speakers": ["변일수"],
+          "speakers": ["LINE 변일수"],
           "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "Ceph의 ObjectStore 중의 하나인 BlueStore는 메타 데이터 저장을 위해 RocksDB를 사용하고 있다. 특히 Small IO의 경우 RocksDB의 성능 특성이 Ceph 전체 성능에 결정적인 영향을 끼칠 수 있다. 이를 위해 IO 처리를 제어하는 다양한 옵션들이 존재하는데 이러한 옵션들은 내부 동작 구조에 대한 이해 없이 제대로 된 영향을 평가하기는 힘들다. 본 세션을 통해 Ceph에서 발생했던 성능 문제를 해결해 가는 과정과 관련된 내부 구조 및 설정들에 대한 소개를 통해 Ceph 최적화를 위해서는 내부 동작에 대한 이해가 필수 불가결함에 대해 설명한다.",
+          "description": "오픈소스 프로젝트는 소스가 공개되어 있음에도 많은 경우 Black-box로 간주되어 사용되곤 합니다. 그러나 근본적인 문제를 파악하기 위해서는 내부 구조를 들여다 봐야할 경우가 종종 생기곤 합니다. 특히 Ceph은 매우 복잡한 시스템으로서 하나의 증상이 다양한 원인을 가질 수 있기 때문에 더더욱 그러합니다. 다행히 Ceph은 내부의 동작을 유추할 수 있게 하는 다양한 도구와 정보를 제공합니다. 이러한 도구를 활용하여 내부의 동작을 분석하고 문제를 해결했던 경험에 대해 공유하고자 합니다.",
           "speakerDetails": [
             {
               "name": "변일수",
-              "affiliation": "",
-              "bio": "",
+              "affiliation": "LINE",
+              "bio": "(현) LINE Plus Cloud Storage팀 근무\n(전) SK텔레콤 Software-Defined Storage팀 근무",
               "imageUrl": null
             }
           ]

@@ -110,7 +110,7 @@
       "cols": [
         {
           "colSpan": 2,
-          "title": "Keynote 2",
+          "title": "공개SW와 클라우드 현황",
           "speakers": ["NIPA"],
           "tracks": ["Keynote 2"],
           "deckUrl": null,
@@ -118,7 +118,7 @@
           "description": "",
           "speakerDetails": [
             {
-              "name": "",
+              "name": "NIPA",
               "affiliation": "",
               "bio": "",
               "imageUrl": null
@@ -399,7 +399,7 @@
           "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "본 세션에서는 컨테이너 이미지를 저장, 제작 및 배포하여 잠재적인 문제를 식별하여 안전한 컨테이너 기반을 만드는 방법을 소개하고 컨테이너화된 애플리케이션을 원하는 곳에 구축 및 공유할 수 있는 방안에 대해 공유드리고자 합니다. 본 세션을 통해 보다 쉽고 안전한 컨테이너 기반을 만드는 기술에 대해 전달하고자 합니다.",
           "speakerDetails": [
             {
               "name": "김현수 이사",
