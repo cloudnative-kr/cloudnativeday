@@ -383,6 +383,7 @@
           ]
         },
         {
+          "time": "14:00 ~ 17:30",
           "colSpan": 1,
           "rowSpan": 5,
           "title": "TACO/K8s cluster api Hands-on Workshop",
@@ -417,6 +418,7 @@
           ]
         },
         {
+          "time": "14:00 ~ 17:30",
           "colSpan": 1,
           "rowSpan": 5,
           "title": "How to scale your ML job with Kubernetes",
@@ -604,7 +606,7 @@
               "name": "변일수",
               "affiliation": "LINE",
               "bio": "(현) LINE Plus Cloud Storage팀 근무\n(전) SK텔레콤 Software-Defined Storage팀 근무",
-              "imageUrl": null
+              "imageUrl": "/speakers/day2/변일수.png"
             }
           ]
         },

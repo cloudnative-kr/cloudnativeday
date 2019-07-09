@@ -272,6 +272,7 @@
           ]
         },
         {
+          "time": "13:20 ~ 17:40",
           "colSpan": 1,
           "rowSpan": 6,
           "title": "Hands-on Kubernetes and Service Monitoring with Prometheus",
@@ -290,6 +291,7 @@
           ]
         },
         {
+          "time": "13:20 ~ 15:00",
           "colSpan": 1,
           "rowSpan": 2,
           "title": "Windows와 Linux 컨테이너를 동시에 지원하는 Kubernetes 클러스터 만들기",
@@ -308,6 +310,7 @@
           ]
         },
         {
+          "time": "13:00 ~ 15:10",
           "colSpan": 1,
           "rowSpan": 2,
           "title": "13:00 ~ 15:10\n\nKubernetes The Hard Way",
@@ -455,6 +458,7 @@
           "speakerDetails": []
         },
         {
+          "time": "15:30 ~ 17:40",
           "colSpan": 1,
           "rowSpan": 4,
           "title": "Kubeadm을 이용해 고가용성 Kubernetes 클러스터 구축하기",
@@ -495,6 +499,7 @@
           ]
         },
         {
+          "time": "15:30 ~ 17:40",
           "colSpan": 1,
           "rowSpan": 3,
           "title": "컨테이너 어렵게 배우기(Container The Hard Way)",
