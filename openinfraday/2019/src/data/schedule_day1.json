@@ -292,7 +292,7 @@
           ]
         },
         {
-          "time": "13:20 ~ 15:00",
+          "time": "13:00 ~ 15:10",
           "colSpan": 1,
           "rowSpan": 2,
           "title": "Windows와 Linux 컨테이너를 동시에 지원하는 Kubernetes 클러스터 만들기",
