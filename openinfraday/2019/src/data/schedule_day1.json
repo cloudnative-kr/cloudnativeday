@@ -437,12 +437,12 @@
           "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "Kubernetes scheduler component의 동작방식 및 algorithm에 대해 알아보고 multiple scheduler와 performance tuning에 대해 알아봅니다.",
+          "description": "Kubernetes scheduler component의 동작방식 및 알고리즘에 대해 알아보고 scheduler 확장에 대해서 알아 봅니다.",
           "speakerDetails": [
             {
               "name": "김동진",
               "affiliation": "카카오뱅크",
-              "bio": "카카오뱅크: DevOps 개발자\nFlitto: 서버개발자\n빙글: Android 개발자",
+              "bio": "카카오뱅크에서 cloud native 사업의 일환으로 퍼블릭 클라우드 도입을 준비중입니다.\n특히 컨테이너 서비스를 위한 Kubernetes 플랫폼 구축 및 설계를 담당하고 있습니다.",
               "imageUrl": "/speakers/day1/김동진.jpg"
             }
           ]

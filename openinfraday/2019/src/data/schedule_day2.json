@@ -478,17 +478,17 @@
         {
           "colSpan": 1,
           "title": "High Density Rack Power Cooling",
-          "speakers": ["류근호"],
+          "speakers": ["류근호 Datacenter Manager"],
           "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "Cloud 가속화 됨에 따라서 대용량 High Density Data Center 또는 Server room 구축을 진행하고 있습니다. 그러나 에너지를 적게 사용하면서 대용량 Cooling 솔루션  필요성이 존재합니다. 물론,유지관리 비용적인 관점에서도 많은 관심이 따르고 있습니다. 이에 따라서 그동안 연구하고 적용하고 개발한 대안을 제시하고자 합니다.",
+          "description": "Datacenter 증가와 고효율을 추구하는 경향으로 발전하는 지금 Open computing Infra측면에서 Datacenter cooling trends 와 High density rack power cooling에 대한 기술적 대안을 제시하고자 합니다.",
           "speakerDetails": [
             {
               "name": "류근호",
               "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "bio": "Datacenter Manager & Architect/PE",
+              "imageUrl": "/speakers/day2/류근호.jpeg"
             }
           ]
         },
@@ -691,24 +691,18 @@
         },
         {
           "colSpan": 1,
-          "title": "글로벌 서비스를 위한 Ceph 서비스 수준 99.9999% 달성하기 - Ceph 내부 들여다보기를 통한 튜닝",
-          "speakers": ["LINE 송동수", "LINE 변일수"],
+          "title": "글로벌 서비스를 위한 Ceph서비스 수준 99.9999% 달성하기",
+          "speakers": ["LINE 송동수"],
           "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "Ceph 클러스터를 안정적으로 운영하려면 극복해야하는 여러 영향 요소들과 그에 대한 대응방법과 경험을 소개\n : HW 요소 - 서버, 디스크, 네트워크, 랙, 등 HW Failure Domain\n : 성능 요소들 - HW이외 성능에 직접적으로 영향을 미치는 요소\n : 장애 시 복구 - 주요 장애 원인과 그에 대한 대응\n : 배포/업그레이드,패치/확장 - 일상적인 운영 환경에서의 위험 요소들\n : 메트릭 수집/모니터링/알람 - 성능 저하, 장애 감지, 무엇을 어떻게 봐주어야 하는가\n : risky한 기능들 - Ceph의 기능중 아직 대규모 환경에서의 문제가 될 만한 것 들\n : 어플리케이션에서의 대응 - Storage Platform을 이용하는 Application에서의 대응\nDeep Dive into Ceph IO\n : 병목 찾기 - 현상에 따른 병목 구간과 원인 찾기\n : 퍼포먼스 튜닝 - Performance counter, 시스템 툴들",
+          "description": "Ceph 기반으로 클라우드 스토리지 서비스를 제공할 때 서비스 수준 99.9999%를 달성하고 유지하기 위해서 필요한 요소들은 무엇이 있고\n그것들을 LINE에서는 어떻게 구현, 운영 하고 있고 주요 트러블 슈팅 경험등은 어떤것들이 있었는 지 등을 위주로 공유합니다.",
           "speakerDetails": [
             {
               "name": "송동수",
               "affiliation": "LINE",
-              "bio": "Ceph Cluster로 Openstack, Kubernetes 에 Cloud Storage를 제공하고 있습니다. 오브젝트 스토리지 와 CDN을 개발하여 글로벌 환경에서 다양한 라인 서비스에서 사용하도록 제공하고 있습니다\nKnative를 활용하여 Cloud Function 또한 개발 중에 있습니다",
+              "bio": "라인플러스 인프라플랫폼실 Cloud Storage, CDN, Cloud Function 개발",
               "imageUrl": "/speakers/day2/송동수.png"
-            },
-            {
-              "name": "변일수",
-              "affiliation": "LINE",
-              "bio": "LINE에서 Ceph Storage와 관련된 개발 업무를 수행하고 있습니다.",
-              "imageUrl": "/speakers/day2/변일수.png"
             }
           ]
         },
