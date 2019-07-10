@@ -63,27 +63,27 @@
     },
     {
       "alt": "Nutanix",
-      "href": "",
+      "href": "https://www.nutanix.kr/",
       "src": "/sponsors/nutanix.png"
     },
     {
       "alt": "F5",
-      "href": "",
+      "href": "https://www.f5.com/",
       "src": "/sponsors/f5.png"
     },
     {
       "alt": "SK C&C",
-      "href": "",
+      "href": "https://cc.sk.co.kr/",
       "src": "/sponsors/sk-cnc.png"
     },
     {
       "alt": "Red Hat",
-      "href": "",
+      "href": "https://www.redhat.com/ko",
       "src": "/sponsors/redhat.png"
     },
     {
       "alt": "NewRelic",
-      "href": "",
+      "href": "https://newrelic.com/",
       "src": "/sponsors/newrelic.png"
     },
     {
@@ -93,38 +93,38 @@
     },
     {
       "alt": "CNCF",
-      "href": "",
+      "href": "https://www.cncf.io/",
       "src": "/sponsors/cncf-logo.png"
     }
   ],
   "silver": [
     {
       "alt": "NetApp",
-      "href": "",
+      "href": "https://www.netapp.co.kr/",
       "src": "/sponsors/netapp.png"
     },
     {
       "alt": "Edge-corE Networks",
-      "href": "",
+      "href": "https://www.edge-core.com/",
       "src": "/sponsors/edgecore.png"
     }
   ],
   "infra": [
     {
       "alt": "packet",
-      "href": "",
+      "href": "https://www.packet.com/",
       "src": "/sponsors/packet.png"
     }
   ],
   "media": [
     {
       "alt": "한빛",
-      "href": "",
+      "href": "http://www.hanbit.co.kr/media/",
       "src": "/sponsors/hanbit.png"
     },
     {
       "alt": "책만",
-      "href": "",
+      "href": "https://www.onlybook.co.kr/",
       "src": "/sponsors/che.png"
     }
   ]
