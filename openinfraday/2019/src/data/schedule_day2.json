@@ -112,17 +112,17 @@
         {
           "colSpan": 3,
           "title": "Keynote 4\nOpen Innovation in Cloud Native Telco Infrastructure",
-          "speakers": ["SKT"],
+          "speakers": ["SKT 이강원 Cloud Labs장"],
           "tracks": ["Keynote 4"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "5G가 런칭되면서 네트워크 가상화, MEC, MEDIA등 기술에 대한 진화와 새로운 서비스에 대한 요구사항이 강하게 대두되면서, Infrastructure도 Cloud Native Service 형태로 발전해나가고 있습니다. 이번 키노트를 통해서 SKT가 지금까지 진행해온 Cloud Native Infrastructure에 대한 다양한 오픈소스SW 활동 및 이를 통한 솔루션 개발, 그리고 앞으로 진행할 글로벌 오픈소스SW 런칭과 SKT의 비전에 대해서 말씀드리겠습니다.",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "name": "이강원",
+              "affiliation": "SKT",
+              "bio": "SK텔레콤 Cloud Labs장\nUniversity of Illinois Urbana-Champaign, Compute Science, Ph.D.\n서울대학교 컴퓨터공학과 학,석사\n이강원 박사는 SK텔레콤의 부사장 겸 Cloud Labs장을 역임하며, 5G 네트워크에 적용될 차세대 모바일 인프라를 위한 SDx 기술 개발을 주도하고 있습니다. 여기에는 5G 모바일 에지 클라우드(MEC), 통신 클라우드, 네트워크 운영 및 서비스 제공을 위한 하이브리드 클라우드가 포함됩니다. 이를 통해 AR/VR,UHD 미디어, 커넥티드 카, 스마트 팩토리,블록체인 네트워크 등 다양한 영역의 애플리케이션을 지원합니다.",
+              "imageUrl": "/speakers/day2/이강원.jpg"
             }
           ]
         }
@@ -156,18 +156,18 @@
       "cols": [
         {
           "colSpan": 1,
-          "title": "Let's work together: SKT의 오픈소스프로젝트 로드맵",
-          "speakers": ["SKT"],
+          "title": "SKT Cloud Native Infrastructure 개발과 상용화 이야기, 그리고 오픈소스화 로드맵",
+          "speakers": ["SKT 안재석"],
           "tracks": ["Track 1"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "현재 중국은 알리바바와 위챗 등을 중심으로 인터넷, 모바일 서비스 등에서 세계에서 가장 빠르게 변하고, 적용해나가고 있는 나라입니다. 6000km 이상의 거리와 14억 인구의, 위챗 사용자만 10억 가까운 시장에서 서비스를 만들고 운영하는 것은 한국에서의 개발과는 전혀 다른 경험이었습니다. 이런 시장 환경에서 서비스를 만들면서 겪었던 모바일 환경이나 개발자, 팀에 대한 경험, 기술적인 부분에서는 마이크로 서비스 아키텍처와 k8s를 어떻게 적용해서 사용하고 있는지에 대해 소개하려고 합니다.\n\n- 중국 모바일 서비스의 환경 및 특징\n- 기존 레거시를 어떻게 클라우드, k8s, 마이크로 서비스 환경으로 변화\n- 마이크로 서비스를 실제 구현하는데 있어 기술적으로 어떻게 했는지, k8s는 어떻게 사용되고 있나.",
+          "description": "SKT는 2016년부터 OpenStack과 Kubernetes를 접목한 Cloud Native Infrastructure 기술을 개발하면서, OpenStack-Helm, Airship과 같은 글로벌 오픈소스SW 프로젝트에 코드 기여를 비롯하여 적극적으로 참여해왔습니다. 또한, 이러한 자체적으로 개발된 오픈소스SW 기반의 솔루션을 사내/외에 적용하기 위한 힘든 여정을 거쳐왔습니다. 이번 발표에서는 이에 대한 기술적/문화적 경험등을 공유하고, 현재 SKT가 가진 관련 소스코드에 대한 공개와 함께, 같이 발전해나가기 위한 오픈소스SW화 로드맵에 대해서 이야기 하고자 합니다.",
           "speakerDetails": [
             {
-              "name": "",
-              "affiliation": "",
+              "name": "안재석",
+              "affiliation": "SKT",
               "bio": "",
-              "imageUrl": null
+              "imageUrl": "/speakers/day2/안재석.jpg"
             }
           ]
         },
@@ -197,24 +197,33 @@
         {
           "colSpan": 1,
           "title": "OCP Community Session",
-          "speakers": ["Steve Helvie, Open Compute Project"],
+          "speakers": [
+            "Steve Helvie/ VP of Channel Development, Open Compute Project",
+            "George Tchaparian / President and CEO, Edgecore"
+          ],
           "tracks": ["Track 3"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
+          "description": "1st Session\n- This proposed talk would focus on how APAC prepares for the next big technology step change while running a heterogeneous infrastructure environment (edge, fog, colo, primary data centre, etc)\nCompanies are looking for best practices gleamed from hyper-scale companies like Facebook, Microsoft and Google who run highly efficient private and public clouds.  The sharing of open hardware and data centre designs is a core strategy for these companies and the basis for the Open Compute Project (OCP).\n2nd Session\nThis proposed talk would focus on how Open Networking is leading the change in Open Hardware and the Open Compute Project (OCP) Community.  This session will be a deeper look into the Networking Project within OCP.\nWe are very fortunate to have the President of Edge-core Networks, George Tchaparian present his view on Open Networking and how they are working within the OCP Networking Project.  Edge-Core is a Platinum Member within OCP and the leading Open Networking provider within our Community.  He will share his views on the market for Korea and the road to Edge, AI and 5G with Open Networking.",
           "speakerDetails": [
             {
               "name": "Steve Helvie",
               "affiliation": "VP of Channel Development, Open Compute Project",
               "bio": "Steve is currently the VP of Channel for the Open Compute Project (OCP). In this role he helps to educate organisations on the benefits of open hardware designs and the value of “community-driven” engineering for the data centre. He works closely with Solution Providers and Manufacturers to help organisations adopt Open Compute across all regions and segments of the market.\nSteve spent the last 14 years living and working in Asia holding various Leadership and Channel Development roles for companies like Microsoft (Asia Pacific) and Rackspace (UK). He recently moved to London to focus on building the OCP Channel in EMEA.",
-              "imageUrl": "/speakers/day2/keynote/OCP_Steve_Helvie.png"
+              "imageUrl": "/speakers/day2/Helvie.jpeg"
+            },
+            {
+              "name": "George Tchaparian",
+              "affiliation": "President and CEO, Edgecore",
+              "bio": "Steve is currently the VP of Channel for the Open Compute Project (OCP). In this role he helps to educate organisations on the benefits of open hardware designs and the value of “community-driven” engineering for the data centre. He works closely with Solution Providers and Manufacturers to help organisations adopt Open Compute across all regions and segments of the market.\nSteve spent the last 14 years living and working in Asia holding various Leadership and Channel Development roles for companies like Microsoft (Asia Pacific) and Rackspace (UK). He recently moved to London to focus on building the OCP Channel in EMEA.",
+              "imageUrl": "/speakers/day2/george.png"
             }
           ]
         },
         {
           "colSpan": 1,
-          "title": "쿠버네티스를 이용한 기능 브랜치별 테스트 서버 만들기",
-          "speakers": ["퍼플웍스 김충섭 과장"],
+          "title": "쿠버네티스를 이용한 기능 브랜치별 테스트 서버 만들기 (GitOps CI/CD)",
+          "speakers": ["퍼플웍스 김충섭"],
           "tracks": ["Track 4"],
           "deckUrl": null,
           "videoUrl": null,
@@ -222,7 +231,7 @@
           "speakerDetails": [
             {
               "name": "김충섭",
-              "affiliation": "퍼플웍스 과장",
+              "affiliation": "퍼플웍스",
               "bio": "퍼플웍스에서 소프트웨어 엔지니어로 서버관리부터 프론트 개발까지 여러가지 일을 하고 있습니다. 개발자를 편하게 해주는 자동화 기술과 효율적인 개발 프로세스에 관심이 많습니다. 도커와 kubernetes에 관심이 많고 ruby on rails와 go언어를 좋아합니다. subicura.com 블로그를 운영하고 있습니다.",
               "imageUrl": "/speakers/day2/김충섭.jpg"
             }
@@ -426,7 +435,7 @@
           "tracks": ["Track 7"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "기계를 학습 시키는 일은 필연적으로 많은 자원을 필요로합니다. 여러가지 가설들을 만들어 보고 그 가설이 맞는지 실험해 봐야하기 때문입니다. 이 때, 한 두개의 모델을 학습 시키는 일은 비교적 간단합니다. 그러나 많은 모델들을 여러 서버에 걸쳐서 모델을 학습 시키는 일은 그리 간단하지 않습니다. 이러한 이유로 뛰어난 기계학습 모델을 얻기 위해선 탄탄한 머신러닝 엔지니어링 스킬이 뒷받침 되어야 합니다. 오늘 저와 함께 쿠버네티스를 활용하여 체계적으로 여러 기계학습 모델들을 효율적으로 학습 시키는 방법에 대해서 알아보겠습니다. 머리 아픈 일은 이제 쿠버네티스에게 맡기고 여러분은 핵심 모델링에 집중하시길 바랍니다.\n\n* AWS Summit Seoul 2019에서 발표한 \"Amazon EKS를 활용한 기계 학습 모델 서버 확장하기\"를 바탕으로 워크샵을 진행합니다. 미리 조금 내용을 보시고 오시면 더욱 도움이 되실 것 같습니다. (필수는 아닙니다.)\n- 슬라이드: https://www.slideshare.net/awskorea/amazon-eks-lg-aws-summit-seoul-2019 \n- 영상: https://www.youtube.com/watch?",
+          "description": "기계를 학습 시키는 일은 필연적으로 많은 자원을 필요로합니다. 여러가지 가설들을 만들어 보고 그 가설이 맞는지 실험해 봐야하기 때문입니다. 이 때, 한 두개의 모델을 학습 시키는 일은 비교적 간단합니다. 그러나 많은 모델들을 여러 서버에 걸쳐서 모델을 학습 시키는 일은 그리 간단하지 않습니다. 이러한 이유로 뛰어난 기계학습 모델을 얻기 위해선 탄탄한 머신러닝 엔지니어링 스킬이 뒷받침 되어야 합니다. 오늘 저와 함께 쿠버네티스를 활용하여 체계적으로 여러 기계학습 모델들을 효율적으로 학습 시키는 방법에 대해서 알아보겠습니다. 머리 아픈 일은 이제 쿠버네티스에게 맡기고 여러분은 핵심 모델링에 집중하시길 바랍니다.\n\n* AWS Summit Seoul 2019에서 발표한 \"Amazon EKS를 활용한 기계 학습 모델 서버 확장하기\"를 바탕으로 워크샵을 진행합니다. 미리 조금 내용을 보시고 오시면 더욱 도움이 되실 것 같습니다. (필수는 아닙니다.)\n- 슬라이드: https://www.slideshare.net/awskorea/amazon-eks-lg-aws-summit-seoul-2019\n- 영상: https://www.youtube.com/watch?v=egv2TlfLL1Y&list=PLORxAVAC5fUXSZaun-15IvzUhO3YmvtdV&index=4\n* 워크샵 진행 Repository: https://github.com/hongkunyoo/how-to-scale-your-ml-job-with-k8s\n* 사전 준비 사항: AWS 계정 및 credit\nAWS 클라우드 플랫폼 상에서 워크샵을 진행하오니 계정 준비 부탁 드립니다.",
           "speakerDetails": [
             {
               "name": "유홍근",
@@ -460,17 +469,17 @@
         },
         {
           "colSpan": 1,
-          "title": "Open Communities and Cross Pollination",
-          "speakers": ["PoWen Tsai, Director, Edgecore Networks Corporation "],
+          "title": "Open Network 풀어보기",
+          "speakers": ["Edgecore Networks Corporation 권기일 부장"],
           "tracks": ["Track 2"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "The adoption of 5G, AI, and Edge Computing will drive new expectations for an always-on, high quality network and services, which will lead to operational efficiency (OPEX reduction) and boost ultra-low latency and intelligent applications. To honor the promise with the right CAPEX, it is vital to have the proper compute infrastructure in place, aligned to the right strategy, like, Openness, Whitebox, Dis-aggregation, Automation, Cloud Native.",
+          "description": "인포에이는 국내 오픈네트워킹 사업에 주력하고 있습니다.\n오픈네트워킹에 대하여 소개하고 오픈네트워킹을 구성하는 하드웨어와 소프트웨어에 대하여 말씀드리려고 합니다\n- 오픈네트워크 하드웨어 소개\n- Cumulus, Ipinfusion 및 PICA8 소개\n- ONIE 및 Ansible을 이용한 네트워크 자동화",
           "speakerDetails": [
             {
-              "name": "PoWen Tsai",
-              "affiliation": "Director, Edgecore Networks Corporation",
-              "bio": "Join Edgecore Networks for 6 years and experienced in Open Networking adoption in both cloud data center network and telco network; participating in ONF, OCP and TIP and work with the community to explore and innovate open technologies. ",
+              "name": "권기일",
+              "affiliation": "Edgecore Networks Corporation",
+              "bio": "Tape Backup장비를 공급하는 SpectraLogic, Storage 가상화 솔루션을 제공하는  FalconStor, ProphetStor의 SE로 일했습니다.\n현재는 오픈네트워킹 하드웨어 업체인 Edgecore, 소프트웨어 업체인 PICA8 및 Cumulus Networks의 국내 활성화를 위하여 열심히 노력하고 있습니다.",
               "imageUrl": null
             }
           ]
