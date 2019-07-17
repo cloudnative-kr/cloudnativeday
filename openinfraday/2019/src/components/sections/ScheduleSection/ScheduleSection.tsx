@@ -243,11 +243,11 @@ class ScheduleSection extends PureComponent {
                   <THeader />
                   <THeader>Track 1 - T타워/SUPEX Hall</THeader>
                   <THeader>Track 2 - 페럼타워/페럼홀</THeader>
-                  <THeader>Track 3 - 페럼타워</THeader>
-                  <THeader>Track 4 - 삼화타워</THeader>
-                  <THeader>Track 5 - 삼화타워</THeader>
-                  <THeader>Track 6 - 삼화타워</THeader>
-                  <THeader>Track 7 - 삼화타워</THeader>
+                  <THeader>Track 3 - 페럼타워 세미나실</THeader>
+                  <THeader>Track 4 - 삼화타워 Room1</THeader>
+                  <THeader>Track 5 - 삼화타워 Room2</THeader>
+                  <THeader>Track 6 - 삼화타워 Room3</THeader>
+                  <THeader>Track 7 - 삼화타워 Room4</THeader>
                 </TRow>
               </thead>
               <tbody>

@@ -295,7 +295,7 @@
           "time": "13:00 ~ 15:10",
           "colSpan": 1,
           "rowSpan": 2,
-          "title": "Windows와 Linux 컨테이너를 동시에 지원하는 Kubernetes 클러스터 만들기",
+          "title": "13:00 ~ 15:10\n\nWindows와 Linux 컨테이너를 동시에 지원하는 Kubernetes 클러스터 만들기",
           "speakers": ["남정현"],
           "tracks": ["Track 6"],
           "deckUrl": null,
@@ -336,7 +336,7 @@
       "cols": [
         {
           "colSpan": 1,
-          "title": "Kubernetes ingress controller에 대해 알아보자",
+          "title": "Ingress Controller (NGINX) on Kubernetes",
           "speakers": ["F5Networks 권중철 부장"],
           "tracks": ["Track 1"],
           "deckUrl": null,
@@ -448,21 +448,29 @@
           ]
         },
         {
+          "time": "15:30 ~ 17:40",
           "colSpan": 1,
-          "rowSpan": 1,
-          "title": "",
-          "speakers": [""],
+          "rowSpan": 4,
+          "title": "15:30 ~ 17:40\n\n컨테이너 어렵게 배우기(Container The Hard Way)",
+          "speakers": ["김대권", "김승호"],
           "tracks": ["Track 6"],
           "deckUrl": null,
           "videoUrl": null,
-          "description": "",
-          "speakerDetails": []
+          "description": "클라우드 위에서 컨테이너로 애플리케이션을 배포하는 일은 이제 자연스러운 일이 되었습니다. 이 때 사용하는 컨테이너 엔진들은 컨테이너 기술을 추상화하는 역할을 담당합니다. 따라서 실제로 컨테이너가 무엇이고, 어떻게 동작하는 지는 잘 보이지 않습니다. 이 워크숍에서는 리눅스 컨테이너가 동작하는 원리에 대해서 알아보고 이를 기반으로 컨테이너를 정의합니다. 그리고 도커와 같은 컨테이너 엔진들을 사용하지 않고, pivot_root, Linux Namespace, Cgroups, Union File System과 같은 리눅스 커널의 기능등을 사용해서 직접 컨테이너를 만드는 방법을 알아봅니다.",
+          "speakerDetails": [
+            {
+              "name": "",
+              "affiliation": "",
+              "bio": "",
+              "imageUrl": null
+            }
+          ]
         },
         {
           "time": "15:30 ~ 17:40",
           "colSpan": 1,
           "rowSpan": 4,
-          "title": "Kubeadm을 이용해 고가용성 Kubernetes 클러스터 구축하기",
+          "title": "15:30 ~ 17:40\n\nKubeadm을 이용해 고가용성 Kubernetes 클러스터 구축하기",
           "speakers": ["임찬식"],
           "tracks": ["Track 7"],
           "deckUrl": null,
@@ -471,9 +479,9 @@
           "speakerDetails": [
             {
               "name": "임찬식",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
+              "affiliation": "넥스클라우드",
+              "bio": "Kubernetes 클러스터를 On Premise 환경에서 구축하고 관리하는 업무를 해왔습니다.\n지금은 넥스클라우드에서 Kubernetes Monitoring 에 관련된 프로젝트를 진행하고 있습니다.",
+              "imageUrl": "/speakers/day1/임찬식.jpg"
             }
           ]
         }
@@ -490,25 +498,6 @@
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
-          "speakerDetails": [
-            {
-              "name": "",
-              "affiliation": "",
-              "bio": "",
-              "imageUrl": null
-            }
-          ]
-        },
-        {
-          "time": "15:30 ~ 17:40",
-          "colSpan": 1,
-          "rowSpan": 3,
-          "title": "컨테이너 어렵게 배우기(Container The Hard Way)",
-          "speakers": ["김대권", "김승호"],
-          "tracks": ["Track 6"],
-          "deckUrl": null,
-          "videoUrl": null,
-          "description": "클라우드 위에서 컨테이너로 애플리케이션을 배포하는 일은 이제 자연스러운 일이 되었습니다. 이 때 사용하는 컨테이너 엔진들은 컨테이너 기술을 추상화하는 역할을 담당합니다. 따라서 실제로 컨테이너가 무엇이고, 어떻게 동작하는 지는 잘 보이지 않습니다. 이 워크숍에서는 리눅스 컨테이너가 동작하는 원리에 대해서 알아보고 이를 기반으로 컨테이너를 정의합니다. 그리고 도커와 같은 컨테이너 엔진들을 사용하지 않고, pivot_root, Linux Namespace, Cgroups, Union File System과 같은 리눅스 커널의 기능등을 사용해서 직접 컨테이너를 만드는 방법을 알아봅니다.",
           "speakerDetails": [
             {
               "name": "",

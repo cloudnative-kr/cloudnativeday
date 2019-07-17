@@ -23,28 +23,34 @@
       ]
     },
     {
-      "time": "09:30 ~ 10:00",
+      "time": "09:30 ~ 09:40",
       "cols": [
         {
           "colSpan": 3,
-          "title": "Keynote 1\nCommunity Invited Talk \nIf Effective DevOps? : (Pipelines | ServiceMesh | Serverless) & Kubernetes ",
-          "speakers": ["Kamesh Sampath, Principal Software Engineer, Red Hat "],
-          "tracks": ["Keynote 1"],
+          "title": "Opening",
+          "speakers": ["Kubernetes User Group Coordinator & OpenStack Ambassador 안재석 (Track 1)", "Korea Ceph User Group 대표 한승진 (Track 2)"],
+          "tracks": ["Opening"],
           "deckUrl": null,
           "videoUrl": null,
           "description": "",
           "speakerDetails": [
             {
-              "name": "Kamesh Sampath",
-              "affiliation": "Red Hat",
-              "bio": "GitHub: https://github.com/kameshsampath \n Kamesh is a Principal Software Engineer at Red Hat, as part of his additional role as Director of Developer Experience at Red Hat — he actively educates on Kubernetes/OpenShift, Servicemesh, and Serverless technologies --. With a career spanning close to two decades, most of Kamesh’s career was with services industry helping various enterprise customers build Java-based solutions. Kamesh has been a contributor to Open Source projects for more than a decade and he now actively contributes to projects like Knative, Minishift, Eclipse Che, fabric8 etc., As part of his developer philosophy he strongly believes in LEARN MORE, DO MORE and SHARE MORE!",
-              "imageUrl": "/speakers/day2/keynote/레드햇_Kamesh.png"
+              "name": "안재석",
+              "affiliation": "SKT",
+              "bio": "",
+              "imageUrl": "/speakers/day2/안재석.jpg"
+            },
+            {
+              "name": "한승진",
+              "affiliation": "SK텔레콤",
+              "bio": "Seungjin Han has been working for SK telecom in Korea. He has 9 years of experience with virtualization and cloud implementation.He currently develops TACO(Containerized OpenStack on Kubernetes) and baremetal provisioning with IRONIC. He experienced operating CEPH Storage in Datacenter Scale of Game Company. Now, he is leading Korea Ceph User Group.",
+              "imageUrl": "/speakers/day1/track4/한승진.jpg"
             }
           ]
         },
         {
           "colSpan": 4,
-          "rowSpan": 5,
+          "rowSpan": 6,
           "title": "",
           "speakers": ["(Broadcasting)"],
           "tracks": [],
@@ -63,7 +69,29 @@
       ]
     },
     {
-      "time": "10:00 ~ 10:30",
+      "time": "09:40 ~ 10:10",
+      "cols": [
+        {
+          "colSpan": 3,
+          "title": "Keynote 1\nCommunity Invited Talk \nIf Effective DevOps? : (Pipelines | ServiceMesh | Serverless) & Kubernetes ",
+          "speakers": ["Kamesh Sampath, Principal Software Engineer, Red Hat "],
+          "tracks": ["Keynote 1"],
+          "deckUrl": null,
+          "videoUrl": null,
+          "description": "",
+          "speakerDetails": [
+            {
+              "name": "Kamesh Sampath",
+              "affiliation": "Red Hat",
+              "bio": "GitHub: https://github.com/kameshsampath \n Kamesh is a Principal Software Engineer at Red Hat, as part of his additional role as Director of Developer Experience at Red Hat — he actively educates on Kubernetes/OpenShift, Servicemesh, and Serverless technologies --. With a career spanning close to two decades, most of Kamesh’s career was with services industry helping various enterprise customers build Java-based solutions. Kamesh has been a contributor to Open Source projects for more than a decade and he now actively contributes to projects like Knative, Minishift, Eclipse Che, fabric8 etc., As part of his developer philosophy he strongly believes in LEARN MORE, DO MORE and SHARE MORE!",
+              "imageUrl": "/speakers/day2/keynote/레드햇_Kamesh.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "10:10 ~ 10:50",
       "cols": [
         {
           "colSpan": 3,
@@ -85,7 +113,7 @@
       ]
     },
     {
-      "time": "10:30 ~ 11:00",
+      "time": "10:50 ~ 11:20",
       "cols": [
         {
           "colSpan": 3,
@@ -107,7 +135,7 @@
       ]
     },
     {
-      "time": "11:00 ~ 11:20",
+      "time": "11:20 ~ 11:40",
       "cols": [
         {
           "colSpan": 3,
@@ -121,7 +149,7 @@
             {
               "name": "이강원",
               "affiliation": "SKT",
-              "bio": "SK텔레콤 Cloud Labs장\nUniversity of Illinois Urbana-Champaign, Compute Science, Ph.D.\n서울대학교 컴퓨터공학과 학,석사\n이강원 박사는 SK텔레콤의 부사장 겸 Cloud Labs장을 역임하며, 5G 네트워크에 적용될 차세대 모바일 인프라를 위한 SDx 기술 개발을 주도하고 있습니다. 여기에는 5G 모바일 에지 클라우드(MEC), 통신 클라우드, 네트워크 운영 및 서비스 제공을 위한 하이브리드 클라우드가 포함됩니다. 이를 통해 AR/VR,UHD 미디어, 커넥티드 카, 스마트 팩토리,블록체인 네트워크 등 다양한 영역의 애플리케이션을 지원합니다.",
+              "bio": "SK텔레콤 Cloud Labs장\nUniversity of Illinois Urbana-Champaign, Compute Science, Ph.D.\n서울대학교 컴퓨터공학과 학,석사\n이강원 박사는 SK텔레콤의 Cloud Labs장을 역임하며, 5G 네트워크에 적용될 차세대 모바일 인프라를 위한 SDx 기술 개발을 주도하고 있습니다. 여기에는 5G 모바일 에지 클라우드(MEC), 통신 클라우드, 네트워크 운영 및 서비스 제공을 위한 하이브리드 클라우드가 포함됩니다. 이를 통해 AR/VR,UHD 미디어, 커넥티드 카, 스마트 팩토리,블록체인 네트워크 등 다양한 영역의 애플리케이션을 지원합니다.",
               "imageUrl": "/speakers/day2/이강원.jpg"
             }
           ]
@@ -129,7 +157,7 @@
       ]
     },
     {
-      "time": "11:20 ~ 11:40",
+      "time": "11:40 ~ 12:00",
       "cols": [
         {
           "colSpan": 3,
