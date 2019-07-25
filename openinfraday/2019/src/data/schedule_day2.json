@@ -142,7 +142,7 @@
           "title": "Keynote 4\nOpen Innovation in Cloud Native Telco Infrastructure",
           "speakers": ["SKT 이강원 Cloud Labs장"],
           "tracks": ["Keynote 4"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/14mHjTFasja4bu_ngdzRQ0n2iAFoxJdXe/view",
           "videoUrl": null,
           "description": "5G가 런칭되면서 네트워크 가상화, MEC, MEDIA등 기술에 대한 진화와 새로운 서비스에 대한 요구사항이 강하게 대두되면서, Infrastructure도 Cloud Native Service 형태로 발전해나가고 있습니다. 이번 키노트를 통해서 SKT가 지금까지 진행해온 Cloud Native Infrastructure에 대한 다양한 오픈소스SW 활동 및 이를 통한 솔루션 개발, 그리고 앞으로 진행할 글로벌 오픈소스SW 런칭과 SKT의 비전에 대해서 말씀드리겠습니다.",
           "speakerDetails": [
@@ -187,7 +187,7 @@
           "title": "SKT Cloud Native Infrastructure 개발과 상용화 이야기, 그리고 오픈소스화 로드맵",
           "speakers": ["SKT 안재석"],
           "tracks": ["Track 1"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1q7qHBWDaAirZo2r3EbqTsSPEp_RB8R38/view",
           "videoUrl": null,
           "description": "SKT는 2016년부터 OpenStack과 Kubernetes를 접목한 Cloud Native Infrastructure 기술을 개발하면서, OpenStack-Helm, Airship과 같은 글로벌 오픈소스SW 프로젝트에 코드 기여를 비롯하여 적극적으로 참여해왔습니다. 또한, 이러한 자체적으로 개발된 오픈소스SW 기반의 솔루션을 사내/외에 적용하기 위한 힘든 여정을 거쳐왔습니다. 이번 발표에서는 이에 대한 기술적/문화적 경험등을 공유하고, 현재 SKT가 가진 관련 소스코드에 대한 공개와 함께, 같이 발전해나가기 위한 오픈소스SW화 로드맵에 대해서 이야기 하고자 합니다.",
           "speakerDetails": [
@@ -204,7 +204,7 @@
           "title": "카카오 T 택시 사례를 통해 살펴보는 카카오 클라우드의 Kubernetes as a Service",
           "speakers": ["KAKAO 홍석용, KAKAO 박광열"],
           "tracks": ["Track 2"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1j2FsOu-RJaUHmtcHMM8cu3Ad72TrfZT9/view",
           "videoUrl": null,
           "description": "카카오의 프라이빗 클라우드 환경에서 KaaS(Kubernetes as a service) 를 개발/운영하며 겪어온 시행착오와 아키텍처 개선 작업들, 수 백 개의 쿠버네티스 클러스터 들을 서비스로서 제공하기 위해 개발한 유용한 기능들을 소개합니다. 그리고 ‘카카오 T 택시’ 에 적용된 쿠버네티스 기반 서비스 사례를 통해 실제 서비스에서의 적용 과정과 운영은 어떻게 되고 있는지 공유합니다.",
           "speakerDetails": [
@@ -253,7 +253,7 @@
           "title": "쿠버네티스를 이용한 기능 브랜치별 테스트 서버 만들기 (GitOps CI/CD)",
           "speakers": ["퍼플웍스 김충섭"],
           "tracks": ["Track 4"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1WdMCzC-L7uY2qExGSZAXOWWvU_CobPvu/view",
           "videoUrl": null,
           "description": "쿠버네티스를 이용하여 동적으로 테스트 서버를 구성하고 브랜치 이름을 도메인과 연결하여 QA 프로세스를 개선한 과정을 이야기 합니다. CI/CD에 대해 고민한 내용과 AWS의 EKS, 쿠버네티스의 오토스케일링, 인그레스 서비스를 다룹니다. ",
           "speakerDetails": [
@@ -332,7 +332,7 @@
           "title": "MSA, K8S를 이용한 대륙의 서비스 개발 사례",
           "speakers": ["김형준 CTO", "王志刚(왕쯔강) 经理"],
           "tracks": ["Track 1"],
-          "deckUrl": null,
+          "deckUrl": "https://www.slideshare.net/babokim/open-infradays-2019msak8s",
           "videoUrl": null,
           "description": "현재 중국은 알리바바와 위챗 등을 중심으로 인터넷, 모바일 서비스 등에서 세계에서 가장 빠르게 변하고, 적용해 나가고 있는 나라입니다. 6000km 이상의 거리와 14억 인구, 위챗 사용자만 10억 가까운 시장에서 서비스를 만들고 운영하는 것은 한국에서의 개발과는 전혀 다른 경험이었습니다. 이런 경험을 바탕으로 이번 발표에서는 다음 주제를 다루려고 합니다.\n- 중국 모바일 환경 및 특징\n- 마이크로 서비스 아키텍처\n- Windows, SQLServer, .NET, C/S 기반의 기술만 가지고 있는 조직이 어떻게 Linux, Cloud, 모바일/웹, 도커, 마이크로 서비스 아키텍처 환경으로 전환할 수 있었는지와 그 과정 ",
           "speakerDetails": [
@@ -372,7 +372,7 @@
           "title": "Open-Channel Solid Date Drives: Update and Future Steps",
           "speakers": ["Javier Gonzalez"],
           "tracks": ["Track 3"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1D21pEjJSbuXp8OsEBJWVm1_J-EUD20hq/view",
           "videoUrl": null,
           "description": "Open-Channel SSD architectures have successfully made their way into the data center. The open-source spirit behind the Open-Channel community has made it possible to drive a public specification and allow for rapid incorporation of industry feedback by early adopters. While this has enabled a strong ecosystem in Linux, it has also facilitated fragmentation. To address this problem, Project Denali was created, as an effort to converge in an industry standard. In this talk, we will (i) give an overview on how the concepts behind Open-Channel have evolved through time, (ii) describe the role that Project Denali has played in the Open-Channel SSD standardization, and (iii) provide an insight on how these Open-Channel concepts are now being standardized in NVMe.",
           "speakerDetails": [
@@ -461,7 +461,7 @@
           "title": "How to scale your ML job with Kubernetes",
           "speakers": ["유홍근 선임 연구원"],
           "tracks": ["Track 7"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1qjLtQX1PPJjROhaR02cRYxVFFTIkM_6R/view",
           "videoUrl": null,
           "description": "기계를 학습 시키는 일은 필연적으로 많은 자원을 필요로합니다. 여러가지 가설들을 만들어 보고 그 가설이 맞는지 실험해 봐야하기 때문입니다. 이 때, 한 두개의 모델을 학습 시키는 일은 비교적 간단합니다. 그러나 많은 모델들을 여러 서버에 걸쳐서 모델을 학습 시키는 일은 그리 간단하지 않습니다. 이러한 이유로 뛰어난 기계학습 모델을 얻기 위해선 탄탄한 머신러닝 엔지니어링 스킬이 뒷받침 되어야 합니다. 오늘 저와 함께 쿠버네티스를 활용하여 체계적으로 여러 기계학습 모델들을 효율적으로 학습 시키는 방법에 대해서 알아보겠습니다. 머리 아픈 일은 이제 쿠버네티스에게 맡기고 여러분은 핵심 모델링에 집중하시길 바랍니다.\n\n* AWS Summit Seoul 2019에서 발표한 \"Amazon EKS를 활용한 기계 학습 모델 서버 확장하기\"를 바탕으로 워크샵을 진행합니다. 미리 조금 내용을 보시고 오시면 더욱 도움이 되실 것 같습니다. (필수는 아닙니다.)\n- 슬라이드: https://www.slideshare.net/awskorea/amazon-eks-lg-aws-summit-seoul-2019\n- 영상: https://www.youtube.com/watch?v=egv2TlfLL1Y&list=PLORxAVAC5fUXSZaun-15IvzUhO3YmvtdV&index=4\n* 워크샵 진행 Repository: https://github.com/hongkunyoo/how-to-scale-your-ml-job-with-k8s\n* 사전 준비 사항: AWS 계정 및 credit\nAWS 클라우드 플랫폼 상에서 워크샵을 진행하오니 계정 준비 부탁 드립니다.",
           "speakerDetails": [
@@ -483,7 +483,7 @@
           "title": "멀티 k8s 클러스터 환경에서의 데이터 Mobility 구현",
           "speakers": ["NetApp 김진학 이사"],
           "tracks": ["Track 1"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1LI-k7NBZGAbV8-L02uMjjhIcnsBf-h6e/view",
           "videoUrl": null,
           "description": "Container가 각광 받는 가장 큰 이유 중의 하나는, OS의 dependency 를 제거하여 어떤 환경에서나 손쉽고 빠르게 배포가 가능 하다는 데 있습니다. 또한 배포된 container는 하나의 클러스터 내에서 다른 클러스터로 쉽게 재배포 할 수 있는 기능을 제공합니다. 하지만, container 와는 달리 container에서 사용하는 persistent volume 내의 데이터는 그 이동성에서 큰 제약을 받으며, 특히, Legacy 어플리케이션을 컨테이너화 된 어플리케이션으로 전환시에도 무거운 데이터는 항상 큰 걸림돌이 됩니다. 이번 세션을 통해, Legacy의 전환 또는 멀티 Kubernetes 환경에서 이러한 문제를 해결하기 위한 해법을 제시해 드리고자 합니다.",
           "speakerDetails": [
@@ -500,7 +500,7 @@
           "title": "Open Network 풀어보기",
           "speakers": ["Edgecore Networks Corporation 권기일 부장"],
           "tracks": ["Track 2"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1h9yeFd1JUhV-fnGt4xXvwGC7Uu3NaIE_/view",
           "videoUrl": null,
           "description": "인포에이는 국내 오픈네트워킹 사업에 주력하고 있습니다.\n오픈네트워킹에 대하여 소개하고 오픈네트워킹을 구성하는 하드웨어와 소프트웨어에 대하여 말씀드리려고 합니다\n- 오픈네트워크 하드웨어 소개\n- Cumulus, Ipinfusion 및 PICA8 소개\n- ONIE 및 Ansible을 이용한 네트워크 자동화",
           "speakerDetails": [
@@ -534,7 +534,7 @@
           "title": "Efficient Job Scheduling for Machine Learning Workloads in Kubernetes Environments",
           "speakers": ["삼성전자 서동은 Engineer"],
           "tracks": ["Track 4"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1C57WP_RWpOQt6O_Y26IEuB2DsIGePr4i/view",
           "videoUrl": null,
           "description": "최근 Kubernetes 기반의 클라우드 환경에서 GPU 자원을 요구하는 Machine Learning Job을 효율적으로 스케쥴링하기 위한 연구/개발이 진행중에 있다. ML Job은 다른 고유한 스케쥴링 요구사항이 존재하기 때문에, 효율적인 스케쥴링을 위해서는  ML Job의 특성을 고려한 Scheduler의 설계가 중요하다. \n최적의 GPU 자원을 할당해 주는 것이 매우 중요하다. 본 발표에서는 Kubernetes 환경에서 Machine Learning Job을 위한 오픈소스 Scheduler인 kube-batch에 대해 소개한다. 또한 Machine Learning Job을 위한 스케쥴링 최적화 방안방안에 대해 알아본다.",
           "speakerDetails": [
@@ -551,7 +551,7 @@
           "title": "* K8s Network Environment for zero downtime service, * Connect services securely across multi-cloud environments",
           "speakers": ["LINE 엄재철", "LINE 이정복"],
           "tracks": ["Track 5"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1s7bTVArve3Twz8sj_WgQb7DyqJDKWS9d/view",
           "videoUrl": null,
           "description": "1) Kubernetes상에서 유저 어플리케이션 배포 및 운영 시 끊김 없는 유저 서비스를 위한 플랫폼 환경에 대해 이야기 합니다. 덧붙여 LINE에서 발생한 클라우드 네트워크 이슈 및 해결법을 소개합니다.\n\n2)Kubernetes의 app을 안전하게 Multi Cloud또는 Legacy 시스템과 연동하기 위한 방법을 알아보고, External network를 왜 필요하며 어떻게 구현하여서 서비스를 하는 방법 설명하려 합니다. 또한 Kubernetes를 node를 관리하는 관점에서는 어떻게 사용했는지 이야기합니다.",
           "speakerDetails": [
@@ -601,7 +601,7 @@
           "title": "Dive into Kubernetes Internal",
           "speakers": ["한국 오라클 강인호 부장"],
           "tracks": ["Track 1"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1yXgvjoVkK18eHciNRDWkN4ueTCyQ8Cwn/view",
           "videoUrl": null,
           "description": "이 세션에서는 쿠버네티스의 내부 구조와 구동 메커니즘에 대해서 설명합니다. \nMaster Node와 Worker Node의 Component에 대한 주요한 기능을 설명하며, 간단한 Deployment 예제을 적용해 보고, 이때 각 내부 Component의 연관관계(Sequence)를 시연을 통해서 설명합니다. 그리고 controller의 주요 기능과 kube-proxy를 통해 iptable을 이용한 추상화된 Service 개념을 설명합니다. ",
           "speakerDetails": [
@@ -618,7 +618,7 @@
           "title": "대규모 GPU 기반 K8S Cluster를 활용한  ML Training Troubleshooting",
           "speakers": ["삼성전자 조규남 Principal Engineer"],
           "tracks": ["Track 2"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1tmrFaRhLpUOwhuRSyEiv2K0DQh4KL8z6/view",
           "videoUrl": null,
           "description": "Machine Learning을 위한 대규모 Training Platform의 정의에 대해서 살펴보고, Kubernetes 및 Container를 활용한 다양한 Platform 예제를 살펴본다. 이를 통해서 Container 기반의 학습 시스템의 장단점을 확인한다. 마지막으로 수백대 이상의 GPGPU를 활용한 대규모 Training Platform을 구축하면서 발생한 다양한 문제점들의 원인과 해결 방법을 알아 본다.",
           "speakerDetails": [
@@ -635,7 +635,7 @@
           "title": "Ceph 성능 최적화를 위한 White-box 접근",
           "speakers": ["LINE 변일수"],
           "tracks": ["Track 3"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/13dUOgf0Ka0DAuGVZvsEvH4eCab4xvBNu/view",
           "videoUrl": null,
           "description": "오픈소스 프로젝트는 소스가 공개되어 있음에도 많은 경우 Black-box로 간주되어 사용되곤 합니다. 그러나 근본적인 문제를 파악하기 위해서는 내부 구조를 들여다 봐야할 경우가 종종 생기곤 합니다. 특히 Ceph은 매우 복잡한 시스템으로서 하나의 증상이 다양한 원인을 가질 수 있기 때문에 더더욱 그러합니다. 다행히 Ceph은 내부의 동작을 유추할 수 있게 하는 다양한 도구와 정보를 제공합니다. 이러한 도구를 활용하여 내부의 동작을 분석하고 문제를 해결했던 경험에 대해 공유하고자 합니다.",
           "speakerDetails": [
@@ -669,7 +669,7 @@
           "title": "knative 기반으로 구현한 Cloud Function Service(AWS Lambda like service)는 어떤 모습일까?",
           "speakers": ["LINE 송동수", "LINE 권세택"],
           "tracks": ["Track 5"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/17cj9bxTPX9r0dfVTlNZxLLsd6Q4e_SpG/view",
           "videoUrl": null,
           "description": ": Cloud Function은? Severless 플랫폼으로서의 장/단점, Use Case.\n: Knative 기본\n: 왜 Cloud Function을 위한 기반으로 Knative인가?\n: Cloud Function을 위한 구조 및 테크스택\n: ToDO",
           "speakerDetails": [
@@ -697,7 +697,7 @@
           "title": "Truly understanding container",
           "speakers": ["LINE 이어형"],
           "tracks": ["Track 1"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1lZ_7Y9vdL_OHbQ-c_DA0ZhxfT4f2WiBZ/view",
           "videoUrl": null,
           "description": "이제 컨테이너는 IT 산업 전반에서 빼놓을 수 없는 구성요소로 자리 잡고 있습니다. 이런 컨테이너는 일반적으로 가상화 기술로 소개가 되어 virtual machine과 비교되고 있습니다. 하지만 이런 접근 방법들이 컨테이너를 올바르게 이해하도록 하는데 방해가 될 수도 있다고 생각합니다.\n\n이 세션에서는 컨테이너에 대해서 여러가지 다양한 접근 방법들과 기능들을 살펴보면서 컨테이너에 대해 다시금 생각 해볼 수 있는 시간을 갖고자 합니다. 또한 이를 통해 어떤식으로 실제 production 환경들에서 사용되어질 수 있을지 그리고 이런 모습들로 부터 향후 컨테이너의 발전방향을 이야기 해보려고 합니다.",
           "speakerDetails": [
@@ -714,7 +714,7 @@
           "title": "POOQ의 마이크로 서비스 적용 사례",
           "speakers": ["콘텐츠연합플랫폼 박명순 부장"],
           "tracks": ["Track 2"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1Bo9TSdcQIpHZSQEHmJCruUDKnWbjzwi8/view",
           "videoUrl": null,
           "description": "콘텐츠연합플랫폼은 POOQ 서비스의 전체 플랫폼과 스트리밍 헤드엔드 시스템을 클라우드 기반으로 운영하고 있으며, 2018년 4월 POOQ 3.0 서비스 개편에 Kubernetes 기반의 마이크로서비스 아키텍처를 적용하였습니다. 이번 발표에서는 POOQ 3.0 서비스에 적용된 마이크로서비스의 도입과정 및 운영상에서 경험한 내용에 대해서 소개해 드리고자 합니다.",
           "speakerDetails": [
@@ -731,7 +731,7 @@
           "title": "글로벌 서비스를 위한 Ceph서비스 수준 99.9999% 달성하기",
           "speakers": ["LINE 송동수"],
           "tracks": ["Track 3"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/184XJcoJbgbcm0ufgWQNvjf4xVu715O9g/view",
           "videoUrl": null,
           "description": "Ceph 기반으로 클라우드 스토리지 서비스를 제공할 때 서비스 수준 99.9999%를 달성하고 유지하기 위해서 필요한 요소들은 무엇이 있고\n그것들을 LINE에서는 어떻게 구현, 운영 하고 있고 주요 트러블 슈팅 경험등은 어떤것들이 있었는 지 등을 위주로 공유합니다.",
           "speakerDetails": [
@@ -748,7 +748,7 @@
           "title": "Kubernetes를 활용하여 효율적인 Machine Learning Pipeline 만들기",
           "speakers": ["AITRICS 안재만", "이용선 Software Engineer"],
           "tracks": ["Track 4"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/17CX95mPw8CI49RdfWZbdnf3ZXplavt4R/view",
           "videoUrl": null,
           "description": "Kubernetes를 활용하여 시간/비용 효율적인 Machine Learning Pipeline을 만드는 방법을 소개합니다. 이를 통해 연구자는 GPU 리소스와 인프라 구성에 대한 고민 없이 자유롭게 GPU를 획득하여 연구를 수행할 수 있고, 만들어진 모델을 실제 서비스까지 deploy 할 수 있도록 합니다.\n* 이 세션은 GTC Silicon Valley 2019에서 저희가 발표한 내용의 연장선 상에서 구성되었습니다. 관련 슬라이드는 https://on-demand.gputechconf.com/gtc/2019/presentation/_/s9264-how-to-build-efficient-ml-pipelines-from-the-startup-perspective.pdf 에서 보실 수 있습니다.",
           "speakerDetails": [
@@ -771,7 +771,7 @@
           "title": "Kubernetes는 데이터베이스 운영에 적합할까? Elasticsearch on Kubernetes 1년 후…",
           "speakers": ["LINE 한수호"],
           "tracks": ["Track 5"],
-          "deckUrl": null,
+          "deckUrl": "https://drive.google.com/file/d/1aS4D8uBBX6aHJpPlNGCLeCRL7tN7HcrD/view",
           "videoUrl": null,
           "description": "LINE private 클라우드 서비스에서 Elasticsearch를 제공하기 위하여, K8s를 어떻게 활용했는지 공유합니다.",
           "speakerDetails": [
