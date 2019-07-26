@@ -194,16 +194,16 @@ class ScheduleSection extends PureComponent {
             {col.speakers.map(s => (
               <Speaker key={s}>{s}</Speaker>
             ))}
-            {col.material ? (
-              <a href={col.material} target="_blank">
+            {col.deckUrl ? (
+              <a href={col.deckUrl} target="_blank">
                 발표자료
               </a>
             ) : (
               ''
             )}
-            {col.material && col.video ? ' | ' : ''}
-            {col.video ? (
-              <a href={col.video} target="_blank">
+            {col.deckUrl && col.videoUrl ? ' | ' : ''}
+            {col.videoUrl ? (
+              <a href={col.videoUrl} target="_blank">
                 영상
               </a>
             ) : (
