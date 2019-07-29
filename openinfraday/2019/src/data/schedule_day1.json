@@ -298,7 +298,7 @@
           "title": "13:00 ~ 15:10\n\nWindows와 Linux 컨테이너를 동시에 지원하는 Kubernetes 클러스터 만들기",
           "speakers": ["남정현"],
           "tracks": ["Track 6"],
-          "deckUrl": null,
+          "deckUrl": "https://github.com/krazure/hybrid-aks-hol",
           "videoUrl": null,
           "description": "이 핸즈온 워크샵 세션에서는 Windows와 Linux 컨테이너를 동시에 구동할 수 있는 Custom Kubernetes 클러스터를 오픈 소스 기반의 Azure AKS Engine으로 만들어봅니다. 그리고 Windows 컨테이너와 Linux 컨테이너가 서로 상호작용하는 샘플 애플리케이션을 배포한 후, Worker Node가 어떻게 실행되는지 자세히 살펴보면서 상세 원리를 알아보도록 합니다.",
           "speakerDetails": [
@@ -317,7 +317,7 @@
           "title": "13:00 ~ 15:10\n\nKubernetes The Hard Way",
           "speakers": ["삼성SDS 명제상"],
           "tracks": ["Track 7"],
-          "deckUrl": null,
+          "deckUrl": "https://github.com/jmyung/kubernetes-the-hard-way-modified",
           "videoUrl": null,
           "description": "쿠버네티스 클러스터를 수작업으로 직접 구성해 봅니다.\n(no auto-script, no GKE, no EKS)\n실습을 위해 이하 링크를 참고하여, 사전 준비사항을 미리 준비해오셔야 합니다.\n- 링크 :  https://github.com/jmyung/kubernetes-the-hard-way-modified/blob/master/docs/prerequisites.md\n- 기타 : 실습 시간이 2시간으로 짧기에, 전체 커리큘럼을 한번 보고 오실 것을 추천합니다.",
           "speakerDetails": [
@@ -454,7 +454,7 @@
           "title": "15:30 ~ 17:40\n\n컨테이너 어렵게 배우기(Container The Hard Way)",
           "speakers": ["김대권", "김승호"],
           "tracks": ["Track 6"],
-          "deckUrl": null,
+          "deckUrl": "https://gist.github.com/nacyot/3c6fd65dd268767a7f3643a8f1726b16",
           "videoUrl": null,
           "description": "클라우드 위에서 컨테이너로 애플리케이션을 배포하는 일은 이제 자연스러운 일이 되었습니다. 이 때 사용하는 컨테이너 엔진들은 컨테이너 기술을 추상화하는 역할을 담당합니다. 따라서 실제로 컨테이너가 무엇이고, 어떻게 동작하는 지는 잘 보이지 않습니다. 이 워크숍에서는 리눅스 컨테이너가 동작하는 원리에 대해서 알아보고 이를 기반으로 컨테이너를 정의합니다. 그리고 도커와 같은 컨테이너 엔진들을 사용하지 않고, pivot_root, Linux Namespace, Cgroups, Union File System과 같은 리눅스 커널의 기능등을 사용해서 직접 컨테이너를 만드는 방법을 알아봅니다.",
           "speakerDetails": [
@@ -563,7 +563,7 @@
           "title": "Kubernetes에서 Kafka 와 Flink 를 사용하여 실시간 데이터 스트리밍 파이프라인 구현하기",
           "speakers": ["빅인사이트 독고혁"],
           "tracks": ["Track 3"],
-          "deckUrl": null,
+          "deckUrl": "https://www.slideshare.net/secret/xLiHQcuZoRWhZd",
           "videoUrl": null,
           "description": "AWS 에서 KOPS 로 kubernetes 클러스터를 쉽게 구성하고 관리할수 있었던 점과 실시간 데이터 처리를 위해서는 어떠한 스택이 필요하며 우리가 사용한  kafka + flink 스택을 사용해 실시간 데이터 처리 파이프라인을 k8s 클러스터위에 구성했던 경험을 공유합니다 또한 이들을 모니터링 하기 위해 필요했던 prometheus + grafana 와 기타 스택에 대해 공유합니다 ",
           "speakerDetails": [
